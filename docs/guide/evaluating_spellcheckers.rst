@@ -4,6 +4,13 @@
 Evaluating spell checkers
 *************************
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   spell_quality.py
+   false_negative_frequency_tables
+
 .. _../pages/guide/evaluating_spellcheckers#metrics:
 
 Metrics

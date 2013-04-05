@@ -3,6 +3,11 @@
 
 Wikis
 *****
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   mediawiki
 
 This is a summary of localisation information for various wiki software
 

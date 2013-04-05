@@ -47,6 +47,11 @@ which platform you are running:
 
 Other alternatives
 ==================
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   xliff_support_by_ms_windows_programs
 
 You may be able to use a text editor to edit PO files, since they are text: 
 

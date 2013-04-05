@@ -14,6 +14,11 @@ policy document for your language.
 
 Guidelines Template
 ===================
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   translation_guidelines_template
 
 The :doc:`translation_guidelines_template` is designed to be a basis from which
 to develop your languages guidelines.  If you see that you re adding a new
@@ -26,6 +31,13 @@ do.
 
 Language Guidline Documents
 ===========================
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   specific_phrases_in_afrikaans
+   translation_guidelines_german
+   translation_guidelines_hebrew
 
 * Afrikaans
   * Translation of :doc:`specific phrases <specific_phrases_in_afrikaans>`

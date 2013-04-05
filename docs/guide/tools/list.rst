@@ -10,6 +10,16 @@ if you need to evaluate features.  We have included both Free and non-Free
 software but you will find the Free more extensively covered as this is what
 people are actually using to translate Free Software.
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   /guide/omegat
+   /guide/locfactoryeditor
+   /guide/poedit
+   /guide/kbabel
+   /guide/initranslator
+
 .. _../pages/guide/tools/list#multi-format_editors:
 
 Multi-format editors

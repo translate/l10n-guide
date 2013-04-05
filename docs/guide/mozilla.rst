@@ -183,6 +183,12 @@ Links
 
 Deprecated information
 ----------------------
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   mozillacvs
+
 * :doc:`Mozilla CVS <mozillacvs>`: Information about localising older versions
   of Mozilla products that used CVS.
 * :ref:`Migrating Mozilla translations to Firefox

@@ -101,4 +101,7 @@ language, with each one separated by a "``\n``"
 
 Language specific notes
 -----------------------
-* :doc:`arabic_plurals`
+.. toctree::
+   :maxdepth: 1
+
+   arabic_plurals

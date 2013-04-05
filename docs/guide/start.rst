@@ -17,6 +17,17 @@ understanding the implications, we complain but honestly there is not one place
 that can help give a developer and overview of what is needed from them, we
 hope that the developer section goes a long way to solving that issue.
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   purpose
+   contributing
+   credits
+   copyright
+   editing
+   localising_anloc_manual
+
 * :doc:`purpose`
 * :doc:`contributing`
 * :doc:`credits`
@@ -36,13 +47,21 @@ this book produced by the African Network for Localisation:
 
 http://www.africanlocalisation.net/foss-localisation-manual
 
-It is available in English and other languages. These wiki pages here tend to
-be more detailed, less structured and sometimes more technical.
+It is available in English and other languages [#f1]_. These wiki pages here
+tend to be more detailed, less structured and sometimes more technical.
 
 .. _../pages/guide/start#reading_list:
 
 Reading List
 ============
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   case_studies
+   localisation_introduction
+   industry_articles
+   general_articles
 
 Some useful reading for the soon to be and established localisers.  Please add
 good useful articles to these lists.
@@ -57,6 +76,22 @@ good useful articles to these lists.
 
 Managing a translation effort
 =============================
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   translateathon
+   project_objectives
+   golden_rules
+   message_marking
+   direction/profiling
+   short_strings_first
+   bootup
+   existing_glossaries
+   creating_glossaries
+   custom_web_searches
+   translator_skill_requirements
+   costing
 
 * Running a :doc:`translateathon`
 * Setting direction
@@ -92,6 +127,27 @@ Managing a translation effort
 
 Project specific information
 ============================
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   gnome_desktop
+   kde_desktop
+   xfce
+   mozilla
+   firefox
+   thunderbird
+   openoffice.org
+   debian
+   fedora
+   project/mandrake
+   suse
+   ubuntu
+   wikis
+   project/howto
+   google
+   skype
+   project/manpages
 
 * Desktop Systems
 
@@ -129,6 +185,32 @@ Project specific information
 
 Translation
 ===========
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   translation_guidelines
+   word_definitions
+   translation/commonerrors
+   pofilter_examples
+   translation/accelerators
+   translation/plurals
+   translation/variables
+   translation/variables
+   translation/equations
+   translation/program_syntax
+   translation/paths_urls
+   translation/html
+   translation/escaping
+   translation/casual_language
+   translation/capitalisation
+   translation/creating_new_words
+   translation/brandnames
+   translation/program_names
+   translation/punctuation
+   translation/problem_words
+   british_english
+   testing
 
 * Per language :doc:`translation_guidelines`
 * Online resource for :doc:`word_definitions`
@@ -162,6 +244,16 @@ Translation
 Locales
 =======
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   locales/about
+   locale_resource
+   locales/glibc
+   kde_locale
+   locales_x11
+
 * :doc:`All about locales <locales/about>`
 * :doc:`Resource for locale data content <locale_resource>`
 * Creating locale files
@@ -183,6 +275,15 @@ Tools
 
 Translation Tools
 -----------------
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   tools/trans_editors
+   tools/comparison
+   tools/list
+   tools/online
+   tools/spreadsheet
 
 * Choosing a :doc:`translation editor <tools/trans_editors>`
 * :doc:`Comparison Chart <tools/comparison>`
@@ -195,6 +296,12 @@ Translation Tools
 Glossary Tools
 --------------
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   tools/glossary
+
 * :doc:`Glossary creation and management <tools/glossary>`
 * `TranslateIt <http://mac.gettranslateit.com/>`_ on OSX provides system-wide
   translation into single or multiple languages, as well as glossary creation
@@ -203,6 +310,15 @@ Glossary Tools
 
 Source Control
 --------------
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   cvs
+   tortoise
+   wincvs
+   svntips
 
 * Using :doc:`cvs`
 
@@ -250,6 +366,14 @@ Source Control
 
 Other tools
 -----------
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   gettext_hacks
+   statistics
+   comparingfiles
+
 * :doc:`gettext_hacks`
 * :doc:`statistics` generation
 * :doc:`Comparing Files <comparingfiles>` -- how to find changes in
@@ -260,14 +384,28 @@ Other tools
 CAT tools used by translators
 -----------------------------
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   common_cat_tools
+   introduction_to_wordfast
+   preparing_files_for_wordfast
+   translation_memory_with_wordfast
+   po_with_wordfast
+   preptags
+   cafetran
+   open_language_tools
+
 * Overview of :doc:`common_cat_tools`, and how they handle l10n files files
 * Wordfast
 
   * :doc:`introduction_to_wordfast`
   * :doc:`preparing_files_for_wordfast`
-  * Download :doc:`various_macros_for_preparing_wf_files`
+  * :doc:`translation_memory_with_wordfast`
+  * :doc:`po_with_wordfast`
 
-* :doc:`preptags` ` <http://www.preptags.com>`_
+* :doc:`preptags` http://www.preptags.com
 * :doc:`cafetran`
 * :doc:`open_language_tools`
 
@@ -275,6 +413,18 @@ CAT tools used by translators
 
 Fonts, characters and rendering
 ===============================
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   unicode
+   foss_fonts
+   ms_core_fonts
+   other_fonts
+   keyboards
+   web-based_font_rendering
+
 
 * :doc:`unicode`
 
@@ -306,6 +456,23 @@ Fonts, characters and rendering
 
 Other localisation
 ==================
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   document_translation
+   spelling_checkers
+   evaluating_spellcheckers
+   spell_checker_case_studies
+   hyphenation
+   thesaurus
+   grammar
+   application_specific
+   calenders
+   weather_applications
+   kstars
+
 
 * :doc:`document_translation`
 * Language Tools
@@ -340,6 +507,19 @@ Other localisation
 Notes to programmers
 ====================
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   programmers/gettext
+   plurals_programmers
+   variables_programmers
+   translation_comments
+   unicode_normalization
+   unfuzzying
+   monolingual
+   nonpo
+
 * Other guides
 
   * `KDE Programmer's i18n howto
@@ -355,3 +535,8 @@ Notes to programmers
 * :doc:`unfuzzying` typo/grammar fixes to original strings
 * :doc:`monolingual` formats create certain problems that need resolving for
   localization
+* :doc:`nonpo` -- working with non-PO formats
+
+.. rubric:: Footnote
+
+.. [#f1] You can :doc:`help localize the Anloc manual <localising_anloc_manual>`

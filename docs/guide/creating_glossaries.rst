@@ -3,6 +3,11 @@
 
 Creating Glossaries
 *******************
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   clunky_glossary_creation
 
 When localizing computer software, especially into languages where IT
 terminology is not available, new IT terms need to be created. If a glossary of

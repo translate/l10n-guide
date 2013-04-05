@@ -3,6 +3,11 @@
 
 OpenOffice.org
 **************
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   project/ooo/whatfirst
 
 OpenOffice.org is the leading cross-platform Office suite.  Its a large project
 and a large localisation undertaking, but it is an important component of a

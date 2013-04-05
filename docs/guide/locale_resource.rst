@@ -62,6 +62,12 @@ Operating System Specific
 
 Microsoft Windows
 -----------------
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   win_lang_ids
+
 * :doc:`Language IDs <win_lang_ids>`
 * `Locale IDs <http://msdn.microsoft.com/en-us/goglobal/bb964664.aspx>`_
   (LCIDs)

@@ -13,6 +13,12 @@ completed more quickly.
 Have you hosted a translate@thon?  Then please add your event to our
 :doc:`Translate@thon hall of fame <translateathon_halloffame>`
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   translateathon_halloffame
+
 .. _../pages/guide/translateathon#expectations:
 
 Expectations

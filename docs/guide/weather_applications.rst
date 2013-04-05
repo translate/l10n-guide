@@ -13,6 +13,13 @@ applcications use this to lookup the corect watehr information.
 
 Applications
 ============
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   gweather
+   evolution
+   kweather
 
 * :doc:`gweather`
 * :doc:`evolution`
