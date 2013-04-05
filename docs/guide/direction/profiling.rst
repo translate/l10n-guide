@@ -34,18 +34,28 @@ that should be translated.
 Problems with profiling
 =======================
 
-  * Many **UI design tools** and newer UI code calls all strings when initialising the UI.  That means that you see many messages that in fact were never seen by the user.
-  * **Spurious files**.  Many GUI program call command line tools to retrieve data.  When the command line tool is called those messages are logged but were never seen by the user.
-  * Profiling depends on the **usage profile of the user**.  An end-user and a system administrator will use different tools.  To work best you need a group of people using your target applications.
+* Many **UI design tools** and newer UI code calls all strings when
+  initialising the UI.  That means that you see many messages that in fact were
+  never seen by the user.
+* **Spurious files**.  Many GUI program call command line tools to retrieve
+  data.  When the command line tool is called those messages are logged but
+  were never seen by the user.
+* Profiling depends on the **usage profile of the user**.  An end-user and a
+  system administrator will use different tools.  To work best you need a group
+  of people using your target applications.
 
 .. _../pages/guide/direction/profiling#solutions:
 
 Solutions
 ---------
 
-  * The UI design tools would require changes to only call strings for windows that are visible.  But this would only happen if translators can indicate a strong case for the fact that they use and find profiling effective.
-  * You can circumvent the calling of spurious command line tools by GUI tools by using:
-  export LC_ALL=C
+* The UI design tools would require changes to only call strings for windows
+  that are visible.  But this would only happen if translators can indicate a
+  strong case for the fact that they use and find profiling effective.
+* You can circumvent the calling of spurious command line tools by GUI tools by
+  using::
+
+    export LC_ALL=C
 
 .. _../pages/guide/direction/profiling#using_profiling:
 
@@ -57,22 +67,25 @@ Using profiling
 Gettext
 =======
 
-This is the prefered method but it only creates one file.  The gettext manual has a `good description <http://www.gnu.org/software/gettext/manual/html_node/Prioritizing-messages.html>`_ of the process.
+This is the prefered method but it only creates one file.  The gettext manual
+has a `good description
+<http://www.gnu.org/software/gettext/manual/html_node/Prioritizing-messages.html>`_
+of the process.
 
-The simplest first steps are repeated here for clarity:
-
-::
+The simplest first steps are repeated here for clarity::
 
     $ LD_PRELOAD=/usr/local/lib/preloadable_libintl.so
     $ export LD_PRELOAD
     $ GETTEXT_LOG_UNTRANSLATED=$HOME/gettextlogused
     $ export GETTEXT_LOG_UNTRANSLATED
 
-Use the application, unset the variables and then:
+Use the application, unset the variables and then::
 
   $ msguniq $HOME/gettextlogused > missing.po
 
-To remove duplicates.  Various domains for each of the applications logged will be available.  To sort and extract the domains that you wish to edit you should read the manual pages.
+To remove duplicates.  Various domains for each of the applications logged will
+be available.  To sort and extract the domains that you wish to edit you should
+read the manual pages.
 
 .. _../pages/guide/direction/profiling#gettextlog:
 
@@ -97,7 +110,7 @@ You can place this in your ``.bash_profile`` to log continuously or in
 You can run it against individual programs with the
 ``run-with-gettextlog`` program
 
-Your profiles will be output to:
+Your profiles will be output to::
 
   $HOME/gettextlog/$PROGRAM.po
 

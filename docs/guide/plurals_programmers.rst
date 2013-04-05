@@ -5,19 +5,17 @@ Plurals
 *******
 
 What is a plural?  1 file, 2 files, 3 files: file is singular, files plural.
-In this simple example we see the English plural form.  Other languages
-have simpler or even more elaborate plural forms.
-Both KDE and Gettext have a method of managing plurals for PO files so that 
-plurals can be used in languages that do not follow the English convention.
+In this simple example we see the English plural form.  Other languages have
+simpler or even more elaborate plural forms.  Both KDE and Gettext have a
+method of managing plurals for PO files so that plurals can be used in
+languages that do not follow the English convention.
 
 .. _../pages/guide/plurals_programmers#why_do_you_need_this_system:
 
 Why do you need this system?
 ============================
 
-Why not just write a piece of code like this:
-
-::
+Why not just write a piece of code like this::
 
     if ( n == 1 ) then
     	print "1 file"
@@ -38,13 +36,13 @@ When to use plurals in your application
 =======================================
 
 If you have numbers in the singular and plural form then use the plural
-construct:
+construct::
 
   "%n file"
   "%n files"
 
 However, if you do not have number in the construct then rather keep them as
-separate strings:
+separate strings::
 
   "Save the file"
   "Save the files"
@@ -54,9 +52,7 @@ separate strings:
 What do plurals look like in the PO file?
 =========================================
 
-On KDE with a 3 plural form language:
-
-::
+On KDE with a 3 plural form language::
 
     msgid ""
     "%n file\n"
@@ -66,9 +62,7 @@ On KDE with a 3 plural form language:
     "%n form 2\n"
     "%n form 3"
 
-Gettext with a two form language:
-
-::
+Gettext with a two form language::
 
     msgid "%n file"
     msgid_plural "%n files"
@@ -76,11 +70,9 @@ Gettext with a two form language:
     msgstr[1] "%n form 2"
 
 Also in Gettext style plurals the PO file header has an entry for the plural
-form which defines the number of plurals as well as the mathematical function to
-determine which one to use depending on the input number.  Here is an example
-which would work for English:
-
-::
+form which defines the number of plurals as well as the mathematical function
+to determine which one to use depending on the input number.  Here is an
+example which would work for English::
 
     Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;
 
@@ -94,16 +86,14 @@ How to use the plural construct
 KDE
 ---
 
-FIXME this looks set to change for KDE4 with the Gettext method most probably being adopted
-
-::
+FIXME this looks set to change for KDE4 with the Gettext method most probably
+being adopted ::
 
     i18n( "One item", "%n items", count); 
 
 Note that because KDE uses a \n to split the different plural forms you cannot
 use \n in the actual message.  To work around this you can use KDE's RichText
-features and the 
- tag.
+features and the tag.
 
 .. _../pages/guide/plurals_programmers#gettext:
 

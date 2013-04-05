@@ -11,6 +11,6 @@ Kvein Scannel is developing a grammar checker called *An Gramadóir*.
 Resources
 =========
 
-  * `Project page <http://borel.slu.edu/gramadoir/>`_
-  * `Developer's manual <http://borel.slu.edu/gramadoir/manual/index.html>`_
+* `Project page <http://borel.slu.edu/gramadoir/>`_
+* `Developer's manual <http://borel.slu.edu/gramadoir/manual/index.html>`_
 

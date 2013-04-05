@@ -11,14 +11,18 @@ days of the week and months of the year.
 
 These are the locale files that interest a localiser:
 
-  * glibc
-  * ICU
-  * OpenOffice.org
-  * CLDR
+* glibc
+* ICU
+* OpenOffice.org
+* CLDR
 
 To help with defining locale data you will also need to know about:
 
-  * Character sort orders (collation)
+* Character sort orders (collation)
 
-The CLDR is a unification of the various locale information that uses  the `locale data markup language specification <http://www.unicode.org/reports/tr35/>`_.  The CLDR is an important project to contribute your locale data to as this will eventually become the authoritative repository for locale information.
+The CLDR is a unification of the various locale information that uses  the
+`locale data markup language specification
+<http://www.unicode.org/reports/tr35/>`_.  The CLDR is an important project to
+contribute your locale data to as this will eventually become the authoritative
+repository for locale information.
 

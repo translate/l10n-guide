@@ -4,19 +4,19 @@
 Translating Example Paths and URLs
 **********************************
 
-A path shows you where a file is located on your computer
+A path shows you where a file is located on your computer ::
 
   /home/dwayne/somefile.doc
   c:\Windows\Desktop\somefile.doc
   \\Server\share\somefile.doc
 
-A URL is similar but relates to files located on the Internet
+A URL is similar but relates to files located on the Internet ::
 
   http://www.google.com
   ftp://someserver.com/file/to/download.zip
 
-In translatable messages you will find real paths and URLs but you will
-also find instances where the author is giving the user an example. 
+In translatable messages you will find real paths and URLs but you will also
+find instances where the author is giving the user an example. 
 
 .. _../pages/guide/translation/paths_urls#simple_policy:
 
@@ -33,9 +33,9 @@ System directories
 ==================
 
 Many operating systems contain system directories, these are directories used
-by the operating system itself.  System direcotories will not change even when 
-your langauge changes.  The following are system directories on Linux and should 
-not be translated:
+by the operating system itself.  System direcotories will not change even when
+your langauge changes.  The following are system directories on Linux and
+should not be translated::
 
   /home
   /mnt
@@ -44,7 +44,7 @@ not be translated:
   /bin
   /sbin
 
-The following are system directories on Windows and should also not be translated:
+The following are system directories on Windows and should also not be translated::
 
   C:\Windows
   C:\Windows\System
@@ -54,12 +54,12 @@ The following are system directories on Windows and should also not be translate
 Home directories
 ================
 
-On Linux systems each user has a home directory which corresponds to their 
-username and is usually located under /home eg. /home/fred.
-The word **home** should not be translated because it is a sytem directory.
-But the username should be translated.  You should probably keep the username
-to ASCII characters (some operating systems cannot use Unicode in filename) 
-and thus romanise the name if you needed.
+On Linux systems each user has a home directory which corresponds to their
+username and is usually located under /home eg. /home/fred.  The word **home**
+should not be translated because it is a sytem directory.  But the username
+should be translated.  You should probably keep the username to ASCII
+characters (some operating systems cannot use Unicode in filename) and thus
+romanise the name if you needed.
 
 .. _../pages/guide/translation/paths_urls#extensions:
 
@@ -73,37 +73,38 @@ A file is made up of the:
 | basename  | /the/path/to/**file**.doc  |
 | extension  | /the/path/to/file.**doc**  |
 
-The file extension is thus the characters that appear after the last fullstop in a filename.
-You do not translate the file extension but you do translate the basename.  
-Eg. budget.doc - Translate budget but do not translate .doc.
+The file extension is thus the characters that appear after the last fullstop
+in a filename.  You do not translate the file extension but you do translate
+the basename.  Eg. budget.doc - Translate budget but do not translate .doc.
 
 .. _../pages/guide/translation/paths_urls#examples:
 
 Examples
 ========
 
-Often examples can be identified because they involve saving a file from within 
+Often examples can be identified because they involve saving a file from within
 an application. Eg,  "Save the picture to /home/dwayne/picture/snapshot.png"
-You will want to translate dwayne, picture and snapshot.  You would not translate home
-because that is a system directory nor png because it is an extension.
+You will want to translate dwayne, picture and snapshot.  You would not
+translate home because that is a system directory nor png because it is an
+extension.
 
 .. _../pages/guide/translation/paths_urls#urls:
 
 URLs
 ====
 
-A URL is made up of these components
+A URL is made up of these components ::
 
   protocal :// server : port / directorie(s) / filename . extension
 
-Here is a real URL
+Here is a real URL ::
 
   http://www.translate.org.za/downloads/openoffice.org-afrikaans.tar.gz
 
-you should not translate it unless you needed to point to 
-a version of the URL that is in your language.
+you should not translate it unless you needed to point to a version of the URL
+that is in your language.
 
-This is an example URL
+This is an example URL, i.e. one used as an example to a user::
 
   http://example.com/directory/filename.html
 

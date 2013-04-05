@@ -5,9 +5,7 @@ Localising GWeather
 *******************
 
 This email explains what needs to be done to localise gweather so that it has
-the right names for locations in your locale.
-
-::
+the right names for locations in your locale.  ::
 
     From: Davyd Madeley 
     To: gnome-love@gnome.org, gnome-i18n@gnome.org

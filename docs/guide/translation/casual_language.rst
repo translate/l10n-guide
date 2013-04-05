@@ -4,9 +4,10 @@
 Casual Translations
 *******************
 
-Computers are rather formal.  In fact if they were too friendly we wouldn't enjoy using them.
-You don't expect a computer to talk to you as a friend you expect it to give you the information
-you need with the minimum of fuss and then get out of the way:
+Computers are rather formal.  In fact if they were too friendly we wouldn't
+enjoy using them.  You don't expect a computer to talk to you as a friend you
+expect it to give you the information you need with the minimum of fuss and
+then get out of the way:
 
 We prefer:
   The file could not be found
@@ -14,12 +15,13 @@ We prefer:
 To:
   That file that you were looking for I can't seem to find it.  Help!
 
-In your translations you have the opportunity of removing language that is too casual.  Be 
-carefull when translating games and kiddies programs as you might want to keep informal
-language.
+In your translations you have the opportunity of removing language that is too
+casual.  Be carefull when translating games and kiddies programs as you might
+want to keep informal language.
 
-Here is a snippet of an email from Malcolm Hunter - one of the British English translator.  You might want to 
-take note of his points and remove these from your translations.
+Here is a snippet of an email from Malcolm Hunter - one of the British English
+translator.  You might want to take note of his points and remove these from
+your translations.
 
 ::
 

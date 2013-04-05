@@ -6,7 +6,9 @@ Language Names
 
 How do *you* write the name of your own language?
 
-We're putting together this list as another helpful resource for translators.  Please add your language to the table. The table is in alphabetical order based on the English name.
+We're putting together this list as another helpful resource for translators.
+Please add your language to the table. The table is in alphabetical order based
+on the English name.
 
 ^  English     ^  Original  ^
 |  Afrikaans   |  Afrikaans  |

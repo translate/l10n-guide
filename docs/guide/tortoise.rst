@@ -19,11 +19,13 @@ See also :doc:`wincvs` as an alternative to Tortoise CVS.
 Resources
 =========
 
-  * `Tortoise CVS home page <http://www.tortoisecvs.org/>`_
-  * `Tortoise CVS download page <http://www.tortoisecvs.org/download.shtml>`_
+* `Tortoise CVS home page <http://www.tortoisecvs.org/>`_
+* `Tortoise CVS download page <http://www.tortoisecvs.org/download.shtml>`_
 
-These pages from the Fedora project give nice instructions on how to 
-setup and use TortoiseCVS.
+These pages from the Fedora project give nice instructions on how to setup and
+use TortoiseCVS.
 
-  * `Downloading Tortoise CVS <http://fedora.redhat.com/participate/translation-windows/s1-cvs.html>`_
-  * `Using Tortoise CVS <http://fedora.redhat.com/participate/translation-windows/s1-setup.html>`_
+* `Downloading Tortoise CVS
+  <http://fedora.redhat.com/participate/translation-windows/s1-cvs.html>`_
+* `Using Tortoise CVS
+  <http://fedora.redhat.com/participate/translation-windows/s1-setup.html>`_

@@ -4,18 +4,16 @@
 Common Translation Errors
 *************************
 
-The following are common errors detected by the :doc:`toolkit/pofilter` tool.  It is usefull
-to see these errors in order that you don't commit them yourself. We have 
-given examples of some false positives also.
+The following are common errors detected by the :ref:`toolkit:pofilter` tool.
+It is usefull to see these errors in order that you don't commit them yourself.
+We have given examples of some false positives also.
 
 .. _../pages/guide/pofilter_examples#double_spacing:
 
 Double Spacing
 ==============
 
-Notice the double space in "lefoko  la".
-
-::
+Notice the double space in "lefoko  la".  ::
 
     #: NoColorError
     #, fuzzy
@@ -24,10 +22,8 @@ Notice the double space in "lefoko  la".
     msgstr ""
     "tobetsa mmala kgotsa tsenya lefoko  la mmala la html le le letleletsweng"
 
-The following is a false postive, notice that the double space ("account.  There")
-is in the msgid.
-
-::
+The following is a false postive, notice that the double space ("account.
+There") is in the msgid.  ::
 
     #: accountSettingsDesc.label
     #, fuzzy
@@ -43,9 +39,7 @@ is in the msgid.
 End Punctuation
 ===============
 
-The sentence is missing a fullstop.
-
-::
+The sentence is missing a fullstop.  ::
 
     #: MissingSiteNameError
     #, fuzzy
@@ -53,9 +47,7 @@ The sentence is missing a fullstop.
     msgid "Please enter a name for this publishing site."
     msgstr "ka kopa tsenyetsa letlakala le la phatlalatso leina"
 
-The sentence is missing and elipse (...)
-
-::
+The sentence is missing and elipse (...) ::
 
     #: AdvancedProperties
     #, fuzzy
@@ -63,9 +55,7 @@ The sentence is missing and elipse (...)
     msgid "Advanced Properties..."
     msgstr "ditiro tsa maemo a kwa godim"
 
-Missing colon (:)
-
-::
+Missing colon (:) ::
 
     #: JobTitle.label
     #, fuzzy
@@ -73,9 +63,7 @@ Missing colon (:)
     msgid "Title:"
     msgstr "Setlha"
 
-The end contains a space before the colon which shouldn't be there.
-
-::
+The end contains a space before the colon which shouldn't be there.  ::
 
     #: addressMessageTo.label
     #, fuzzy
@@ -83,10 +71,9 @@ The end contains a space before the colon which shouldn't be there.
     msgid "Address message to:"
     msgstr "Attresetsa molaetsa go :"
 
-Notice that the msgid is incorrect (it only has 2 dors) and the msgstr has been corrected.  Leave
-this as it is as the msgstr is now correct.  Also report this as an error against the application.
-
-::
+Notice that the msgid is incorrect (it only has 2 dors) and the msgstr has been
+corrected.  Leave this as it is as the msgstr is now correct.  Also report this
+as an error against the application.  ::
 
     #: saveAll.label
     #, fuzzy
@@ -94,9 +81,7 @@ this as it is as the msgstr is now correct.  Also report this as an error agains
     msgid "Save All.."
     msgstr "Boloka tsotlhe..."
 
-There should be a space before "->"
-
-::
+There should be a space before "->" ::
 
     #: fieldMapExport.add
     #, fuzzy
@@ -104,9 +89,7 @@ There should be a space before "->"
     msgid "Add Field ->"
     msgstr "Atisa lebala->"
 
-The msgstr should end in ? but it ends in .
-
-::
+The msgstr should end in ? but it ends in .  ::
 
     #: PKCS12PasswordInvalid
     #, fuzzy
@@ -118,9 +101,7 @@ The msgstr should end in ? but it ends in .
     "Ga ya kgona go sirolola PKCS #12 file.  Gongwe lefoko-phetiso leo o le "
     "tsentseng le fosagetse."
 
-The closing bracket should be a round bracket not a curly bracket.
-
-::
+The closing bracket should be a round bracket not a curly bracket.  ::
 
     #: UnknownCertIssuer
     #, fuzzy
@@ -133,9 +114,7 @@ The closing bracket should be a round bracket not a curly bracket.
 End Whitespace
 ==============
 
-Remove the extra whitespace at the end.
-
-::
+Remove the extra whitespace at the end.  ::
 
     #: deleteCardCmd.label
     #, fuzzy
@@ -149,9 +128,8 @@ Remove the extra whitespace at the end.
 Start Punctuation
 =================
 
-False positive. The translation is correct, although you might want to define a policy on how you handle this form of plural.
-
-::
+False positive. The translation is correct, although you might want to define a
+policy on how you handle this form of plural.  ::
 
     #: SuccessfulP12Backup
     #, fuzzy
@@ -167,9 +145,7 @@ False positive. The translation is correct, although you might want to define a 
 Start Whitespace
 ================
 
-The space at the beginning of the message should be deleted.
-
-::
+The space at the beginning of the message should be deleted.  ::
 
     #: DisableDlgTitle
     #, fuzzy
@@ -178,9 +154,7 @@ The space at the beginning of the message should be deleted.
     msgid "%S Quick Launch"
     msgstr " %S Quick Launch"
 
-The space at the beginning of the message should be deleted.
-
-::
+The space at the beginning of the message should be deleted.  ::
 
     #: ko
     #, fuzzy
@@ -194,9 +168,7 @@ The space at the beginning of the message should be deleted.
 Numbers
 =======
 
-The number 1252 does not appear in the translation.
-
-::
+The number 1252 does not appear in the translation.  ::
 
     #: windows-1252.title
     #, fuzzy
@@ -204,9 +176,7 @@ The number 1252 does not appear in the translation.
     msgid "Western (Windows-1252)"
     msgstr "Turkish (Windows-1254)"
 
-Might not be a problem if 2 has been written in full
-
-::
+Might not be a problem if 2 has been written in full ::
 
     #: SSL2Disabled
     #, fuzzy
@@ -220,17 +190,13 @@ Might not be a problem if 2 has been written in full
 Variables
 =========
 
-&vendorShortName; should not have been translated.
-
-::
+&vendorShortName; should not have been translated.  ::
 
     #: throbber.tooltip
     msgid "Go to the &vendorShortName; home page"
     msgstr "E ya ko &vendorKortNaam; go letlakala la le gae"
 
-&quot; should not have been translated
-
-::
+&quot; should not have been translated ::
 
     #: incomingServerNameDesc.label
     #, fuzzy
@@ -243,10 +209,8 @@ Variables
 Punctuation Spacing
 ===================
 
-There should be a space after , in "Ka sekai,netscape".  A single quote is 
-also missing.
-
-::
+There should be a space after , in "Ka sekai,netscape".  A single quote is also
+missing.  ::
 
     #: abbreviateOn.label
     #, fuzzy
@@ -255,9 +219,7 @@ also missing.
     msgid "Full names (For example, 'netscape.public.mozilla.mail-news')"
     msgstr "Maina ka botlalo (Ka sekai,netscape.public.mozilla.posol-dikgang')"
 
-Space missing after colon.
-
-::
+Space missing after colon.  ::
 
     #: unreadMsgStatus
     #, fuzzy
@@ -265,9 +227,7 @@ Space missing after colon.
     msgid "Unread: %S"
     msgstr "Ga ja balwa:%S"
 
-Space missing after comma "kenna,o sutlhe"
-
-::
+Space missing after comma "kenna,o sutlhe" ::
 
     #: defaultcharactersetBidiCmd.label
     #, fuzzy
@@ -278,10 +238,8 @@ Space missing after comma "kenna,o sutlhe"
     "dirisa ditlhaka jaaka ditlhophilwe kenna,o sutlhe tse di tlhophetsweng "
     "tokomane e"
 
-Space missing after semi-colon "da dk;faele".  Also note missing minus between 
-da and DK.
-
-::
+Space missing after semi-colon "da dk;faele".  Also note missing minus between
+da and DK.  ::
 
     # LOCALIZATION NOTE GROUP : DO not localize the entities below; test case
     #: da-DK-file.label
@@ -295,9 +253,7 @@ da and DK.
 Short
 =====
 
-There is a missing sentence
-
-::
+There is a missing sentence ::
 
     #: SIClueless
     #, fuzzy
@@ -313,9 +269,7 @@ There is a missing sentence
 Long
 ====
 
-The translation looks too long, it might be right but it is unlikely.
-
-::
+The translation looks too long, it might be right but it is unlikely.  ::
 
     #: directionBidiMenu.label
     #, fuzzy
@@ -338,9 +292,10 @@ The translation looks too long, it might be right but it is unlikely.
 Unchanged
 =========
 
-The english has not been translated.  The word plugin is translatable.  In fact this example show two more errors, the start capital is missing and the colon is also missing.  So this translators took an English string and replace it with an untranslated and badly formated string.
-
-::
+The english has not been translated.  The word plugin is translatable.  In fact
+this example show two more errors, the start capital is missing and the colon
+is also missing.  So this translators took an English string and replace it
+with an untranslated and badly formated string.  ::
 
     #: mediaPlugin
     #, fuzzy
@@ -353,9 +308,8 @@ The english has not been translated.  The word plugin is translatable.  In fact 
 URLs and Emails
 ===============
 
-This is a well translated email address in this case it was used as an example so is translated
-
-::
+This is a well translated email address in this case it was used as an example
+so is translated ::
 
     #: emailExample.label
     #, fuzzy

@@ -3,7 +3,8 @@
 
 Microsoft Language IDs
 **********************
-*This is a list of languages and their identifiers as assigned by Microsoft and use in Microsoft products.*
+*This is a list of languages and their identifiers as assigned by Microsoft and
+use in Microsoft products.*
 
 |**Language**|**Primary ID**|**Sub ID**|**Language Code**|
 |Afrikaans|54|1|afk|

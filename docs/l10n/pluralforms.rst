@@ -4,35 +4,52 @@
 Plural Forms
 ************
 
-This is a list of the plural forms, as used by Gettext PO, that are appropriate to each language.
+This is a list of the plural forms, as used by Gettext PO, that are appropriate
+to each language.
 
-If your language isn't represented - please add it, or if the information is inaccurate or inadequate in some way - please edit it.  The Plural information is usually very hard to find and also in many ways hard for a new localiser to understand.  So please see this as a repository that can help localisers.  Understanding how the Gettext functions use plural forms will help you `design a correct plural form <http://www.gnu.org/software/gettext/manual/gettext.html#Plural-forms>`_.
+If your language isn't represented - please add it, or if the information is
+inaccurate or inadequate in some way - please edit it.  The Plural information
+is usually very hard to find and also in many ways hard for a new localiser to
+understand.  So please see this as a repository that can help localisers.
+Understanding how the Gettext functions use plural forms will help you `design
+a correct plural form
+<http://www.gnu.org/software/gettext/manual/gettext.html#Plural-forms>`_.
 
-Note: Launchpad also has :doc:`plural information about many languages <https///translations.launchpad.net/+languages>`, please add it here if your language is missing.
+Note: Launchpad also has `plural information about many languages
+<https://translations.launchpad.net/+languages>`_, please add it here if your
+language is missing.
 
-Note: Mozilla now also uses `plural forms <http://developer.mozilla.org/en/docs/Localization_and_Plurals>`_.  Although they follow a slightly different form, the `underlying equations <http://mxr.mozilla.org/mozilla/source/intl/locale/src/PluralForm.jsm#59>`_ seem to be the same as those used by Gettext.
+Note: Mozilla now also uses `plural forms
+<http://developer.mozilla.org/en/docs/Localization_and_Plurals>`_.  Although
+they follow a slightly different form, the `underlying equations
+<http://mxr.mozilla.org/mozilla/source/intl/locale/src/PluralForm.jsm#59>`_
+seem to be the same as those used by Gettext.
 
-Note: `Unicode CLDR <http://unicode.org/cldr>`_ also collects `plural information about many languages <http://www.unicode.org/cldr/data/charts/supplemental/language_plural_rules.html>`_. (Also in `XML form <http://unicode.org/cldr/trac/browser/trunk/common/supplemental/plurals.xml>`_.)
+Note: `Unicode CLDR <http://unicode.org/cldr>`_ also collects `plural
+information about many languages
+<http://www.unicode.org/cldr/data/charts/supplemental/language_plural_rules.html>`_.
+(Also in `XML form
+<http://unicode.org/cldr/trac/browser/trunk/common/supplemental/plurals.xml>`_.)
 
 .. _../pages/l10n/pluralforms#a:
 
 A
 =
 
-=====  ===============================================  =============================
- ISO    English name                                     Plurals header in .po files   
-=====  ===============================================  =============================
- ach    Acholi (maybe)                                   nplurals=2; plural=(n > 1)    
- af     Afrikaans                                        nplurals=2; plural=(n != 1)   
- ak     Akan                                             nplurals=2; plural=(n > 1)    
- am     Amharic                                          nplurals=2; plural=(n > 1)    
- an     Aragonese                                        nplurals=2; plural=(n != 1)   
- ar     Arabic [[http://wiki.arabeyes.org/Plural_Forms  notes]]                        
- arn    Mapudungun                                       nplurals=2; plural=(n > 1)    
- ast    Asturian                                         nplurals=2; plural=(n != 1)   
- ay     Aymará                                           nplurals=1; plural=0          
- az     Azerbaijani                                      nplurals=2; plural=(n != 1)   
-=====  ===============================================  =============================
+=====  ==========================================================  =============================
+ ISO    English name                                                Plurals header in .po files   
+=====  ==========================================================  =============================
+ ach    Acholi (maybe)                                              nplurals=2; plural=(n > 1)    
+ af     Afrikaans                                                   nplurals=2; plural=(n != 1)   
+ ak     Akan                                                        nplurals=2; plural=(n > 1)    
+ am     Amharic                                                     nplurals=2; plural=(n > 1)    
+ an     Aragonese                                                   nplurals=2; plural=(n != 1)   
+ ar     Arabic `notes <http://wiki.arabeyes.org/Plural_Forms>`_                        
+ arn    Mapudungun                                                  nplurals=2; plural=(n > 1)    
+ ast    Asturian                                                    nplurals=2; plural=(n != 1)   
+ ay     Aymará                                                      nplurals=1; plural=0          
+ az     Azerbaijani                                                 nplurals=2; plural=(n != 1)   
+=====  ==========================================================  =============================
 
 .. _../pages/l10n/pluralforms#b:
 

@@ -17,17 +17,15 @@ References
 These are useful references to the difference between the various English
 spellings.
 
-  * http://www3.telus.net/linguisticsissues/BritishCanadianAmerican.htm
-  * http://www.musicalenglishlessons.com/spelling-diffs.htm
+* http://www3.telus.net/linguisticsissues/BritishCanadianAmerican.htm
+* http://www.musicalenglishlessons.com/spelling-diffs.htm
 
 .. _../pages/guide/british_english#tools:
 
 Tools
 =====
 
-To initialise all the POT files to be fully translated:
-
-::
+To initialise all the POT files to be fully translated::
 
     for pot in `cd templates; find . -name "*.pot"`
     do 
@@ -35,16 +33,13 @@ To initialise all the POT files to be fully translated:
       msginit --locale=en_GB --no-translator -i templates/$pot -o en_GB/`dirname $pot`/`basename $pot .pot`.po
     done 
 
-To examine all potential American spellings use :doc:`toolkit/pofilter`:
-
-::
+To examine all potential American spellings use :ref:`toolkit:pofilter`::
 
     pofilter -t musttranslatewords --musttranslatefile=en_US-words-to-change en_GB en_GB-check
 
-If a msgid contains any of the words listed in the files *en_US-words-to-change* then these will be extracted to en_GB-check. 
-Correct them and then run:
-
-::
+If a msgid contains any of the words listed in the files
+*en_US-words-to-change* then these will be extracted to en_GB-check.  Correct
+them and then run::
 
     pomerge -i en_GB-check -o en_GB -t en_GB
 

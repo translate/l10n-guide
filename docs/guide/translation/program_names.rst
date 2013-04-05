@@ -5,8 +5,8 @@ Program Names
 *************
 
 Your language team needs to decide if you are going to translate program names.
-There are a few approaches you can follow to make untranslated program names accesible
-to non-English speakers.
+There are a few approaches you can follow to make untranslated program names
+accesible to non-English speakers.
 
 .. _../pages/guide/translation/program_names#simple_policy:
 
@@ -30,8 +30,14 @@ Pros and Cons of Translating Program Names
 Some tips
 =========
 
-  * **Use single quotes**. It is quite easy to use single quotes around the program to indicate that it has not been translated e.g. "Click on the 'KFishMonger' icon"
-  * **Change sentence structure**. This source string "%s: Can't init pipe to gdmgreeter" can quite easily be translated as "%s: Can't init pipe to program gdmgreeter", note that by adding the word program it adds clarity
-  * **Use explanatory brackets**. If needed add explanatory brackets after the word.  You have two options just stick to one method throughout:
-    - Translated_Program (English_Original)
-    - English_Original (Translate/Transliteration).  
+* **Use single quotes**. It is quite easy to use single quotes around the
+  program to indicate that it has not been translated e.g. "Click on the
+  'KFishMonger' icon"
+* **Change sentence structure**. This source string "%s: Can't init pipe to
+  gdmgreeter" can quite easily be translated as "%s: Can't init pipe to program
+  gdmgreeter", note that by adding the word program it adds clarity
+* **Use explanatory brackets**. If needed add explanatory brackets after the
+  word.  You have two options just stick to one method throughout:
+
+  #. Translated_Program (English_Original)
+  #. English_Original (Translate/Transliteration).  

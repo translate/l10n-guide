@@ -4,22 +4,41 @@
 Selecting and Creating new words
 ********************************
 
-Your language does not have a word for a certain computer term - what do you do?
-Many people decide to leave the term in English.  However, please take a moment to 
-think about why you are translating this software.  Will people who use your
-language be able to identify or understand the English word?  Will they even be 
-able to read it?  If the answer is no then you need to look at creating
-or adapting the word.
+Your language does not have a word for a certain computer term - what do you
+do?  Many people decide to leave the term in English.  However, please take a
+moment to think about why you are translating this software.  Will people who
+use your language be able to identify or understand the English word?  Will
+they even be able to read it?  If the answer is no then you need to look at
+creating or adapting the word.
 
 .. _../pages/guide/translation/creating_new_words#choosing_a_new_word:
 
 Choosing a new word
 ===================
 
-  - **Find the correct translated word.**  This is the simplest and best approach but often however this comes overs time.  You may need to go back and revise word choices to eliminate confusion.  For instance the same word for Cancel and Delete was used in our Xhosa translation until the translators grasped the potential confusion and corrected the mistake.  If you didin't understand the implications in this example consider that 'Cancel' is a safe option (go back and ignore everything I was doing) while 'Delete' is a destructive option (you will remove files from your computer).  Clearly you need very different words.
-  - No word exists.  **Think about what the word means.**  Make use of `dict.org <http://dict.org>`_, `dictionary.com <http://dictionary.com>`_ to check on the word's definition.  Be careful with some words eg. 'Port' which have very different meanings in the computer world.  Once you understand the meaning of the words and the idea that needs to be conveyed try to identify a phrase or word that conveys the same meaning in your language.
-  - Nope nothing.  OK you're stuck with an English word which you can't or don't want to translate.  **Try transliteration.**  That is take the word and change its spelling and pronounciation to better match your language.  This way at least people familiar with the language will be able to read and   pronounce the word.  English language speakers have been doing this for a very long time.
-  - Still nothing.  **Leave it in English.**  But remember who your translating for and the problems this may cause them.
+- **Find the correct translated word.**  This is the simplest and best approach
+  but often however this comes overs time.  You may need to go back and revise
+  word choices to eliminate confusion.  For instance the same word for Cancel
+  and Delete was used in our Xhosa translation until the translators grasped
+  the potential confusion and corrected the mistake.  If you didin't understand
+  the implications in this example consider that 'Cancel' is a safe option (go
+  back and ignore everything I was doing) while 'Delete' is a destructive
+  option (you will remove files from your computer).  Clearly you need very
+  different words.
+- No word exists.  **Think about what the word means.**  Make use of `dict.org
+  <http://dict.org>`_, `dictionary.com <http://dictionary.com>`_ to check on
+  the word's definition.  Be careful with some words eg. 'Port' which have very
+  different meanings in the computer world.  Once you understand the meaning of
+  the words and the idea that needs to be conveyed try to identify a phrase or
+  word that conveys the same meaning in your language.
+- Nope nothing.  OK you're stuck with an English word which you can't or don't
+  want to translate.  **Try transliteration.**  That is take the word and
+  change its spelling and pronounciation to better match your language.  This
+  way at least people familiar with the language will be able to read and
+  pronounce the word.  English language speakers have been doing this for a
+  very long time.
+- Still nothing.  **Leave it in English.**  But remember who your translating
+  for and the problems this may cause them.
 
 .. _../pages/guide/translation/creating_new_words#acronyms:
 
@@ -28,28 +47,29 @@ Acronyms
 
 Acronyms are words formed from the intial letters of phrases.  
 
- * HTTP --- HyperText Transfer Protocol
+* HTTP --- HyperText Transfer Protocol
 
-We often choose to leave these as they are as the meaning of the 
-acronym is to most people disasociated with the actual words that make up 
-the acronym.  Some languages do choose to define
+We often choose to leave these as they are as the meaning of the acronym is to
+most people disasociated with the actual words that make up the acronym.  Some
+languages do choose to define
 
-the expanded acronyms in their language but keep the original English acronym.  Finally some
-languages have translations of these acronyms, use them if you feel that
-they are widely used and understood by your audience.  Languages that fall into this
-category usually have well established and government supported terminology
-development units or language boards
+the expanded acronyms in their language but keep the original English acronym.
+Finally some languages have translations of these acronyms, use them if you
+feel that they are widely used and understood by your audience.  Languages that
+fall into this category usually have well established and government supported
+terminology development units or language boards
 
-You need to weigh up whether a translated acronuym will help or hinder.  Not being
-aware of http may cause some people to battle with accessing the internet.
+You need to weigh up whether a translated acronuym will help or hinder.  Not
+being aware of http may cause some people to battle with accessing the
+internet.
 
 .. _../pages/guide/translation/creating_new_words#notes:
 
 Notes
 =====
 
-The following email reply from Chusslove Illich (caslav ilic at gmx net) gives some
-more pointers when creating new words.
+The following email reply from Chusslove Illich (caslav ilic at gmx net) gives
+some more pointers when creating new words.
 
 ::
 

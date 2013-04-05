@@ -12,6 +12,7 @@ translation.  This gives a rough outline of how to cost such a translation.
 
 Calculation
 ===========
+::
 
   Words = untranslated msgid words + fuzzy msgid words
   Cost = Words to translate * Rate per word
@@ -21,6 +22,7 @@ Calculation
 
 Rule of thumb
 -------------
+::
 
   Weeks = Strings to translate / 2000
   Days = Srings to translate / 400 or 500
@@ -37,7 +39,7 @@ Calculating Costs
 
 FIXME convert these numbers to dollars or other 'international' currency
 
-Translators will quote based on the number of source words:
+Translators will quote based on the number of source words::
 
   R400 / 1000
   R40 / 100
@@ -46,15 +48,15 @@ Translators will quote based on the number of source words:
 
 Note: these are just for illustration purposes
 
-Using :doc:`toolkit/pocount` determine the number of source words.  So this is the number of
-words in untranslated strings plus the number of words in fuzzy strings.
+Using :ref:`toolkit:pocount` determine the number of source words.  So this is the number of
+words in untranslated strings plus the number of words in fuzzy strings. ::
 
   Words = untranslated + fuzzy
   Words = 40 000 + 5 000
 
 Note: make sure you count the msgid or source words not the translations.
 
-You final costing would then be:
+You final costing would then be::
 
   Cost = 45 000 * 0.4
        = R18 000
@@ -66,23 +68,22 @@ Calculating Time
 
 Assuming that you need to translate 45 000 words do the following.  Either, 
 
-  * Find out how many words the translator can translate per day
+* Find out how many words the translator can translate per day ::
 
-  1300 words per day
+    1300 words per day
 
-  Days = 45 000 / 1300
-       = 35 days
-       = 7 weeks
+    Days = 45 000 / 1300
+         = 35 days
+         = 7 weeks
 
-  * Convert to the rule of thumb guides above
+* Convert to the rule of thumb guides above ::
 
-  Strings = 45 000 / 3.5
-          = 12 857 
-         +- 13 000
+    Strings = 45 000 / 3.5
+            = 12 857 
+           +- 13 000
 
-  Days = 13 000 / 400
-       = 33
+    Days = 13 000 / 400
+         = 33
 
-  Weeks = 13 000 / 2000
-        = 6.5 weeks
-
+    Weeks = 13 000 / 2000
+          = 6.5 weeks

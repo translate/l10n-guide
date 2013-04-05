@@ -9,11 +9,11 @@ Why do you need translation comments?
 Consider this simple case; you have a menu item called "Manual".  You know what
 it means, but when the translator sees this they will wonder did you mean:
 
-  - a document or help manual, or 
-  - a manual process?  
+- a document or help manual, or 
+- a manual process?  
 
-This is the simplest case where a translation comment such as "The installation manual" helps to clarify 
-the situation and makes a translator more productive.
+This is the simplest case where a translation comment such as "The installation
+manual" helps to clarify the situation and makes a translator more productive.
 
 .. _../pages/guide/translation_comments#more_examples_of_the_need_for_translation_comments:
 
@@ -25,12 +25,12 @@ Real world examples are best.  This is a discussion over the use of the word
 
 "When you go forward. You go 'Pele', But when you forward the document, O
 'Fetišetša pele', so if you just say forward, we don't know what you are
-talking about, it is better if it is in a sentence. But in this case i think 
-we will use 'pele' because on the string no:86 and
-88 there is "show previous page in history" and "show next page in history"
+talking about, it is better if it is in a sentence. But in this case i think we
+will use 'pele' because on the string no:86 and 88 there is "show previous page
+in history" and "show next page in history"
 
-Was there translators guess correct?  I think so, but it makes it so much easier if
-they don't need to be super sleuths as well as translators.
+Was there translators guess correct?  I think so, but it makes it so much
+easier if they don't need to be super sleuths as well as translators.
 
 .. _../pages/guide/translation_comments#what_should_be_commented:
 
@@ -118,4 +118,5 @@ obvious.
 Adding comments
 ===============
 
-FIXME not sure how to do it please refer to the Gettext manual and KDE programmers manual
+FIXME not sure how to do it please refer to the Gettext manual and KDE
+programmers manual

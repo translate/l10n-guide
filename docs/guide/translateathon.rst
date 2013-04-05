@@ -4,36 +4,55 @@
 Translate@thon
 **************
 
-A translate@thon is a mass translation event (also called a localization sprint).  Get a number of translators in
-one room and begin translating and you have a translate@thon.  The general
-idea is that translation is simply a numbers game, get a large number of people
-translating and the task will be completed more quickly.
+A translate@thon is a mass translation event (also called a localization
+sprint).  Get a number of translators in one room and begin translating and you
+have a translate@thon.  The general idea is that translation is simply a
+numbers game, get a large number of people translating and the task will be
+completed more quickly.
 
-Have you hosted a translate@thon?  Then please add your event to our :doc:`Translate@thon hall of fame <guide/translateathon_halloffame>`
+Have you hosted a translate@thon?  Then please add your event to our
+:doc:`Translate@thon hall of fame <translateathon_halloffame>`
 
 .. _../pages/guide/translateathon#expectations:
 
 Expectations
 ============
 
-To get the most our of your Translate@thon it is important that you understand what kind of outcomes you can expect and align your expectations accordingly.  You will get different outcomes from small and large events.
+To get the most our of your Translate@thon it is important that you understand
+what kind of outcomes you can expect and align your expectations accordingly.
+You will get different outcomes from small and large events.
 
-  * **Large event** --- 40+ people.  Most people will be new a translating and most probably unskilled.  You will spend a lot of time explaining things, doing presentations, etc.  Some people who are there might just be there for the social and will disturb others reducing their output.  Expect low quality.
-  * **Small event** --- 5 people. Usually the group is dedicated.  The ratio of techies to translators is high so the quality goes up.  The atmosphere is one of hard fun work as opposed to the carnival atmosphere at a large event.
+* **Large event** --- 40+ people.  Most people will be new a translating and
+  most probably unskilled.  You will spend a lot of time explaining things,
+  doing presentations, etc.  Some people who are there might just be there for
+  the social and will disturb others reducing their output.  Expect low
+  quality.
+* **Small event** --- 5 people. Usually the group is dedicated.  The ratio of
+  techies to translators is high so the quality goes up.  The atmosphere is one
+  of hard fun work as opposed to the carnival atmosphere at a large event.
 
 So what can you expect?
 
-Use a small event to get work done.  Get high quality translations.  Use a large event to expose people to localisation, to get media coverage and to promote Free Software.  Large events are the places were you fish out the one or two dedicated translators who will carry on.  At one large event we met with lecturers on a translation studies degree, localisation is now being worked into their degree.
+Use a small event to get work done.  Get high quality translations.  Use a
+large event to expose people to localisation, to get media coverage and to
+promote Free Software.  Large events are the places were you fish out the one
+or two dedicated translators who will carry on.  At one large event we met with
+lecturers on a translation studies degree, localisation is now being worked
+into their degree.
 
-Without a dedicated session or two devoted to review and quality assurance, expect there to be many problems with quality. Build in review sessions as part of your planning if you want to improve the quality and train people on the detail needed for high quality translation. Below more issues about quality is discussed.
+Without a dedicated session or two devoted to review and quality assurance,
+expect there to be many problems with quality. Build in review sessions as part
+of your planning if you want to improve the quality and train people on the
+detail needed for high quality translation. Below more issues about quality is
+discussed.
 
 .. _../pages/guide/translateathon#hosting_partner:
 
 Hosting partner
 ===============
 
-It might be good to involve a hosting partner.  Traditionally we have chosen the
-language departments of Universities.  They have access to good skills,
+It might be good to involve a hosting partner.  Traditionally we have chosen
+the language departments of Universities.  They have access to good skills,
 computer labs and their own network of people.
 
 .. _../pages/guide/translateathon#who_should_attend:
@@ -43,12 +62,12 @@ Who should attend
 
 You can take various strategies.  Either throw the door wide open in which case
 you probably need to publicise the event slightly differently so that you can
-attract various people.  Or make it a relatively closed affair with your hosting
-partner.  For your first one it might be nice to make it closed as you can then
-ensure a quality audience.  Remember that you have the chance to attract people
-who might not know anything about Free Software and who have their own networks
-that could tap into other potential translators.  A mass event has issues about
-quality which we address below.
+attract various people.  Or make it a relatively closed affair with your
+hosting partner.  For your first one it might be nice to make it closed as you
+can then ensure a quality audience.  Remember that you have the chance to
+attract people who might not know anything about Free Software and who have
+their own networks that could tap into other potential translators.  A mass
+event has issues about quality which we address below.
 
 .. _../pages/guide/translateathon#venue:
 
@@ -57,9 +76,9 @@ Venue
 
 Your choice of venue should consider the following:
 
-  - Is it easy to get to
-  - Do they have enough computers
-  - Do they have Internet access if you need it
+- Is it easy to get to
+- Do they have enough computers
+- Do they have Internet access if you need it
 
 Remember to put lots of signage up on the day so that people can actually find
 the venue.
@@ -113,9 +132,9 @@ shortly after the event.
 A few days before
 =================
 
-Remind people of the event and check the computers.  Nothing is worse than no one
-coming or the computers not working.  Check that you actually have access to
-the lab and its not closed for some obscure reason.
+Remind people of the event and check the computers.  Nothing is worse than no
+one coming or the computers not working.  Check that you actually have access
+to the lab and its not closed for some obscure reason.
 
 .. _../pages/guide/translateathon#on_the_day:
 
@@ -153,9 +172,9 @@ This is the suggested program that we use.
 ======================================================================  ===============================================================
 
 This gives you 4 hours of translation time with none more than an hour long.
-Adjust as needed.  If you have a mixture of new and experienced translators then it
-might be nice to arrange the venue so that experienced translators don't have to
-listen to any of the talks.
+Adjust as needed.  If you have a mixture of new and experienced translators
+then it might be nice to arrange the venue so that experienced translators
+don't have to listen to any of the talks.
 
 Give people a copy of the program and include the titles of the talks.
 
@@ -164,12 +183,12 @@ Give people a copy of the program and include the titles of the talks.
 Event close
 ===========
 
-Don't forget to thank people.  It is also good to get participants to fill 
-out an evaluation form as this allows people to give feedback.  You can also 
-use it to recruite people to the mailing lists and to help organise your
-next event.
+Don't forget to thank people.  It is also good to get participants to fill out
+an evaluation form as this allows people to give feedback.  You can also use it
+to recruite people to the mailing lists and to help organise your next event.
 
-Here is an :doc:`example evaluation form <guide:translateathon-evaluation_form.odt>`
+Here is an :doc:`example evaluation form
+<translateathon-evaluation_form.odt>`
 
 .. _../pages/guide/translateathon#post_translate@thon_followup:
 
@@ -187,60 +206,83 @@ Quality
 =======
 
 How do you ensure quality of the work?  These are people who have just started
-software translation and thus their work will be suspect, take that for granted.  
-There are a few things you can do to increase quality.
+software translation and thus their work will be suspect, take that for
+granted.  There are a few things you can do to increase quality.
 
-  * Ensure that people are well informed about common mistakes
-  * Have a document that gives a guideline to translators. The document should also identify things like variables, how to choose words, etc.
-  * Talk to new people before they start, have a quick 15 minute translation session then talk again to reiterate the issues.
-  * Never accept translations from a translate-athon until they have been reviewed by an established translator.  If needed add them to the PO files but mark all of them fuzzy.
-  * Optionally only use professional language people: lecturers, translators
-  * Have computer people on hand to answer questions, or make technical and language people work in pairs.
-  * Encourage people to ask questions, regularly and often.  This is important as some culture see asking questions as an indication of a lack of knowledge, be very concerned if nobody is asking questions.
-  * Plan for review, quality assurance and testing as part of the event schedule. The quality checks in Pootle is a great way to get everybody involved in reviewing the translations. The search feature might help to review terminology. Obviously getting the translated program running is good for reviewing things in context.
-  * For consistency at large events, it is probably worthwhile to prepare a terminology list before the event and install that in Pootle for :doc:`terminology suggestions <pootle/terminology matching>`. This will at least eliminate certain types of inconsistencies. :doc:`Translation memory <pootle/updatetm>` is another way to help, although that might be harder to setup, depending on the administration skills available.
+* Ensure that people are well informed about common mistakes
+* Have a document that gives a guideline to translators. The document should
+  also identify things like variables, how to choose words, etc.
+* Talk to new people before they start, have a quick 15 minute translation
+  session then talk again to reiterate the issues.
+* Never accept translations from a translate-athon until they have been
+  reviewed by an established translator.  If needed add them to the PO files
+  but mark all of them fuzzy.
+* Optionally only use professional language people: lecturers, translators
+* Have computer people on hand to answer questions, or make technical and
+  language people work in pairs.
+* Encourage people to ask questions, regularly and often.  This is important as
+  some culture see asking questions as an indication of a lack of knowledge, be
+  very concerned if nobody is asking questions.
+* Plan for review, quality assurance and testing as part of the event schedule.
+  The quality checks in Pootle is a great way to get everybody involved in
+  reviewing the translations. The search feature might help to review
+  terminology. Obviously getting the translated program running is good for
+  reviewing things in context.
+* For consistency at large events, it is probably worthwhile to prepare a
+  terminology list before the event and install that in Pootle for
+  :ref:`terminology suggestions <pootle:features/terminology>`. This will at
+  least eliminate certain types of inconsistencies. :ref:`Translation memory
+  <pootle:updatetm>` is another way to help, although that might be harder to
+  setup, depending on the administration skills available.
 
 .. _../pages/guide/translateathon#checklist:
 
 Checklist
 =========
 
-  * Planning
-    * Found partner
-    * Determine appropriate day
-    * Create mailing list if needed
-    * Arrange prizes
+* Planning
 
-  * Lab
-    * Lab suitable
-    * Meet with lab supervisor
-    * Book lab
+  * Found partner
+  * Determine appropriate day
+  * Create mailing list if needed
+  * Arrange prizes
 
-  * Venue
-    * Place for tea
-    * Tables and chairs for tea arranged if needed
+* Lab
 
-  * Few days before
-    * Check lab booking
-    * Reminder to participants
-    * Contact assistants, technical and language to confirm
-    * Plan and create program
-    * Print evaluation and translation guides
+  * Lab suitable
+  * Meet with lab supervisor
+  * Book lab
 
-  * Day before
-    * Visit lab
-    * Check on caterers
-    * Arrange tea area
-    * Arrange registration area
-    * Meet with assistants to discuss their role and your expectations
+* Venue
 
-  * On the day
-    * Setup for tea or check on caterers
-    * Bring all forms (registration, program, guidelines)
-    * Force your assistants to mingle especially if they are already project participants
-    * Thank people
-    * Hand out prizes
+  * Place for tea
+  * Tables and chairs for tea arranged if needed
 
-  * Followup
-    * Add people to mailing list
-    * Email thanks
+* Few days before
+
+  * Check lab booking
+  * Reminder to participants
+  * Contact assistants, technical and language to confirm
+  * Plan and create program
+  * Print evaluation and translation guides
+
+* Day before
+
+  * Visit lab
+  * Check on caterers
+  * Arrange tea area
+  * Arrange registration area
+  * Meet with assistants to discuss their role and your expectations
+
+* On the day
+
+  * Setup for tea or check on caterers
+  * Bring all forms (registration, program, guidelines)
+  * Force your assistants to mingle especially if they are already project participants
+  * Thank people
+  * Hand out prizes
+
+* Followup
+
+  * Add people to mailing list
+  * Email thanks
