@@ -10,7 +10,7 @@ indeed allowed to use them.
 For Free and Open Source Software, the single most useful resource is probably
 at http://open-tran.eu/  which allows you to view translations from many of the
 major FOSS applications. Support for Open-Tran.eu is integrated into some
-translation tools, such as :ref:`Virtaal <virtaal/index>`.
+translation tools, such as `Virtaal <http://virtaal.translatehouse.org>`_.
 
 The FUEL project tries to coordinate terminology development amongst Indic
 languages.

@@ -19,11 +19,9 @@ Applications
 
    gweather
    evolution
-   kweather
 
 * :doc:`gweather`
 * :doc:`evolution`
-* :doc:`kweather`
 
 .. _../pages/guide/weather_applications#problems:
 

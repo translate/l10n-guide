@@ -58,18 +58,11 @@ Reading List
    :maxdepth: 1
    :hidden:
 
-   case_studies
-   localisation_introduction
-   industry_articles
    general_articles
 
 Some useful reading for the soon to be and established localisers.  Please add
 good useful articles to these lists.
 
-* :doc:`case_studies` - people who have run a localisation project
-* :doc:`localisation_introduction` - guides and intros to localisation
-* :doc:`industry_articles` - useful articles from the formal localisation
-  industry
 * :doc:`general_articles` - as yet unclassified but interesting
 
 .. _../pages/guide/start#managing_a_translation_effort:
@@ -142,7 +135,6 @@ Project specific information
    fedora
    project/mandrake
    suse
-   ubuntu
    wikis
    project/howto
    google
@@ -166,7 +158,6 @@ Project specific information
   * :doc:`fedora`/Red Hat
   * :doc:`Mandriva <project/mandrake>`
   * :doc:`suse`
-  * :doc:`ubuntu`
 
 * :doc:`wikis`
 * :doc:`The Translation Project <project/howto>` (some parts need to move

@@ -4,7 +4,7 @@
 Microsoft Language IDs
 **********************
 *This is a list of languages and their identifiers as assigned by Microsoft and
-use in Microsoft products.*
+used in Microsoft products.*
 
 .. list-table::
    :header-rows: 1

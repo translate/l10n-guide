@@ -9,8 +9,8 @@ reasonably simple interface as well as translation memory.  Its catalogue
 manager does not seem logical at first but is powerful in that it allows you to
 manage multiple projects.
 
-:doc:`Virtaal <virtaal/index>` can import settings and translation memory from
-Poedit.
+`Virtaal <http://virtaal.translatehouse.org>`_ can import settings and
+translation memory from Poedit.
 
 .. _../pages/guide/poedit#issues:
 

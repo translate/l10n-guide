@@ -5,8 +5,8 @@ A basic guide to CVS
 ********************
 
 CVS is a version control system.  It keeps track of files, changes and who made
-the changes.  Some projects are starting to use :doc:`Subversion <svn>`
-for managing their files.
+the changes.  Some projects are starting to use :wp:`Subversion
+<Apache_Subversion>` for managing their files.
 
 .. _../pages/guide/cvs#resources:
 

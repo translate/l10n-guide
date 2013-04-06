@@ -101,7 +101,7 @@ language, with each one separated by a "``\n``"
 
 Language specific notes
 -----------------------
-.. toctree::
-   :maxdepth: 1
 
-   arabic_plurals
+* `Arabic
+  <http://wiki.arabeyes.org/%D8%B5%D9%8A%D8%BA_%D8%A7%D9%84%D9%85%D8%B9%D8%AF%D9%88%D8%AF>`_
+  (`in English <http://wiki.arabeyes.org/Plural_Forms>`_)

@@ -14,18 +14,17 @@ Hunspell is the main spell checker on Linux [#f1]_.
 
 There is a legacy of previous spell checkers on \*nix platforms and these are:
 
-* :doc:`ispell` - the original word based checker which includes affix
-  compression.
-* :doc:`aspell` - an enhancement of ispell with better algorithms for
-  suggestions (newer versions have adopted the myspell affix compression)
-* :doc:`myspell` - originally built for OpenOffice.org and previously also used
-  by Mozila it includes suffix compression (based on the ispell rules but in a
-  new format) to produce smaller dictionary sizes.  It runs on all platforms
+* ispell - the original word based checker which includes affix compression.
+* aspell - an enhancement of ispell with better algorithms for suggestions
+  (newer versions have adopted the myspell affix compression)
+* myspell - originally built for OpenOffice.org and previously also used by
+  Mozila it includes suffix compression (based on the ispell rules but in a new
+  format) to produce smaller dictionary sizes.  It runs on all platforms
   supported by OpenOffice.org and Mozilla.
-* :doc:`hunspell` - an enhancement of myspell to allow more sophisticated
-  language specific manipulation.  It can use myspell dictionaries thus
-  offering a smooth migration path.  It is the default speller in
-  OpenOffice.org, Firefox 3, Thunderbird 3 and Fedora 9.
+* hunspell - an enhancement of myspell to allow more sophisticated language
+  specific manipulation.  It can use myspell dictionaries thus offering a
+  smooth migration path.  It is the default speller in OpenOffice.org, Firefox
+  3, Thunderbird 3 and Fedora 9.
 
 If starting from scratch your best bet is to focus on a hunspell checker and
 make use of its language specific features if needed.  If you maintain aspell

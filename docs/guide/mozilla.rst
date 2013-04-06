@@ -20,8 +20,6 @@ Product-specific information are on the projects' own pages:
 
 * :doc:`firefox`
 * :doc:`thunderbird`
-* :doc:`seamonkey`
-* :doc:`fennec`
 
 .. _../pages/guide/mozilla#localising_mozilla_on_pootle:
 

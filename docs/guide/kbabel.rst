@@ -8,8 +8,8 @@ KBabel is a KDE 3 application for editing PO files.  A Windows port was
 started, but apparently never released.  In KDE 4, KBabel was replaced by
 Lokalize.
 
-:doc:`Virtaal <virtaal/index>` can import settings and translation memory from
-KBabel. 
+`Virtaal <http://virtaal.translatehouse.org>`_ can import settings and
+translation memory from KBabel. 
 
 .. _../pages/guide/kbabel#installing:
 

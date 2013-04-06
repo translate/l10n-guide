@@ -1,25 +1,17 @@
+.. _../pages/guide/clunky_glossary_creation#clunky_method_to_create_glossaries:
+
+Clunky method to create glossaries
+**********************************
 
 .. note::
     A newer tool called :ref:`toolkit:poterminology` is now part of the
     `Translate Toolkit <http://toolkit.translatehouse.org>`_ and should work
     better for all users. This page is only left for reference.
 
-xxx
-
-.. _../pages/guide/clunky_glossary_creation#clunky_method_to_create_glossaries:
-
-Clunky method to create glossaries
-**********************************
-
 This old method is for Windows users, but the principles can be applied in
 Linux as well.  It is for creating a subject specific glossary in a specific
 software translation project.  The idea is to get a list of commonly used
 jargon from the project that can be translated beforehand.
-
-.. note::
-    Rather use :ref:`toolkit:poterminology` than following these instructions.
-
-xxx
 
 .. _../pages/guide/clunky_glossary_creation#1._extract_the_source_text:
 
