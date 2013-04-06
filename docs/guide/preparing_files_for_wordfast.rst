@@ -250,11 +250,7 @@ Here's how we do it:
 
 The result should look like :doc:`this <guide:about.doc>` or like this:
 
-| |image55|
-
-.. |image55| image:: guide:about_dtd_external.jpg
-
- |
+.. image:: /_static/about_dtd_external.jpg
 
 This DOC file can now be sent to a Wordfast user, who can translate it without
 having to worry about which texts he should touch and which not, because

@@ -176,11 +176,7 @@ know any HTML), the grey text should not be touched by the translator, and the
 red text should not be changed, although it could be moved around, depending on
 the language.
 
-| |image724|
-
-.. |image724| image:: guide:wordfast1.jpg
-
- |
+.. image:: /_static/wordfast1.jpg
 
 .. _../pages/guide/introduction_to_wordfast#4.2_alt+down_to_start_translating:
 
@@ -197,11 +193,7 @@ Interestingly, the purple text ``<}0{>`` is also an indication of whether a
 fuzzy match for this segment exists in the TM. In this case, there isn't, but
 if there had been a 77% match, the text would have read ``<}77{>``.
 
-| |image776|
-
-.. |image776| image:: guide:wordfast2.jpg
-
- |
+.. image:: /_static/wordfast2.jpg
 
 .. _../pages/guide/introduction_to_wordfast#4.3_type_in_the_translation:
 
@@ -213,11 +205,7 @@ speaking, the translator could have typed the red text himself, but Wordfast
 has a method to grab each piece of internal text from the source box and copy
 it to the position of the cursor in the target box.
 
-| |image744|
-
-.. |image744| image:: guide:wordfast3.jpg
-
- |
+.. image:: /_static/wordfast3.jpg
 
 .. _../pages/guide/introduction_to_wordfast#4.4_alt+down_to_go_to_next_segment:
 
@@ -229,11 +217,7 @@ the next segment.  The previous segment is no longer on its own line, but is
 inline with the text surrounding it.  The purple markers remain, to tell
 Wordfast where the segment begins and ends.
 
-| |image32|
-
-.. |image32| image:: guide:wordfast4.jpg
-
- |
+.. image:: /_static/wordfast4.jpg
 
 .. _../pages/guide/introduction_to_wordfast#4.5_type_in_the_translation_again:
 
@@ -242,11 +226,7 @@ Wordfast where the segment begins and ends.
 
 In the screenshot below, the translation has been typed in again.
 
-| |image500|
-
-.. |image500| image:: guide:wordfast5.jpg
-
- |
+.. image:: /_static/wordfast5.jpg
 
 .. _../pages/guide/introduction_to_wordfast#4.6_end_the_translation_session:
 
@@ -257,11 +237,7 @@ At any time the translator can "end the session" by closing the current segment
 and not moving on to the next segment.  In the screenshot below, the session
 automatically ended because the last segment was reached.
 
-| |image562|
-
-.. |image562| image:: guide:wordfast6.jpg
-
- |
+.. image:: /_static/wordfast6.jpg
 
 .. _../pages/guide/introduction_to_wordfast#4.7_hide_hidden_text:
 
@@ -272,11 +248,7 @@ In the screenshot below, the translator had pressed Ctrl+comma (i.e. "toggle
 hidden text").  Only the text that doesn't have the "hidden" attribute is
 displayed.  This is also what the document would look like after clean-up.
 
-| |image9|
-
-.. |image9| image:: guide:wordfast7.jpg
-
- |
+.. image:: /_static/wordfast7.jpg
 
 .. _../pages/guide/introduction_to_wordfast#5._clean_the_file:
 

@@ -61,12 +61,6 @@ The first time with Poedit
 
 Once Poedit is started you will see the translation interface.
 
-| |image870|
-
-.. |image870| image:: poedit_windows.jpg
-
- |
-
 Click file open to open and existing PO file.  If you have no PO file or only a
 POT file.  Then simply copy the POT file so that it ends in .po
 
