@@ -20,7 +20,7 @@ think the contents of the variable are self explanatory think again.
 
 Here is an example of a poorly commented message:
 
-::
+.. code-block:: po
 
     msgid "%s returned %s after %s"
 
@@ -30,7 +30,7 @@ translated so lets help the localiser.
 
 A better implmenetation would have the following:
 
-::
+.. code-block:: po
 
     # %s - a URL
     # %s - the error message
@@ -51,7 +51,7 @@ reordered.
 
 A fictitious translation of the above examples may appear like this:
 
-::
+.. code-block:: po
 
     msgid "%s returned %s after %s"
     msgstr "Returning %2s was %1s after %3s"

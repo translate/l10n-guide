@@ -55,7 +55,9 @@ FIXME update for SVN
 
 If you have made changes or wish to install the latest translations for your
 language from CVS do the following after checking out the kde-i18n module from
-CVS. ::
+CVS.
+
+.. code-block:: bash
 
     $ cd kde-i18n
     $ echo XX > inst-apps # Where XX is your language's ISO code
@@ -70,7 +72,9 @@ Updating all translations manually
 ==================================
 
 You can update all translations manually instead of waiting for KDE's automatic
-update bot called scripty.  ::
+update bot called scripty.
+
+.. code-block:: bash
 
     $ cd kde-i18n
     $ cvs up templates
@@ -87,12 +91,16 @@ Comitting to CVS
 
 FIXME fix for SVN
 
-Always check the PO files by running::
+Always check the PO files by running:
+
+.. code-block:: bash
 
     $ cd kde-i18n
     $ check_po_files xx
 
-Where xx is your language code.  Also running msgfmt in check mode ::
+Where xx is your language code.  Also running msgfmt in check mode
+
+.. code-block:: bash
 
     $ msgfmt --check -o /dev/null some-file.po
 
@@ -102,7 +110,9 @@ Checking accelerators
 =====================
 
 You now need to add the following to your kdeglobals in order to use the F12
-accelerator check feature::
+accelerator check feature:
+
+.. code-block:: ini
 
     [Development]
     CheckAccelerators=F12

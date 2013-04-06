@@ -15,7 +15,9 @@ languages that do not follow the English convention.
 Why do you need this system?
 ============================
 
-Why not just write a piece of code like this::
+Why not just write a piece of code like this:
+
+.. code-block:: python
 
     if ( n == 1 ) then
     	print "1 file"
@@ -36,13 +38,17 @@ When to use plurals in your application
 =======================================
 
 If you have numbers in the singular and plural form then use the plural
-construct::
+construct:
+
+.. code-block:: po
 
   "%n file"
   "%n files"
 
 However, if you do not have number in the construct then rather keep them as
-separate strings::
+separate strings:
+
+.. code-block:: po
 
   "Save the file"
   "Save the files"
@@ -52,7 +58,9 @@ separate strings::
 What do plurals look like in the PO file?
 =========================================
 
-On KDE with a 3 plural form language::
+On KDE with a 3 plural form language:
+
+.. code-block:: po
 
     msgid ""
     "%n file\n"
@@ -62,7 +70,9 @@ On KDE with a 3 plural form language::
     "%n form 2\n"
     "%n form 3"
 
-Gettext with a two form language::
+Gettext with a two form language:
+
+.. code-block:: po
 
     msgid "%n file"
     msgid_plural "%n files"
@@ -72,7 +82,9 @@ Gettext with a two form language::
 Also in Gettext style plurals the PO file header has an entry for the plural
 form which defines the number of plurals as well as the mathematical function
 to determine which one to use depending on the input number.  Here is an
-example which would work for English::
+example which would work for English:
+
+.. code-block:: po
 
     Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;
 

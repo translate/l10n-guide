@@ -7,8 +7,14 @@ Translating Equations
 These are not equations in the mathematical sense but here we refer to items in
 the translation that have an equals sign. 
 
-^ English  | Form contains enctype=%S, but does not contain method=post.  Submitting normally with method=GET and no enctype instead. |
-^ Afrikaans  | Vorm bevat enctype=%S, maar bevat nie method=post nie.  Dien soos gewoonlik in met method=GET en sonder enctype in plaas daarvan. |
++------------+--------------------------------------------------------------+
+| English    | Form contains enctype=%S, but does not contain method=post.  |
+|            | Submitting normally with method=GET and no enctype instead.  |
++------------+--------------------------------------------------------------+
+| Afrikaans  | Vorm bevat enctype=%S, maar bevat nie method=post nie.  Dien |
+|            | soos gewoonlik in met method=GET en sonder enctype in plaas  |
+|            | daarvan.                                                     |
++------------+--------------------------------------------------------------+
 
 Usually these equations refer to real values that appear in a programs
 configuration file or they refer to items that would appear in the header of
@@ -30,7 +36,9 @@ When should I translate the right hand side of an equation?
 
 This will be on a case by case basis.  In the example above you would not
 translate the right hand side (RHS) as it is a variable value.  However if the
-following was presented.  ::
+following was presented.
+
+.. code-block:: ini
 
   Description=A program for highlighting widgets
 

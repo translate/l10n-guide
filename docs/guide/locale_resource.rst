@@ -18,15 +18,14 @@ construction of your locale files:
   <http://www.geonames.de/languages.html>`_
 * `Country details names <http://www.geonames.de/couza.html>`_ (replace with
   your country ISO code in the URL)
-* :doc:`Car license plate numbers
-  <wp>list_of_international_license_plate_codes>`
-* :doc:`Dialing codes <wp>list_of_country_calling_codes>`
-* :doc:`International call prefixes <wp>list_of_international_call_prefixes>`
+* :wp:`Car license plate numbers <list_of_international_license_plate_codes>`
+* :wp:`Dialing codes <list_of_country_calling_codes>`
+* :wp:`International call prefixes <list_of_international_call_prefixes>`
   (ie what you use to dialout)
-* :doc:`ISBN book numbers <wp>isbn>` (`2
+* :wp:`ISBN book numbers <isbn>` (`2
   <http://www.isbn-international.org/identifiers/allidentifiers.html>`_)
-* :doc:`ISO 3166 2 letter country code <wp>iso_3166-1_alpha-2>` and :doc:`3
-  letter codes <wp>iso_3166-1_alpha-3>` (not many really): 
+* :wp:`ISO 3166 2 letter country code <iso_3166-1_alpha-2>` and :wp:`3 letter
+  codes <iso_3166-1_alpha-3>` (not many really): 
 
   * `ISO 639 language codes
     <http://www.loc.gov/standards/iso639-2/englangn.html>`_ (`Request a new

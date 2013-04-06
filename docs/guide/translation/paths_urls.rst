@@ -68,10 +68,15 @@ Extensions
 
 A file is made up of the:
 
-| path  |  **/the/path/to/**file.doc  |
-| filename  | /the/path/to/**file.doc**  |
-| basename  | /the/path/to/**file**.doc  |
++------------+----------------------------+
+| path       | **/the/path/to/**file.doc  |
++------------+----------------------------+
+| filename   | /the/path/to/**file.doc**  |
++------------+----------------------------+
+| basename   | /the/path/to/**file**.doc  |
++------------+----------------------------+
 | extension  | /the/path/to/file.**doc**  |
++------------+----------------------------+
 
 The file extension is thus the characters that appear after the last fullstop
 in a filename.  You do not translate the file extension but you do translate
@@ -112,6 +117,10 @@ you would translate: example, directory and filename.
 
 You would not translate:
 
-| http  | the protocols are not translatable  |
-| .com  | top level doamns are also not translatable  |
++--------+---------------------------------------------------+
+| http   | the protocols are not translatable                |
++--------+---------------------------------------------------+
+| .com   | top level doamns are also not translatable        |
++--------+---------------------------------------------------+
 | .html  | is a file extension and therefore not translated  |
++--------+---------------------------------------------------+

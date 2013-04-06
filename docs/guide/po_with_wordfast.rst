@@ -94,21 +94,27 @@ the lines are unwrapped).
 
 What is duplication (just in case you don't know)?
 
-Here is an unduplicated PO string::
+Here is an unduplicated PO string:
+
+.. code-block:: po
 
   # This is a comment.
   # This is another comment.
   msgstr "This is the source text."
   msgid ""
 
-Here is a duplicated PO string::
+Here is a duplicated PO string:
+
+.. code-block:: po
 
   # This is a comment.
   # This is another comment.
   msgstr "This is the source text."
   msgid "This is the source text."
 
-Here is a translated PO string::
+Here is a translated PO string:
+
+.. code-block:: po
 
   # This is a comment.
   # This is another comment.

@@ -50,9 +50,9 @@ Booting
 ===============  ==========  ==========================================================================================
  Stage            Messages    Description                                                                                
 ===============  ==========  ==========================================================================================
- Grub             -           not sure how to localise (localisation not implemented only scheduled post 1.0 release)    
+ Grub              ?          not sure how to localise (localisation not implemented only scheduled post 1.0 release)    
  kernel                       The Linux kernel messages are localisable                                                  
- Locale files     -           needed by some initscripts to display date                                                 
+ Locale files      ?          needed by some initscripts to display date                                                 
  Initscripts       29         only 'sysinit' and some 'init.d/funtions'                                                  
  rhgb              29                                                                                                    
  Kudzu             70                                                                                                    

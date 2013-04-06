@@ -28,14 +28,18 @@ Do not translate the actual markers.  HTML consists of tags which indicate the
 start and end of a section of text.  This text could be a heading, a paragraph,
 a hyperlink or just a piece of text to display in bold:
 
-* <h1>A heading</h1>
-* <p>A paragraph</p>
-* <a href=bob.html>A hyperlink</a>
-* This is normal and <b>this is bold</b>
+.. code-block:: html
 
-Some markers just beg to be translated, such as these::
+   <h1>A heading</h1>
+   <p>A paragraph</p>
+   <a href=bob.html>A hyperlink</a>
+   This is normal and <b>this is bold</b>
 
-  <title>, <center>, <body>
+Some markers just beg to be translated, such as these:
+
+.. code-block:: html
+
+   <title>, <center>, <body>
 
 Do not be tempted - these need to remain in English.
 
@@ -66,8 +70,12 @@ above the value "blue" should not be translated.
 
 There are only a few values that can be translated:
 
-| alt  | found in the img (image) tag and used to give a textual description of the picture that will be loaded. This is essential for people with disabilities |
-| title  | a text title that pops up when you hover something, exactly like a tooltip |
++--------+-----------------------------------------------------------------------------+
+| alt    | found in the img (image) tag and used to give a textual description of the  |
+|        | picture that will be loaded. This is essential for people with disabilities |
++--------+-----------------------------------------------------------------------------+
+| title  | a text title that pops up when you hover something, exactly like a tooltip  |
++--------+-----------------------------------------------------------------------------+
 
 In some cases you might also need to change the "lang" or "dir" attributes.
 This is best left to people with good knowledge of HTML.

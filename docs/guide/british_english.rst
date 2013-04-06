@@ -25,9 +25,11 @@ spellings.
 Tools
 =====
 
-To initialise all the POT files to be fully translated::
+To initialise all the POT files to be fully translated:
 
-    for pot in `cd templates; find . -name "*.pot"`
+.. code-block:: bash
+
+    for pot in `cd templates; find . -name "\*.pot"`
     do 
       mkdir -p en_GB/`dirname $pot`
       msginit --locale=en_GB --no-translator -i templates/$pot -o en_GB/`dirname $pot`/`basename $pot .pot`.po

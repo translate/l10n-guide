@@ -92,15 +92,11 @@ read the manual pages.
 Gettextlog
 ==========
 
-The Gettextlog tool is available here:
+* The `Gettextlog tool website <http://sourceforge.net/projects/gettextlog/>`_
+* An `RPM is also available
+  <http://prdownloads.sourceforge.net/gettextlog/gettextlog-0.6-1.i386.rpm?download>`_
 
-``` <http://sourceforge.net/projects/gettextlog/>`_``
-
-An RPM is also available:
-
-``` <http://prdownloads.sourceforge.net/gettextlog/gettextlog-0.6-1.i386.rpm?download>`_``
-
-Once installed...
+Once installed ::
 
   export LD_PRELOAD=/file/to/gettextlog.so
 

@@ -38,29 +38,58 @@ of another filter which would be useful, please tell us.
 
 After all, Pootle is what we make of it.  :)
 
-|  **File format**  |  **filetype**  |  **Translate Toolkit**  |  **po4a**  |
-|  Comma-separated values  |  :ref:`CSV <toolkit:csv>`  |  √  |  |
-|  Dia diagrams (uncompressed)  |  |  |  √  |
-|  Docbook  |  xml  |   |  √  |
-|  Document Type Definition  |  dtd  |  √  |  |
-|  Guide  |  xml  |  |  √  |
-|  Hypertext Markup Language  |  html  |  √  |  |
-|  Kernel configuration help files  |  |  |  √  |
-|  LaTeX files  |  |  |  √  |
-|  Manpages  |  |  |  √  |
-|  Mozilla translation project  |  |  √  |    |
-|  Nannoblogger files  |  nb  |  √  |    |
-|  Open Office translation project  |  |  √  |    |
-|  POD data  |  pod  |  |  √  |
-|  Portable Object Template  |  pot  |  √  |    |
-|  Standard Generalized Markup Language  |  sgml  |   |  √  |
-|  TeX documents and derivates  |  |  |  √  |
-|  Translation Memory eXchange  |  :ref:`TMX <toolkit:tmx>`  |  √  |    |
-|  Qt Linguist  |  ts  |  √  |    |
-|  OpenOffice.org Writer  |  sxw  |  √  |    |
-|  Text file  |  txt  |  √  |  √  |
-|  XML Localization Interchange File Format  |  .xliff   |  √  |    |
-|  eXtensible Markup Language  |  .xml  |  |  √  |
++------------------------------+-----------+-----------+-------+
+| File format                  |  filetype | Translate |       |
+|                              |           | Toolkit   |  po4a |
++==============================+===========+===========+=======+
+| Comma-separated values       |  CSV      |  √        |       |
++------------------------------+-----------+-----------+-------+
+| Dia diagrams (uncompressed)  |           |           |  √    |
++------------------------------+-----------+-----------+-------+
+| Docbook                      |  xml      |           |  √    |
++------------------------------+-----------+-----------+-------+
+| Document Type Definition     |  dtd      |  √        |       |
++------------------------------+-----------+-----------+-------+
+| Guide                        |  xml      |           |  √    |
++------------------------------+-----------+-----------+-------+
+| Hypertext Markup Language    |  html     |  √        |       |
++------------------------------+-----------+-----------+-------+
+| Kernel configuration help    |           |           |  √    |
+| files                        |           |           |       |
++------------------------------+-----------+-----------+-------+
+| LaTeX files                  |           |           |  √    |
++------------------------------+-----------+-----------+-------+
+| Manpages                     |           |           |  √    |
++------------------------------+-----------+-----------+-------+
+| Mozilla translation project  |           |  √        |       |
++------------------------------+-----------+-----------+-------+
+| Nannoblogger files           |  nb       |  √        |       |
++------------------------------+-----------+-----------+-------+
+| Open Office translation      |           |  √        |       |
+| project                      |           |           |       |
++------------------------------+-----------+-----------+-------+
+| POD data                     |  pod      |           |  √    |
++------------------------------+-----------+-----------+-------+
+| Portable Object Template     |  pot      |  √        |       |
++------------------------------+-----------+-----------+-------+
+| Standard Generalized Markup  |  sgml     |           |  √    |
+| Language                     |           |           |       |
++------------------------------+-----------+-----------+-------+
+| TeX documents and derivates  |           |           |  √    |
++------------------------------+-----------+-----------+-------+
+| Translation Memory eXchange  |  tmx      |  √        |       |
++------------------------------+-----------+-----------+-------+
+| Qt Linguist                  |  ts       |  √        |       |
++------------------------------+-----------+-----------+-------+
+| OpenOffice.org Writer        |  sxw      |  √        |       |
++------------------------------+-----------+-----------+-------+
+| Text file                    |  txt      |  √        |  √    |
++------------------------------+-----------+-----------+-------+
+| XML Localization Interchange |  xliff    |  √        |       |
+| File Format                  |           |           |       |
++------------------------------+-----------+-----------+-------+
+| eXtensible Markup Language   |  xml      |           |  √    |
++------------------------------+-----------+-----------+-------+
 
 Information on how to handle specific non-po files can be entered below.
 

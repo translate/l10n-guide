@@ -159,23 +159,23 @@ Program
 
 This is the suggested program that we use.
 
-======================================================================  ===============================================================
-                         Program                                                                                                         
-======================================================================  ===============================================================
-09:00                                                                   Arrive tea, Register (hand out program, translation guidelines)  
-09:30                                                                   Start - intro talk (very basics of translation)                  
-10:00                                                                   Translate short session                                          
-10:15                                                                   More talk covering more advanced topics                          
-11:00                                                                   Translate                                                        
-12:00                                                                   Lunch                                                            
-13:00                                                                   Translate                                                        
-14:00                                                                   Talk                                                             
-14:15                                                                   Translate                                                        
-15:00                                                                   Tea                                                              
-15:30                                                                   Translate (hand out evaluation forms)                            
-16:30                                                                   Close                                                            
-16:45                                                                   Continue Translating if you want                                 
-======================================================================  ===============================================================
+=================  ===============================================================
+    Program
+=================  ===============================================================
+09:00              Arrive tea, Register (hand out program, translation guidelines)
+09:30              Start - intro talk (very basics of translation)
+10:00              Translate short session
+10:15              More talk covering more advanced topics
+11:00              Translate
+12:00              Lunch
+13:00              Translate
+14:00              Talk
+14:15              Translate
+15:00              Tea
+15:30              Translate (hand out evaluation forms)
+16:30              Close
+16:45              Continue Translating if you want
+=================  ===============================================================
 
 This gives you 4 hours of translation time with none more than an hour long.
 Adjust as needed.  If you have a mixture of new and experienced translators

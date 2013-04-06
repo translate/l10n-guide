@@ -7,18 +7,72 @@ Translate@thon Hall of Fame
 If you have held a Translate@thon or Localisation Sprint then add yourself to
 the Hall of Fame.
 
-=================================================================================  ===============================================  =======================================================================  ====================================  ================================================  ====================  ==================
- Date                                                                               Where                                            Language(s)                                                              Organisers                            Software Target                                   Results               Outcome            
-=================================================================================  ===============================================  =======================================================================  ====================================  ================================================  ====================  ==================
- :ref:`Feb 2004 <translateathon_halloffame#first_xhosa_translate_thon_in_cape_town_south_africa>`                                        UCT, Cape Town, South Africa                                             Xhosa                                 PRAESA, Translate.org.za, WC Language Comittee    Mozilla                                  
- Jan 2005                                                                           UCT, Cape Town, South Africa                     Xhosa                                                                    PRAESA, Translate.org.za              Firefox 1.0                                       8000 words            =)                 
- Mar 2005                                                                           UCT, Cape Town, South Africa                     Xhosa                                                                    PRAESA, Translate.org.za              Firefox 1.0                                       8000 words            :-)                
- Mar 2005                                                                           DIT, Durban, South Africa                        Zulu                                                                     DIT, Translate.org.za                 Firefox 1.0                                       4000 words            :-)                
- May 2005                                                                           DIT, Durban, South Africa                        Zulu                                                                     DIT, Translate.org.za                 Firefox 1.0                                       4000 words            :-\                
- April 2007                                                                         AITI, Accra, Ghana                               Yoruba, Twi, Wolof, Hausa, Gun, Akan, Vai, Yemba, N'ko, Krio, Amharic    FOSSFA, Translate.org.za              Tuxpaint, Worpress subset                         +- 600 per language   :-)                
- May 2007                                                                           Rhodes University, Grahamstown, South Africa     Xhosa                                                                    SANTED, Translate.org.za              Horde and IMP                                     10 000 words          :-)                
- Aug 2008                                                                           Makerere University, Kampala, Uganda             Luganda                                                                  Makerere, Rhodes, Translate.org.za    Firefox                                           ? words               :-) 300 students   
-=================================================================================  ===============================================  =======================================================================  ====================================  ================================================  ====================  ==================
+.. list-table::
+   :header-rows: 1
+
+   * - Date
+     - Where
+     - Language(s)
+     - Organisers
+     - Software Target
+     - Results
+     - Outcome
+   * - :ref:`Feb 2004 <translateathon_halloffame#first_xhosa_translate_thon>`
+     - UCT, Cape Town, South Africa
+     - Xhosa
+     - PRAESA, Translate.org.za, WC Language Comittee
+     - Mozilla
+     -
+     - :-)
+   * - Jan 2005
+     - UCT, Cape Town, South Africa
+     - Xhosa
+     - PRAESA, Translate.org.za
+     - Firefox 1.0
+     - 8000 words
+     - =)                 
+   * - Mar 2005
+     - UCT, Cape Town, South Africa
+     - Xhosa
+     - PRAESA, Translate.org.za
+     - Firefox 1.0
+     - 8000 words            
+     - :-)
+   * - Mar 2005
+     - DIT, Durban, South Africa
+     - Zulu
+     - DIT, Translate.org.za
+     - Firefox 1.0
+     - 4000 words
+     - :-)                
+   * - May 2005
+     - DIT, Durban, South Africa
+     - Zulu
+     - DIT, Translate.org.za
+     - Firefox 1.0
+     - 4000 words
+     - :-\                
+   * - April 2007
+     - AITI, Accra, Ghana
+     - Yoruba, Twi, Wolof, Hausa, Gun, Akan, Vai, Yemba, N'ko, Krio, Amharic
+     - FOSSFA, Translate.org.za
+     - Tuxpaint, Worpress subset
+     - +- 600 per language
+     - :-)                
+   * - May 2007
+     - Rhodes University, Grahamstown, South Africa
+     - Xhosa
+     - SANTED, Translate.org.za
+     - Horde and IMP
+     - 10 000 words
+     - :-)                
+   * - Aug 2008
+     - Makerere University, Kampala, Uganda
+     - Luganda
+     - Makerere, Rhodes, Translate.org.za
+     - Firefox
+     - ? words
+     - :-) 300 students   
 
 .. _../pages/guide/translateathon_halloffame#comment_on_your_event:
 
@@ -29,7 +83,7 @@ Please do not add too many descriptive comments rather add comments that you
 feel would help other people run an event in the future.  Also use this area to
 highlight why you rated your outcome as you did in the table above.
 
-.. _../pages/guide/translateathon_halloffame#first_xhosa_translate@thon_in_cape_town,_south_africa:
+.. _translateathon_halloffame#first_xhosa_translate_thon:
 
 First Xhosa Translate@thon in Cape Town, South Africa
 -----------------------------------------------------
@@ -44,7 +98,7 @@ integrate the work following the event and it took a long time to setup the
 computers.  There were a lot of people 20+ and only one techie which was
 difficult.
 
-.. _../pages/guide/translateathon_halloffame#localisation_training_and_translate@thon_in_accra,_ghana:
+.. _guide/translateathon_halloffame#localisation_training_and_translate@thon_in_accra,_ghana:
 
 Localisation training and Translate@thon in Accra, Ghana
 --------------------------------------------------------

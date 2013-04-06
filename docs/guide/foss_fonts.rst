@@ -111,7 +111,9 @@ do the work for you.  Here are the steps to be followed:
 #. Save as a fontforge .sfd file
 #. Use status.pl from the DejaVu project to create a coverage file
 
-This example creates a coverage file for Micrsoft's Arial Unicode font::
+This example creates a coverage file for Micrsoft's Arial Unicode font:
+
+.. code-block:: bash
 
     $ fontforge ARIALUNI.TTF # File Save As... and make sure you save an SFD file
     $ touch ArialUnicodeMS.status.txt

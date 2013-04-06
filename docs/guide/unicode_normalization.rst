@@ -39,11 +39,11 @@ normalize when comparing data, then throw it away.
 Python
 ------
 
-<code "python">
-import unicodedata
+.. code-block:: python
 
-string = unicodedata("NFC", string)
-</code>
+   import unicodedata
+   
+   string = unicodedata("NFC", string)
 
 You can replace NFC with NFD, NFCK or NFDK.  Read the Python docs for the
 `unicodedata <http://docs.python.org/lib/module-unicodedata.html>`_ module for

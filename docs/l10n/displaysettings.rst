@@ -42,24 +42,114 @@ the information. To specify the special characters for your language that
 Pootle should provide during editing, see
 :ref:`pootle:characters#special_characters`.
 
-=====  =================  =========================================================================  ===========================  ======================  ===================================================  =====================================
- ISO    English name       Fonts in order of preference                                               Font size adjustment         Hyperlink decoration    RTL                                                  Number system                         
-=====  =================  =========================================================================  ===========================  ======================  ===================================================  =====================================
- ar     Arabic             Tahoma, Nazli, DejaVu Sans                                                                                                      Yes                                                  Some prefer Arabic-Indic digits       
- bn     Bengali            FreeSans, Muktinarrow, Vrinda                                              110%, line-heigt:120%        ?                       No                                                   ...                                   
- fa     Persian            Terafik, Traffic, Roya, Nazli, Nazanin, sans                               120%                                                 Yes                                                  Eastern-Indic digits                  
- el     Greek              Dejavu                                                                                                                         No                                                                                          
- he     Hebrew                                                                                                                                             Yes                                                                                        
- ks     Kashmir                                                                                                                                            Yes                                                                                        
- ps     Pashtu                                                                                                                                             Yes                                                                                        
- ru     Russian            DejaVu Sans, Liberation Sans, FreeSans, Sans                                                                                    No                                                   support dashes and hyphens properly   
- ug     Uyghur             UKIJ Tuz Tom, Alkatip, Uyghur Ekran, Tahoma, Segoe UI, Microsoft Uighur                                                         Yes                                                                                        
- ur     Urdu               Nafees Nastalique, Nafees Web Naskh                                                                                             Yes                                                                                        
- vi     Vietnamese         Lucida Grande, Vu Phu Tho, `URWVN fonts <http://freshmeat.net/projects/urwvn/>_, DejaVu Sans    None                    No underline, no overline, change colour on hover    No                                    
- yi     Yiddish                                                                                                                                            Yes                                                                                        
- zh     Chinese                                                                                       120%                         underline               No                                                                                         
- fr     French             Arial                                                                                                                           yes                                                                                        
-=====  =================  =========================================================================  ===========================  ======================  ===================================================  =====================================
+.. list-table::
+   :header-rows: 1
+
+   * - ISO
+     - English name
+     - Fonts in order of preference
+     - Font size adjustment
+     - Hyperlink decoration
+     - RTL
+     - Number system
+   * - ar
+     - Arabic
+     - Tahoma, Nazli, DejaVu Sans
+     -
+     -
+     - Yes
+     - Some prefer Arabic-Indic digits
+   * - bn
+     - Bengali
+     - FreeSans, Muktinarrow, Vrinda
+     - 110%, line-heigt:120%
+     - ?
+     - No
+     - ...
+   * - fa
+     - Persian
+     - Terafik, Traffic, Roya, Nazli, Nazanin, sans
+     - 120%
+     -
+     - Yes
+     - Eastern-Indic digits
+   * - el
+     - Greek
+     - Dejavu
+     -
+     -
+     - No
+     -
+   * - he
+     - Hebrew
+     -
+     -
+     -
+     - Yes
+     -
+   * - ks
+     - Kashmir
+     -
+     -
+     -
+     - Yes
+     -
+   * - ps
+     - Pashtu
+     -
+     -
+     -
+     - Yes
+     -
+   * - ru
+     - Russian
+     - DejaVu Sans, Liberation Sans, FreeSans, Sans
+     -
+     -
+     - No
+     - support dashes and hyphens properly
+   * - ug
+     - Uyghur
+     - UKIJ Tuz Tom, Alkatip, Uyghur Ekran, Tahoma, Segoe UI, Microsoft Uighur
+     -
+     -
+     - Yes
+     -
+   * - ur
+     - Urdu
+     - Nafees Nastalique, Nafees Web Naskh
+     -
+     -
+     - Yes
+     -
+   * - vi
+     - Vietnamese
+     - Lucida Grande, Vu Phu Tho, `URWVN fonts <http://freshmeat.net/projects/urwvn/>`_, DejaVu Sans
+     - None
+     - No underline, no overline, change colour on hover
+     - No
+     - Arabic digits, comma is decimal separator, dot is thousands separator
+   * - yi
+     - Yiddish
+     -
+     -
+     -
+     - Yes
+     -
+   * - zh
+     - Chinese
+     -
+     - 120%
+     - Underline
+     - No
+     -
+   * - fr
+     - French
+     - Arial
+     -
+     -
+     - Yes
+     -
 
 .. _../pages/l10n/displaysettings#external_links:
 

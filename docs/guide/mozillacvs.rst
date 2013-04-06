@@ -47,7 +47,9 @@ So, for a full Firefox localization, you need the firefox specific components
 plus the shared components, and the same concept applies for Thunderbird. For
 that purpose, and to make as easy as possible, here's a bash script that, with
 proper customization, allows to specify which components to pull, along with
-the branch version. I call this script ``cvsco.sh``::
+the branch version. I call this script ``cvsco.sh``:
+
+.. code-block:: bash
 
     #!/bin/bash
 
@@ -103,7 +105,9 @@ Dealing with translation
 
 If there is some previous work for your locale, or you want to take a look at
 what files are and how the directory structure looks like, I have another
-script for this, that I call ``cvscol10n.sh``::
+script for this, that I call ``cvscol10n.sh``:
+
+.. code-block:: bash
 
     #!/bin/bash
     if [ "$1" = "" ]; then

@@ -136,9 +136,9 @@ For reference:
   won't work with Thunderbird): (Make sure that you are not putting in smart
   (round) quotes produced by the wiki software)
 
-::
-
-    javascript:(function(){var p=2;var cs=window.getComputedStyle(document.documentElement,null);var fs=cs.getPropertyCSSValue('font-size').getFloatValue(5);var w=cs.getPropertyCSSValue('width').getFloatValue(5);var h=cs.getPropertyCSSValue('height').getFloatValue(5);prompt('Dialog size:', 'width: '+Math.ceil(w/fs*p)/p+'; height: '+Math.ceil(h/fs*p)/p+';');})();
+  .. code-block:: javascript
+  
+      javascript:(function(){var p=2;var cs=window.getComputedStyle(document.documentElement,null);var fs=cs.getPropertyCSSValue('font-size').getFloatValue(5);var w=cs.getPropertyCSSValue('width').getFloatValue(5);var h=cs.getPropertyCSSValue('height').getFloatValue(5);prompt('Dialog size:', 'width: '+Math.ceil(w/fs*p)/p+'; height: '+Math.ceil(h/fs*p)/p+';');})();
 
 * Browse to the correct XUL file with Firefox, for example
   ``chrome://browser/components/preferences/preferences.xul``.

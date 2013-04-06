@@ -73,9 +73,13 @@ POT file.  Then simply copy the POT file so that it ends in .po
 With a PO file open you will see all strings in the top part of the interface.
 Strings are shown in different colours:
 
-| Cyan  | untranslated  |
++---------+-----------------------------------------------------------------+
+| Cyan    | untranslated                                                    |
++---------+-----------------------------------------------------------------+
 | Yellow  | fuzzy - needs to be examined and might need to be retranslated  |
-| White  | translated  |
++---------+-----------------------------------------------------------------+
+| White   | translated                                                      |
++---------+-----------------------------------------------------------------+
 
 You translate in the lower half of the interface. The original string or
 English string appears in the left.  You type your translations in the bottom

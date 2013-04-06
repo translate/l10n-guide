@@ -17,14 +17,15 @@ This mechanism could also be used in locales with multiple keyboards to ensure
 that only characters that appear on all keyboards are used in the locale in
 which case you might specify a list that is shorter then the normal English.
 
-.. note::
+.. note:: Please enter the full set of characters for your language including
+   lower and capital letters.  Start with common Latin characters and add your
+   specific diacritics at the end.  Please provide a reason so that future
+   language users know why you have chosen the given set if needed.
 
-    Please enter the full set of characters for your language including lower
-    and capital letters.  Start with common Latin characters and add your
-    specific diacritics at the end.  Please provide a reason so that future
-    language users know why you have chosen the given set if needed.
-xxx
-
-^ Language  ^ Characters   ^  Reason  ^
-| English   | abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890   | |
++-----------+-------------------------------------------------------------------------+-----------------------+
+| Language  | Characters                                                              |  Reason               |
++===========+=========================================================================+=======================+
+| English   | abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890        |                       |
++-----------+-------------------------------------------------------------------------+-----------------------+
 | Finish    | abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890 äöÄÖ   | Bug :bug:`289 <289>`  |
++-----------+-------------------------------------------------------------------------+-----------------------+

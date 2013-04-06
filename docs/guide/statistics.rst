@@ -10,11 +10,11 @@ It is always nice to track statistics for your projects.
   hosted files
 * :ref:`toolkit:pocount` can output word and string statistics
   for files (can also output to CSV files for use in a spreadsheet)
-* :ref:`Czech OpenOffice.org teams stats tool
-  <../pages/developers/project_statistics#czech_openoffice.org_teams_stats_tool>`
-* :ref:`KDE statistics pages
-  <../pages/developers/project_statistics#kde_statistics_pages>`
-* :ref:`Kumulate <../pages/developers/project_statistics#kumulate>`
+* :wiki:`Czech OpenOffice.org teams stats tool
+  <developers/project_statistics#czech_openoffice.org_teams_stats_tool>`
+* :wiki:`KDE statistics pages
+  <developers/project_statistics#kde_statistics_pages>`
+* :wiki:`Kumulate <developers/project_statistics#kumulate>`
 
 .. _../pages/guide/statistics#czech_openoffice.org_teams_stats_tool:
 

@@ -12,8 +12,8 @@ Resources
 * A simple explanation of `TeX based hyphenation
   <http://www.tex.ac.uk/cgi-bin/texfaq2html?label=hyphen>`_ --- OpenOffice.org
   uses the same TeX files to hyphenate
-* `patgen <http://www.die.net/doc/linux/man/man1/patgen.1.html>`_ --- creates
-  Hypenation pattern files from a set of good hyphenations
+* :man:`patgen` --- creates Hypenation pattern files from a set of good
+  hyphenations
 * Frank Liang, `Word hy-phen-a-tion by com-puter
   <http://www.tug.org/docs/liang/>`_, STAN-CS-83-977, Stanford University Ph.D.
   thesis, 1983. --- the creator of the Hyphenation system in TeX

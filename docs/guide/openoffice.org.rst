@@ -169,7 +169,9 @@ following::
 Your'll need to edit DocumentList.csv to remove some of the remaining XML data.  
 
 A cleaner method is to use the following XSLT - this way you don't have to
-clean any XML data (so this is suitable for batch mode)::
+clean any XML data (so this is suitable for batch mode):
+
+.. code-block:: xml
 
     <?xml version="1.0" ?>
 

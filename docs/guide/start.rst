@@ -525,7 +525,7 @@ Notes to programmers
   * `KDE Programmer's i18n howto
     <http://developer.kde.org/documentation/library/kdeqt/kde3arch/kde-i18n-howto.html>`_
 
-* :doc:`Working with Gettext <programmers/gettext>`
+* :wiki:`Working with Gettext <programmers/gettext>`
 * :doc:`Plurals <plurals_programmers>`
 * :doc:`Variables <variables_programmers>`
 * :doc:`translation_comments`

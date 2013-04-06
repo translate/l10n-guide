@@ -13,7 +13,9 @@ We have given examples of some false positives also.
 Double Spacing
 ==============
 
-Notice the double space in "lefoko  la".  ::
+Notice the double space in "lefoko  la".
+
+.. code-block:: po
 
     #: NoColorError
     #, fuzzy
@@ -23,7 +25,9 @@ Notice the double space in "lefoko  la".  ::
     "tobetsa mmala kgotsa tsenya lefoko  la mmala la html le le letleletsweng"
 
 The following is a false postive, notice that the double space ("account.
-There") is in the msgid.  ::
+There") is in the msgid.
+
+.. code-block:: po
 
     #: accountSettingsDesc.label
     #, fuzzy
@@ -39,7 +43,9 @@ There") is in the msgid.  ::
 End Punctuation
 ===============
 
-The sentence is missing a fullstop.  ::
+The sentence is missing a fullstop.
+
+.. code-block:: po
 
     #: MissingSiteNameError
     #, fuzzy
@@ -47,7 +53,9 @@ The sentence is missing a fullstop.  ::
     msgid "Please enter a name for this publishing site."
     msgstr "ka kopa tsenyetsa letlakala le la phatlalatso leina"
 
-The sentence is missing and elipse (...) ::
+The sentence is missing and elipse (...)
+
+.. code-block:: po
 
     #: AdvancedProperties
     #, fuzzy
@@ -55,7 +63,9 @@ The sentence is missing and elipse (...) ::
     msgid "Advanced Properties..."
     msgstr "ditiro tsa maemo a kwa godim"
 
-Missing colon (:) ::
+Missing colon (:)
+
+.. code-block:: po
 
     #: JobTitle.label
     #, fuzzy
@@ -63,7 +73,9 @@ Missing colon (:) ::
     msgid "Title:"
     msgstr "Setlha"
 
-The end contains a space before the colon which shouldn't be there.  ::
+The end contains a space before the colon which shouldn't be there.
+
+.. code-block:: po
 
     #: addressMessageTo.label
     #, fuzzy
@@ -73,7 +85,9 @@ The end contains a space before the colon which shouldn't be there.  ::
 
 Notice that the msgid is incorrect (it only has 2 dors) and the msgstr has been
 corrected.  Leave this as it is as the msgstr is now correct.  Also report this
-as an error against the application.  ::
+as an error against the application.
+
+.. code-block:: po
 
     #: saveAll.label
     #, fuzzy
@@ -81,7 +95,9 @@ as an error against the application.  ::
     msgid "Save All.."
     msgstr "Boloka tsotlhe..."
 
-There should be a space before "->" ::
+There should be a space before "->"
+
+.. code-block:: po
 
     #: fieldMapExport.add
     #, fuzzy
@@ -89,7 +105,9 @@ There should be a space before "->" ::
     msgid "Add Field ->"
     msgstr "Atisa lebala->"
 
-The msgstr should end in ? but it ends in .  ::
+The msgstr should end in ? but it ends in .
+
+.. code-block:: po
 
     #: PKCS12PasswordInvalid
     #, fuzzy
@@ -101,7 +119,9 @@ The msgstr should end in ? but it ends in .  ::
     "Ga ya kgona go sirolola PKCS #12 file.  Gongwe lefoko-phetiso leo o le "
     "tsentseng le fosagetse."
 
-The closing bracket should be a round bracket not a curly bracket.  ::
+The closing bracket should be a round bracket not a curly bracket.
+
+.. code-block:: po
 
     #: UnknownCertIssuer
     #, fuzzy
@@ -114,7 +134,9 @@ The closing bracket should be a round bracket not a curly bracket.  ::
 End Whitespace
 ==============
 
-Remove the extra whitespace at the end.  ::
+Remove the extra whitespace at the end.
+
+.. code-block:: po
 
     #: deleteCardCmd.label
     #, fuzzy
@@ -129,7 +151,9 @@ Start Punctuation
 =================
 
 False positive. The translation is correct, although you might want to define a
-policy on how you handle this form of plural.  ::
+policy on how you handle this form of plural.
+
+.. code-block:: po
 
     #: SuccessfulP12Backup
     #, fuzzy
@@ -145,7 +169,9 @@ policy on how you handle this form of plural.  ::
 Start Whitespace
 ================
 
-The space at the beginning of the message should be deleted.  ::
+The space at the beginning of the message should be deleted.
+
+.. code-block:: po
 
     #: DisableDlgTitle
     #, fuzzy
@@ -154,7 +180,9 @@ The space at the beginning of the message should be deleted.  ::
     msgid "%S Quick Launch"
     msgstr " %S Quick Launch"
 
-The space at the beginning of the message should be deleted.  ::
+The space at the beginning of the message should be deleted.
+
+.. code-block:: po
 
     #: ko
     #, fuzzy
@@ -168,7 +196,9 @@ The space at the beginning of the message should be deleted.  ::
 Numbers
 =======
 
-The number 1252 does not appear in the translation.  ::
+The number 1252 does not appear in the translation.
+
+.. code-block:: po
 
     #: windows-1252.title
     #, fuzzy
@@ -176,7 +206,9 @@ The number 1252 does not appear in the translation.  ::
     msgid "Western (Windows-1252)"
     msgstr "Turkish (Windows-1254)"
 
-Might not be a problem if 2 has been written in full ::
+Might not be a problem if 2 has been written in full
+
+.. code-block:: po
 
     #: SSL2Disabled
     #, fuzzy
@@ -190,13 +222,17 @@ Might not be a problem if 2 has been written in full ::
 Variables
 =========
 
-&vendorShortName; should not have been translated.  ::
+&vendorShortName; should not have been translated.
+
+.. code-block:: po
 
     #: throbber.tooltip
     msgid "Go to the &vendorShortName; home page"
     msgstr "E ya ko &vendorKortNaam; go letlakala la le gae"
 
-&quot; should not have been translated ::
+&quot; should not have been translated
+
+.. code-block:: po
 
     #: incomingServerNameDesc.label
     #, fuzzy
@@ -210,7 +246,9 @@ Punctuation Spacing
 ===================
 
 There should be a space after , in "Ka sekai,netscape".  A single quote is also
-missing.  ::
+missing.
+
+.. code-block:: po
 
     #: abbreviateOn.label
     #, fuzzy
@@ -219,7 +257,9 @@ missing.  ::
     msgid "Full names (For example, 'netscape.public.mozilla.mail-news')"
     msgstr "Maina ka botlalo (Ka sekai,netscape.public.mozilla.posol-dikgang')"
 
-Space missing after colon.  ::
+Space missing after colon.
+
+.. code-block:: po
 
     #: unreadMsgStatus
     #, fuzzy
@@ -227,7 +267,9 @@ Space missing after colon.  ::
     msgid "Unread: %S"
     msgstr "Ga ja balwa:%S"
 
-Space missing after comma "kenna,o sutlhe" ::
+Space missing after comma "kenna,o sutlhe"
+
+.. code-block:: po
 
     #: defaultcharactersetBidiCmd.label
     #, fuzzy
@@ -239,7 +281,9 @@ Space missing after comma "kenna,o sutlhe" ::
     "tokomane e"
 
 Space missing after semi-colon "da dk;faele".  Also note missing minus between
-da and DK.  ::
+da and DK.
+
+.. code-block:: po
 
     # LOCALIZATION NOTE GROUP : DO not localize the entities below; test case
     #: da-DK-file.label
@@ -253,7 +297,9 @@ da and DK.  ::
 Short
 =====
 
-There is a missing sentence ::
+There is a missing sentence
+
+.. code-block:: po
 
     #: SIClueless
     #, fuzzy
@@ -269,7 +315,9 @@ There is a missing sentence ::
 Long
 ====
 
-The translation looks too long, it might be right but it is unlikely.  ::
+The translation looks too long, it might be right but it is unlikely.
+
+.. code-block:: po
 
     #: directionBidiMenu.label
     #, fuzzy
@@ -279,7 +327,7 @@ The translation looks too long, it might be right but it is unlikely.  ::
     "tshupetso e e diragadiwang fela fa ditshupetso tse dirulagantsweng go "
     "diragalapele sitwa godiragala."
 
-::
+.. code-block:: po
 
     #: mediaEncryption
     #, fuzzy
@@ -295,7 +343,9 @@ Unchanged
 The english has not been translated.  The word plugin is translatable.  In fact
 this example show two more errors, the start capital is missing and the colon
 is also missing.  So this translators took an English string and replace it
-with an untranslated and badly formated string.  ::
+with an untranslated and badly formated string.
+
+.. code-block:: po
 
     #: mediaPlugin
     #, fuzzy
@@ -309,7 +359,9 @@ URLs and Emails
 ===============
 
 This is a well translated email address in this case it was used as an example
-so is translated ::
+so is translated
+
+.. code-block:: po
 
     #: emailExample.label
     #, fuzzy

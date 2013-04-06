@@ -64,7 +64,7 @@ Web based corpus building
 A corpus is a body of text used by language researchers and spell checker
 builder.  You can find missing or new words for your spell checker by scanning
 the web.  There are free tools that you can use to build your own web-based
-corpus. We developed :doc:`CorpusCatcher <corpuscatcher/index>` for this
+corpus. We developed :wiki:`CorpusCatcher <corpuscatcher/index>` for this
 purpose.
 
 Other possibilities: corpusbuilder and text_cat (FIXME How to use these).  The

@@ -32,12 +32,20 @@ Tools
 The following are tools located in the the Translate.org.za Subversion
 repository.  They are useful for building and testing glibc locales:
 
-| `missing <http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/missing?view=markup>`_       | determines if a locale file has a certain locale field or not.  |
-| `error <http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/errors?view=markup>`_         | displays any compilation errors detected                        |
-| `install <http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/install?view=markup>`_       | performs a test install (use -r for a real install - must be root)  |
-| `definition <http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/definition?view=markup>`_    | prints the value of a locale field (installed locales only)     |
-| `locale-escape <http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/locale-escape?view=markup>`_ | converts your locale into <UNNNN> format                            |
-| `check-dates <http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/check-dates?view=markup>`_   | prints a list of the LC_TIME defined date formats for the locale    |
+.. list-table::
+   
+   * - `missing <http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/missing?view=markup>`_       
+     - determines if a locale file has a certain locale field or not.  
+   * - `error <http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/errors?view=markup>`_         
+     - displays any compilation errors detected                        
+   * - `install <http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/install?view=markup>`_       
+     - performs a test install (use -r for a real install - must be root)  
+   * - `definition <http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/definition?view=markup>`_    
+     - prints the value of a locale field (installed locales only)     
+   * - `locale-escape <http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/locale-escape?view=markup>`_ 
+     - converts your locale into <UNNNN> format                            
+   * - `check-dates <http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/check-dates?view=markup>`_   
+     - prints a list of the LC_TIME defined date formats for the locale    
 
 .. _../pages/guide/locales/glibc#editing:
 

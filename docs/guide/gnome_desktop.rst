@@ -386,7 +386,9 @@ We use the following scripts while making a translation memory IN-A-GLANCE::
     % grep 'el\.po' desktop.html developer-libs.html | awk -F\" '{print $6}' | sort | uniq |awk -F\/ '{print $4}' | awk '{printf "wget -O GNOME210-%s http://l10n-status.gnome.org/gnome-2.10/PO/%s\n", $1, $1}' | sh
 
 David Fraser has also created a script that pulls the files out of CVS after
-finding them on the l10n-status web page::
+finding them on the l10n-status web page
+
+.. code-block:: bash
 
     #!/bin/bash
       lang=$1

@@ -91,7 +91,7 @@ KDE style comments
 
 The appear to the translator like this:
 
-::
+.. code-block:: po
 
     msgid ""
     "_: The installation manual\n"

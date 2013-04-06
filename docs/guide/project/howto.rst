@@ -123,7 +123,9 @@ exasperating. :-\ )
 Headers
 ^^^^^^^
 
-Here is a blank set of .po file headers::
+Here is a blank set of .po file headers:
+
+.. code-block:: po
 
     # SOME DESCRIPTIVE TITLE.
     # Copyright (C) YEAR THE PACKAGE’S COPYRIGHT HOLDER
@@ -157,20 +159,20 @@ submitting the completed file), and you’ll save yourself hassle.
 There are two headers which may or may not appear in that block, but it’s
 better if they *do* appear. You can add them yourself:
 
-::
+.. code-block:: po
 
     "Report-Msgid-Bugs-To: \n"
 
 and
 
-::
+.. code-block:: po
 
     "Plural-Forms: nplurals=INTEGER; plural=INTEGER\n"
 
 so here we have a complete set (note the positions of those two additional
 headers):
 
-::
+.. code-block:: po
 
     # SOME DESCRIPTIVE TITLE.
     # Copyright (C) YEAR THE PACKAGE’S COPYRIGHT HOLDER
@@ -198,7 +200,7 @@ Each header has a job to do, so let’s go through them one-by-one:
 The title header
 """"""""""""""""
 
-::
+.. code-block:: po
 
     # SOME DESCRIPTIVE TITLE.
 
@@ -207,7 +209,7 @@ input the *name* of the program (not the version number). I’ll use the program
 Tuxpaint (an excellent art program for young children), and my language,
 Vietnamese, as the example in this section.
 
-::
+.. code-block:: po
 
     # Vietnamese translation of TuxPaint.
 
@@ -222,7 +224,7 @@ fixing the errors, when the file won’t parse.
 The copyright header
 """"""""""""""""""""
 
-::
+.. code-block:: po
 
     # Copyright (C) YEAR THE PACKAGE’S COPYRIGHT HOLDER
 
@@ -230,7 +232,7 @@ In the case of packages sent to the Translation Project, the software is
 usually open-source, free software, so the information here is usually (I’ll
 use this year):
 
-::
+.. code-block:: po
 
     # Copyright © 2005 Free Software Foundation, Inc.
 
@@ -241,7 +243,7 @@ typed Right Alt+c on a qwerty international keyboard.)
 Occasionally, a file will come with a proprietary copyright header: somebody
 has created, and claims copyright over this file (for example):
 
-::
+.. code-block:: po
 
     # Copyright © 2001-2005 Nguyễn Thị Hoa.
 
@@ -264,7 +266,7 @@ we can at the time, we all help each other. ^_^
 Associative copyright header
 """"""""""""""""""""""""""""
 
-::
+.. code-block:: po
 
     # This file is distributed under the same license as the PACKAGE package.
 
@@ -277,7 +279,7 @@ copyright issues for everybody.
 
 All you need to do here is insert the package name again:
 
-::
+.. code-block:: po
 
     # This file is distributed under the same license as the TuxPaint package.
 
@@ -286,7 +288,7 @@ All you need to do here is insert the package name again:
 The list of translators
 """""""""""""""""""""""
 
-::
+.. code-block:: po
 
     # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 
@@ -295,14 +297,14 @@ all. If it has been translated, even partially, before, the names of any
 previous translators will each occupy one header exactly like this. So if there
 is only one translator (I’ll use my name):
 
-::
+.. code-block:: po
 
     # Clytie Siddall <clytie@someserver.net.au>, 2005.
 
 However, if there have been previous translators, there will be more than one
 translator header, for example:
 
-::
+.. code-block:: po
 
     # pclouds <pclowds@anotherserver.com>, 2002.
     # Tran Minh Thanh <tmt@yahhooo.com>, 2004.
@@ -333,7 +335,7 @@ This makes it easier to read. You don’t need to do anything here. ;-)
 The fuzzy header
 """"""""""""""""
 
-::
+.. code-block:: po
 
     #, fuzzy
 
@@ -358,7 +360,7 @@ needs careful checking. More on that further down. 8-)
 The string pair
 """""""""""""""
 
-::
+.. code-block:: po
 
     msgid ""
     msgstr ""
@@ -375,7 +377,7 @@ marks. Do not alter this header.
 The package-version header
 """"""""""""""""""""""""""
 
-::
+.. code-block:: po
 
     "Project-Id-Version: PACKAGE VERSION\n"
 
@@ -387,7 +389,7 @@ way, from the original file-name.
 
 Original file-name: tuxpaint-2.1pre
 
-::
+.. code-block:: po
 
     "Project-Id-Version: Tuxpaint 2.1pre\n"
 
@@ -418,7 +420,7 @@ discuss the program and support each other on the program’s mailing list. ;-)
 The report-string-bugs header
 """""""""""""""""""""""""""""
 
-::
+.. code-block:: po
 
     "Report-Msgid-Bugs-To: \n"
 
@@ -461,7 +463,7 @@ with the filename as the subject line, and the body starting with:
 The creation date of this file
 """"""""""""""""""""""""""""""
 
-::
+.. code-block:: po
 
     "POT-Creation-Date: 2004-07-24 09:35+0200\n"
 
@@ -480,7 +482,7 @@ how to make time go backwards. LOL
 The last-change date header
 """""""""""""""""""""""""""
 
-::
+.. code-block:: po
 
     "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 
@@ -494,14 +496,14 @@ A .po editor program may do this automatically. You can do it manually at any
 stage. In BBEdit, you can create a glossary item using strftime variables (you
 can just save it and use it without having to understand how it works):
 
-::
+.. code-block:: po
 
     "PO-Revision-Date: #LOCALTIME %F %R%z#\n"
 
 which, anytime you select that whole header, will replace it with your local
 time and UTC offset. In my case, that is, as I write this sentence:
 
-::
+.. code-block:: po
 
     "PO-Revision-Date: 2005-05-16 14:58+0930\n"
 
@@ -523,7 +525,7 @@ editor, may do all this for you.)
 The most recent (last) translator header
 """"""""""""""""""""""""""""""""""""""""
 
-::
+.. code-block:: po
 
     "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 
@@ -542,7 +544,7 @@ been).
 
 So in my case, this header will show:
 
-::
+.. code-block:: po
 
     "Last-Translator: Clytie Siddall <clytie@someserver.net.au>\n"
 
@@ -551,7 +553,7 @@ So in my case, this header will show:
 The language-team header
 """"""""""""""""""""""""
 
-::
+.. code-block:: po
 
     "Language-Team: LANGUAGE <LL@li.org>\n"
 
@@ -564,13 +566,13 @@ Your language team will be the name of your language, and sometimes of the
 project. The address will often be the team mailing-list. So in my case, this
 header will be:
 
-::
+.. code-block:: po
 
     "Language-Team: Vietnamese <gnomevi-list@lists.thatserver.net>\n"
 
 or
 
-::
+.. code-block:: po
 
     "Language-Team: Gnome-Vi <gnomevi-list@lists.thatserver.net>\n"
 
@@ -579,7 +581,7 @@ or
 The MIME-version header
 """""""""""""""""""""""
 
-::
+.. code-block:: po
 
     "MIME-Version: 1.0\n"
 
@@ -591,7 +593,7 @@ great? :-D
 The Content-Type header
 """""""""""""""""""""""
 
-::
+.. code-block:: po
 
     "Content-Type: text/plain; charset=CHARSET\n"
 
@@ -600,7 +602,7 @@ UTF-8 is the best choice, but if your language requires another charset
 (character set), please input it here. I imagine this header will soon be
 filled in automatically as UTF-8. For my language:
 
-::
+.. code-block:: po
 
     "Content-Type: text/plain; charset=UTF-8\n"
 
@@ -613,7 +615,7 @@ systems. 8-O
 The Content-Transfer-Encoding header
 """"""""""""""""""""""""""""""""""""
 
-::
+.. code-block:: po
 
     "Content-Transfer-Encoding: 8bit\n"
 
@@ -627,7 +629,7 @@ developers.
 The Plural-Forms header
 """""""""""""""""""""""
 
-::
+.. code-block:: po
 
     "Plural-Forms: nplurals=INTEGER; plural=INTEGER\n"
 
@@ -637,7 +639,7 @@ header makes sure you have the correct number of fields to fill in with the
 translation. This varies considerably from one language to another. For my
 language:
 
-::
+.. code-block:: po
 
     "Plural-Forms: nplurals=1; plural=0\n"
 
@@ -646,7 +648,7 @@ you should see our pronoun collection… 8-)
 
 Some languages have several plural forms. A plural msgid looks like this:
 
-::
+.. code-block:: po
 
     msgid "Found and replaced %d occurrence."
     msgid_plural "Found and replaced %d occurrences."
@@ -655,7 +657,7 @@ Since English, the original language, *does* have plural forms in this sense.
 If your language behaves like English in this way, you will have two msgstr
 fields to fill in, like this:
 
-::
+.. code-block:: po
 
     msgid "Found and replaced %d occurrence."
     msgid_plural "Found and replaced %d occurrences."
@@ -664,7 +666,7 @@ fields to fill in, like this:
 
 but in my case, it should be:
 
-::
+.. code-block:: po
 
     msgid "Found and replaced %d occurrence."
     msgid_plural "Found and replaced %d occurrences."
@@ -751,8 +753,11 @@ it. One way or another, this disclaimer needs to arrive at the Free Software
 Foundation, and be logged under your name. When this has occurred, your name on
 your team page will show:
 
++-------------+--------------+
 |             |  Disclaimer  |  
++=============+==============+
 |  Your name  |     Yes      |
++-------------+--------------+
 
 The difference the disclaimer makes (apart from simplifying copyright issues as
 mentioned above, which is its reason for existence) is that most TP files are
@@ -1020,7 +1025,7 @@ blocks. :-D
 
 Here is the structure of a string block:
 
-::
+.. code-block:: po
 
     #.Type: boolean
     #.Description
@@ -1037,7 +1042,7 @@ which denote:
 A developer comment
 ^^^^^^^^^^^^^^^^^^^
 
-::
+.. code-block:: po
 
     #.I am a developer comment. :)
 
@@ -1050,7 +1055,7 @@ Report-Msgid-Bugs-To header. 8-)
 Here is an absolutely superb example of the developer comment, again from the
 Debian installer project:
 
-::
+.. code-block:: po
 
     #.Type: select
     #.Choices
@@ -1069,7 +1074,7 @@ You can’t go far wrong with that sort of help.
 Back to our first example, which still explains the string a lot better than
 the average .po document:
 
-::
+.. code-block:: po
 
     #.Type: boolean
     #.Description
@@ -1094,7 +1099,7 @@ While we’re on the comments topic, we translators can insert comments, too.
 Translator comments
 ^^^^^^^^^^^^^^^^^^^
 
-::
+.. code-block:: po
 
     # I am a translator comment. ;)
 
@@ -1108,13 +1113,13 @@ previous block (the "white space"): note the whole line before each quoted
 translator comment here. They have a # mark then a space: no punctuation mark.
 Thus, I have often inserted comments like this:
 
-::
+.. code-block:: po
 
     # Don’t translate this: it’s a variable. Đừng dịch chuỗi này vì là biến.
 
 So we might have:
 
-::
+.. code-block:: po
 
     # Don’t translate this: it’s a variable. Đừng dịch chuỗi này vì là biến.
     #. login window data
@@ -1169,14 +1174,14 @@ many accents, so I use «guillemots» instead. English language to the user from
 the computer is nearly always wrong for Vietnamese: I need to find the
 appropriate way to express what the string is really saying. For example:
 
-::
+.. code-block:: po
 
     msgid "Choosing a simple root password is a really dumb idea."
 
 is insulting in Vietnamese, and completely inappropriate, so my sentence in
 Vietnamese says something more like:
 
-::
+.. code-block:: po
 
     msgstr "It is not a good idea to choose a simple root password."
 
@@ -1193,14 +1198,14 @@ appropriate way to talk to the user.
 Obsolete strings
 ^^^^^^^^^^^^^^^^
 
-::
+.. code-block:: po
 
     #~ msgid "I am an obsolete string. Nobody loves me. Boo-hoo. :("
     #~ msgstr "Tôi là một chuỗi cũ. Không có ai thương tôi. Hu-hu. :(" 
 
 Strings starting with the hash # and tilde ~.
 
-::
+.. code-block:: po
 
     #~ msgid "Forward _Quoted"
     #~ msgstr "Chuyển tiếp _trích dẫn"
@@ -1261,7 +1266,7 @@ Make friends: it’s a great opportunity. :-D
 * Many files still have the older structure where each line break means
   stopping and starting the quotation marks again. This results in:
 
-::
+.. code-block:: po
 
     #: ../gedit/gedit-document.c:1964
     msgid ""
@@ -1274,7 +1279,7 @@ it), so although you must never edit the original strings, you can format the
 *translation* in the current style: one quotation mark at each end. So, in my
 file:
 
-::
+.. code-block:: po
 
     #: ../gedit/gedit-document.c:1964
     msgid ""
@@ -1290,7 +1295,7 @@ there is no formal line-break (\n). Where the \n character is present, I’ve
 found I have to leave quotation marks at the beginning and end of each line in
 the string, as formatted in the msgid. 
 
-::
+.. code-block:: po
 
     # Do not translate the upper-case quoted terms: they are values for the configuration. Đừng dịch kỹ thuật đã trích dẫn bằng chữ hoa vì là giá trị cho cấu hình.
     #: ../data/gedit.schemas.in.h:77
@@ -1318,7 +1323,7 @@ more or less lines in the translation than in the msgid. However, any line that
 had to be broken with a \n in the original string, must do the same in the
 translation. Let’s have a look at a few examples:
 
-::
+.. code-block:: po
 
     #: ../data/gedit.schemas.in.h:74
     msgid ""
@@ -1329,7 +1334,7 @@ translation. Let’s have a look at a few examples:
 This is correct, because my translation was shorter, so I *didn’t* need to
 break the line.
 
-::
+.. code-block:: po
 
     #: ../data/gedit.schemas.in.h:74
     msgid ""
@@ -1343,7 +1348,7 @@ original did, and I didn’t use a \n as it did.
 
 So this would be correct:
 
-::
+.. code-block:: po
 
     #: ../data/gedit.schemas.in.h:74
     msgid ""
@@ -1354,7 +1359,7 @@ So this would be correct:
 
 and even this:
 
-::
+.. code-block:: po
 
     #: ../data/gedit.schemas.in.h:74
     msgid ""
@@ -1383,7 +1388,7 @@ and it had better pay attention again. :-)
 This is all very well, but what if the string itself contains a quotation mark?
 Oops… let’s have a look:
 
-::
+.. code-block:: po
 
     #:../src/window-commands.c:162
     msgid "See the "Quick Help" for a list of commands."
@@ -1400,7 +1405,7 @@ Fortunately, we can *escape* this situation, by using the handy backslash. The
 backslash tells the parser to ignore what these quotation marks normally do. We
 end up with this, instead:
 
-::
+.. code-block:: po
 
     #:../src/window-commands.c:162
     msgid "See the \"Quick Help\" for a list of commands."
@@ -1425,7 +1430,7 @@ placeholders for the program: it has been told, for example, when you see the
 variable %s in string c:219, it should substitute the user name of the current
 user. In which case, the string in the .po file:
 
-::
+.. code-block:: po
 
     #: src/gbiff2.c:219
     #, c-format
@@ -1440,7 +1445,7 @@ if that is my username on that system.
 So simply translating it, and leaving the variable where it is, would probably
 work:
 
-::
+.. code-block:: po
 
     #: src/gbiff2.c:219
     #, c-format
@@ -1465,7 +1470,7 @@ language by eliminating the exclamation mark, which is not appropriate,
 choosing the verb “using” instead of “entering”, and putting the username
 variable before the implicit verb (using), thus:
 
-::
+.. code-block:: po
 
     #: src/gbiff2.c:219
     #, c-format
@@ -1478,7 +1483,7 @@ You can change the position of the variable, as I have here, as long as you
 don’t change the **order** of variables. Some strings have more than one
 variable: a string might say:
 
-::
+.. code-block:: po
 
     #: src/gbiff2.c:219
     #, c-format
@@ -1493,7 +1498,7 @@ Since, from the reasons explained above, I would be putting the username
 variable after "Welcome to (using)", I would be changing the order of the
 variables:
 
-::
+.. code-block:: po
 
     #: src/gbiff2.c:219
     #, c-format
@@ -1506,7 +1511,7 @@ variables:
 
 So I need to indicate the change in order:
 
-::
+.. code-block:: po
 
     #: src/gbiff2.c:219
     #, c-format

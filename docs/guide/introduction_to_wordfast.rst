@@ -89,7 +89,9 @@ any text that shouldn't be touched during the translation process.
 
 Preparing the file involves marking text as translatable and untranslatable,
 and marking the untranslatable text as either internal or external text.  To
-illustrate, take a look at this piece of HTML::
+illustrate, take a look at this piece of HTML:
+
+.. code-block:: html
 
   <ul>
   <li><b>This is a <i>dog</i>.</b> That is a <a href="lion.html">cat</a>.</li>
@@ -116,14 +118,18 @@ Marking internal untranslatable text can speed up translation, but if a
 translator knows which texts not to change, it is not necessary for such text
 portions to be marked as internal.  Marking external text is more crucial.
 
-Here's an example from a Mozilla DTD file::
+Here's an example from a Mozilla DTD file:
+
+.. code-block:: dtd
 
   <!ENTITY about "About">
 
 In the above example, the text "About" should be translated.  The text
 '<!ENTITY about "' and '">' should be marked as external untranslatable.
 
-Here are two lines from a Mozilla .properties file::
+Here are two lines from a Mozilla .properties file:
+
+.. code-block:: properties
 
   prefMessage=Int Pref Value: %d
   extensions.videodownloader.description=Download videos from Youtube

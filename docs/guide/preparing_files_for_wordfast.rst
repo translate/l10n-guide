@@ -219,7 +219,9 @@ Mozilla DTD file.  You can find it :doc:`here <guide:about.zip>` (zipped,
 called about.dtd).  Open the file about.dtd in MS Word as describe above.  The
 encoding is UTF-8.
 
-The file looks like this::
+The file looks like this:
+
+.. code-block:: dtd
 
   <!ENTITY about "About">
   <!ENTITY version "Version:">
@@ -278,7 +280,9 @@ normal.dot template).
 Adding a macro by pasting it
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Let's add the following macro to MS Word's normal.dot. ::
+Let's add the following macro to MS Word's normal.dot.
+
+.. code-block:: vb.net
 
       Selection.HomeKey Unit:=wdStory
       Selection.Find.ClearFormatting
