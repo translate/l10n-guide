@@ -62,7 +62,7 @@ What should I translate next?
 -----------------------------
 
 We have developed a number of modules that allow you to focus on the most
-important strings first.  You can see this list :doc:`here`
+important strings first.
 
 .. _../pages/guide/mozilla#how_do_i_get_my_translations_into_firefox:
 
