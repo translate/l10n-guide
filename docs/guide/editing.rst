@@ -103,14 +103,9 @@ Everyone wants credit. Please add your name to the credits page.
 Using Namespaces
 ================
 
-The guide makes extensive use of :ref:`namespaces
-<../pages/wiki/syntax#internal>`
-
-Eg ::
-
-    guide:translation:variables
-
-refers to the variables page in the translation section of this guide
+The guide makes extensive use of namespaces, e.g.
+``translation/variables.html`` refers to the variables page in the translation
+section of this guide.
 
 .. _../pages/guide/editing#adding_another_language_or_translating:
 
