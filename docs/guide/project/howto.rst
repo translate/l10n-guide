@@ -18,7 +18,7 @@ Working with.po files and The Translation Project
 I’ve written this to try and meet a need I certainly had, as a translator
 starting with the TP. :-)
 
-Sections marked :!: are Translate Tips!
+Sections marked **!** are Translate Tips!
 
 ----
 
@@ -53,7 +53,7 @@ http://ftp.gnu.org/gnu/gettext/
 
 and download and install the latest version there.
 
-:?: *gettext manual:*  `completing gettext installation
+**?** *gettext manual:*  `completing gettext installation
 <http://www.gnu.org/software/gettext/manual/html_mono/gettext.html#SEC8>`_
 
 .. _../pages/guide/project/howto#a_translation_tool:
@@ -88,10 +88,10 @@ available:
 The first three are available from `Translate
 <http://translatehouse.org/products.html>`_ at Github.
 
-:!: With po4a and the Translate Toolkit, you can turn practically anything into
+**!** With po4a and the Translate Toolkit, you can turn practically anything into
 or out of the .po format, possibly including organic forms… :-)
 
-:?: **also see** other sections of this wiki, for key resources and helpful
+**?** **also see** other sections of this wiki, for key resources and helpful
 information on many aspects of translating. Experienced translators have spent
 a lot of time contributing to this wiki, to save all of us time and hassles.
 Please feel free to add your experiences at any time: this is our shared
@@ -112,7 +112,7 @@ use just about any encoding (although utf-8 is safest for other reasons), feed
 it to your dog, but it will come out the other end as exactly what it was to
 start with … a text file. 
 
-:!: The only thing that differentiates a .po file from a normal .txt file is
+**!** The only thing that differentiates a .po file from a normal .txt file is
 the headers, and the structure of each string block. This is checked by the TP
 robot program when you submit the file, so knowing what to get right can save
 you re-submitting it (and being talked down to by a robot, which can be a bit
@@ -147,13 +147,13 @@ Here is a blank set of .po file headers:
 You will usually find a complete blank set, like this, in a file which has not
 yet been translated at all, a .PO Template file, with the file extension .pot. 
 
-:!: All you need to do to change a .pot to a .po is fill in the headers and
+**!** All you need to do to change a .pot to a .po is fill in the headers and
 change the name of the file to .po. It’s as easy as that.
 
 You may find some of the headers still blank, or not up-to-date, when you are
 updating a partially-translated, or out-of-date file. 
 
-:!: So you always need to check the headers: do this first, do it last (before
+**!** So you always need to check the headers: do this first, do it last (before
 submitting the completed file), and you’ll save yourself hassle.
 
 There are two headers which may or may not appear in that block, but it’s
@@ -213,7 +213,7 @@ Vietnamese, as the example in this section.
 
     # Vietnamese translation of TuxPaint.
 
-:!: Note that all these headers have *a # sign and one space* before the
+**!** Note that all these headers have *a # sign and one space* before the
 information. The robot is very picky about this, as it is gettext’s way of
 signifying an informative header. gettext actually parses this information, and
 the whole file, so by getting the format right, we save ourself time spent
@@ -249,7 +249,7 @@ has created, and claims copyright over this file (for example):
 
 In this case, you respect the header already there. Do not change it.
 
-:!: If your file has a proprietary copyright header, and is rejected by the TP
+**!** If your file has a proprietary copyright header, and is rejected by the TP
 robot for not having a FSF copyright header, simply write to the TP
 co-ordinator at:
 
@@ -313,7 +313,7 @@ translator header, for example:
 So in theory, you could have a lot of these headers, one after the other, but
 in practice, there are one to five translator headers. 
 
-:!: Don’t change any of the older translator headers, just insert your own
+**!** Don’t change any of the older translator headers, just insert your own
 below the newest one. These headers ensure that everybody who has put effort
 into translating this file, gets both some recognition, and must take
 responsibility, for their work. 
@@ -369,7 +369,7 @@ This blank string pair indicates to gettext, I imagine, the structure of the
 strings in the file. The msgid string is the original text, and the msgstr is
 the translation. 
 
-:!: The output file must contain both, and they must be surrounded by quotation
+**!** The output file must contain both, and they must be surrounded by quotation
 marks. Do not alter this header.
 
 .. _../pages/guide/project/howto#the_package-version_header:
@@ -383,7 +383,7 @@ The package-version header
 
 Here, the version of the package is important: it’s a header you need to watch out for when updating a file. 
 
-:!: The TP robot requires the name of the program to be separated from the
+**!** The TP robot requires the name of the program to be separated from the
 version by a space, not a hyphen or underscore. So this header may vary in that
 way, from the original file-name.
 
@@ -393,7 +393,7 @@ Original file-name: tuxpaint-2.1pre
 
     "Project-Id-Version: Tuxpaint 2.1pre\n"
 
-:!: Remember to change this header when you update a file.
+**!** Remember to change this header when you update a file.
 
 Use all the information in the version part of the filename: 0.03a2, 2.01b,
 0-03.2pre2, this is all useful information about the stage of development of
@@ -438,7 +438,7 @@ When you find that contact address, please fill it in in your file, so the next
 person, quite possibly you :-) , won’t need to waste time looking for it. It’s
 a good idea to encourage your developers to fill in this header.
 
-:?: One handy thing I’ve found out about these contact addresses is: 
+**?** One handy thing I’ve found out about these contact addresses is: 
 
 * all GNU packages have the contact address:
 
@@ -472,7 +472,7 @@ it was created by gettext. Updated files will have .po creation dates.
 
 This information is unimportant to you (you don’t change it), except: 
 
-:!: you will have to make sure your revision date (the date of your changes to
+**!** you will have to make sure your revision date (the date of your changes to
 this file) is *after* the creation date, otherwise the TP robot will say "I
 object!" and you really can’t blame it. We translators have not yet found out
 how to make time go backwards. LOL
@@ -490,7 +490,7 @@ This is blank in an original .pot file, since no changes (translations) have
 occurred. In an updated file, a date will be present. All we need to remember,
 is: 
 
-:!: to update this date before submitting our completed file. 
+**!** to update this date before submitting our completed file. 
 
 A .po editor program may do this automatically. You can do it manually at any
 stage. In BBEdit, you can create a glossary item using strftime variables (you
@@ -507,7 +507,7 @@ time and UTC offset. In my case, that is, as I write this sentence:
 
     "PO-Revision-Date: 2005-05-16 14:58+0930\n"
 
-:!: Note the order of the date: year-month-day, the year being four numbers,
+**!** Note the order of the date: year-month-day, the year being four numbers,
 the month two, and the day two. This means including leading zeros when the
 number is less than 10, as in the current month: 05 (May).
 
@@ -515,7 +515,7 @@ Note the UTC offset: +0930. This says that my timezone (Adelaide, Australia,
 Central Australian normal time, not daylight saving) is 9.5 hours, 9 hours and
 30 minutes, after GMT or UTC time (00:00). 
 
-:!: You need to fill in your timezone here, and note that there is no space
+**!** You need to fill in your timezone here, and note that there is no space
 before it in this header. Remember the leading zero if, as in my case, you’re
 less than ten hours before or after UTC. (BBEdit’s glossary item, or your .po
 editor, may do all this for you.)
@@ -597,7 +597,7 @@ The Content-Type header
 
     "Content-Type: text/plain; charset=CHARSET\n"
 
-:!: This is really important. It sets the character set for your language.
+**!** This is really important. It sets the character set for your language.
 UTF-8 is the best choice, but if your language requires another charset
 (character set), please input it here. I imagine this header will soon be
 filled in automatically as UTF-8. For my language:
@@ -675,7 +675,7 @@ but in my case, it should be:
 If your plurals header is set correctly, you will have the appropriate number
 and kind of msgstr fields to fill in. So it’s a big help. 
 
-:!: Find out what yours is, and make sure you fill it in for all your files: it
+**!** Find out what yours is, and make sure you fill it in for all your files: it
 will save you hassle.
 
 If you are unsure of the plurals header that should be set for your language,
@@ -689,11 +689,11 @@ time and trouble in the process of localizing an application. You can set them
 in your .po editor, or simply keep a copy of them to paste over the out-of-date
 or original headers. 
 
-:!: By getting them correct, and finding your own way to deal with them, you
+**!** By getting them correct, and finding your own way to deal with them, you
 become a better translator, because the true craftsperson makes the best use of
 his or her tools. The .po format is one of our tools.
 
-:?: *the gettext manual:* 
+**?** *the gettext manual:* 
 
 `the po format
 <http://www.gnu.org/software/gettext/manual/html_mono/gettext.html#SEC9>`_
@@ -738,7 +738,7 @@ separately on the same language, not communicating or co-operating. The TP
 requires changes to go through your team co-ordinator, so there should be no
 conflicts or confusions over who does what, how and why. 8-)  
 
-:!: Check with your team-leader, who will be a big help to you, join the team
+**!** Check with your team-leader, who will be a big help to you, join the team
 mailing-list, and join the TP.
 
 * Once you have registered with the TP 
@@ -765,7 +765,7 @@ not available for translation unless your disclaimer is logged with the TP.
 When you go to a file’s textual domain page (by clicking on its link on your
 team page), check down the page whether a disclaimer is required.
 
-:!: Until your disclaimer is logged with the FSF, you can only translate
+**!** Until your disclaimer is logged with the FSF, you can only translate
 non-disclaimer files, but there are quite a few of them, so don’t hold back.
 ;-D
 
@@ -783,7 +783,7 @@ may not be used at all, or won’t be used by the majority of users. Downloading
 your file from your team page at the TP should ensure you get the latest, most
 current file.
 
-:!: If it turns out that this file is not the most current (rare, but
+**!** If it turns out that this file is not the most current (rare, but
 possible), please email the TP co-ordinator so this can be fixed.
 
 Methods of establishing and maintaining currency include CVS, SVN and private
@@ -806,7 +806,7 @@ automatically: a file could be uploaded at the TP with a couple of new or
 changed strings, sent out to the translator, edited and returned all in the
 same day. *That’s* currency. 8-)
 
-:?: Other projects have their own howtos on getting current files: ask your
+**?** Other projects have their own howtos on getting current files: ask your
 team leader.
 
 ----
@@ -859,7 +859,7 @@ translated, it may save you time: perhaps a capital letter or punctuation mark
 is different, or part of the sentence … or it may be completely off-target, but
 usually it is close, and that’s a big help.
 
-:!: How do we do that? Here is the command (record it somewhere handy):
+**!** How do we do that? Here is the command (record it somewhere handy):
 
 ::
 
@@ -901,7 +901,7 @@ So all you really need to do is to type the name of your glossary file, your
 compendium, instead of *compendium.po* here, and type the name of the file you
 want to translate, instead of *gnubiff.pot*. 
 
-:!: Remember that the path, any directories that msgmerge needs to travel
+**!** Remember that the path, any directories that msgmerge needs to travel
 through to find a file, is part of its file-name. The two files in our example
 might be:
 
@@ -915,7 +915,7 @@ and
 
     Documents/TP/gnubiff-2.1.3/gnubiff.pot
 
-:!: When typing filenames in the Terminal, use the Tab key to fill in the rest
+**!** When typing filenames in the Terminal, use the Tab key to fill in the rest
 of a name, once you’re past any letters that match other names at that level.
 
 Using this msgmerge command may get a lot of matches, or it may not: it depends
@@ -992,7 +992,7 @@ use it. You can always ask for help, or ask questions, on the `TP mailing list
 <https://lists.sourceforge.net/lists/listinfo/translation-i18n>`_, as mentioned
 above. 
 
-:!: I recorded these two commands in a handy place, so whenever I need them, I
+**!** I recorded these two commands in a handy place, so whenever I need them, I
 can copy them in. If you use them often, you may find they stick in your mind.
 8-)  My mind is not particularly sticky nowadays. More like sludge, I think.
 :-/
@@ -1103,7 +1103,7 @@ Translator comments
 
     # I am a translator comment. ;)
 
-:!: This can be particularly handy when more than one translator works on a
+**!** This can be particularly handy when more than one translator works on a
 file. 
 
 In any case, other translators may work on this file in the future, so it’s
@@ -1134,7 +1134,7 @@ meant for talking to us: some programs only contain developer comments where
 they are talking to each other, even insulting the user. This is disappointing.
 :-(
 
-:!: As you work your way through each string block, don’t feel that you have to
+**!** As you work your way through each string block, don’t feel that you have to
 know everything. 
 
 Some strings (maybe many of them) will be confusing or even abstruse: many
@@ -1142,7 +1142,7 @@ developers do not have good explanatory skills, even in their own language.
 Feel free to improve the structure, when creating the translated string, and to
 explain it in a way that will work best for your language group. 
 
-:!: The aim is not to translate the exact word or term, since computing terms
+**!** The aim is not to translate the exact word or term, since computing terms
 are mostly chosen for brevity.
 
 Words like "icon" and "text" were not in general use in the English language
@@ -1160,7 +1160,7 @@ Most likely your language group will have an ongoing glossary project for
 computing terms, where you can suggest, find and discuss the appropriate terms.
 We have one `here <http://vnoss.org/evgs/index.php?action=search>`_. 
 
-:!: Your input is important: the aim is to communicate effectively with the
+**!** Your input is important: the aim is to communicate effectively with the
 user, not to mirror exactly what people are doing in English. 
 
 This is even more of a challenge where your culture is very different from the
@@ -1188,7 +1188,7 @@ Vietnamese says something more like:
 since that form is much stronger in Vietnamese than in English, quite strong
 enough to gain the user’s attention at the right level.
 
-:!: Remember, while the developer may be the expert on how that program works,
+**!** Remember, while the developer may be the expert on how that program works,
 you and your team-mates are the ones who understand your language and culture,
 so *you* need to make the choices about how to express meaning, and the most
 appropriate way to talk to the user.
@@ -1215,7 +1215,7 @@ msgid and msgstr string pair start with the hash character, and often the tilde
 character as well, which signifies the user directory on your hard drive, for
 example. *It doesn’t mean that here.*
 
-:!: In a .po file, strings starting with #~ are not currently being used by the
+**!** In a .po file, strings starting with #~ are not currently being used by the
 program. 
 
 So why keep them, you may ask? Indeed you may, I’ve asked the same question
@@ -1240,13 +1240,13 @@ Style tips
 In order to save time debugging (removing mistakes from) this file later on,
 there are several things you need to remember as you progress through the file. 
 
-:!: You must never edit the original string, the msgid. 
+**!** You must never edit the original string, the msgid. 
 
 This information belongs to the program, and if you change it in any way, by so
 much as a space or moving a word up or down a line, this will cause problems
 when the file is re-integrated into the original program. 
 
-:!: If there are errors in the msgid, please report them to the developer.
+**!** If there are errors in the msgid, please report them to the developer.
 
 You do this via the Report-Msgid-Bugs-To address in the header, or, if that’s
 not filled in or present, you go to the textual domain for this file, (the page
@@ -1261,7 +1261,7 @@ please remember that these people are also volunteering their time, and may not
 have great English skills, or even understand how the gettext process works.
 Make friends: it’s a great opportunity. :-D
 
-:!: Each string must "begin and end with a double quotation mark".
+**!** Each string must "begin and end with a double quotation mark".
 
 * Many files still have the older structure where each line break means
   stopping and starting the quotation marks again. This results in:
@@ -1315,7 +1315,7 @@ the string, as formatted in the msgid.
 
 Which looks like a multiple shopping-trolley collision. :-/
 
-:!: Lines ending in a line-break (\n) in the msgid must also end with one in
+**!** Lines ending in a line-break (\n) in the msgid must also end with one in
 the msgstr. 
 
 This doesn’t mean you have to maintain the same number of lines: you can have
@@ -1376,7 +1376,7 @@ regardless of how many lines are involved.
 You will have noticed the backslash \ used in the line-break. This is a special
 character in .po files (and in many others). \n means a line-break. 
 
-:!: The other most common use of \ in .po files is to *escape* quotation marks.
+**!** The other most common use of \ in .po files is to *escape* quotation marks.
 
 As you will have seen, quotation marks already have a job to do in the string
 block. They say, *The msgid or msgstr string starts **"here**, and ends
@@ -1420,7 +1420,7 @@ do in .po files, so they don’t need escaping. So there. ;-)
 Another option is to use the curly quote signs Unicode provides: “”.  they have
 no special significance either, and look better, at the same time!
 
-:!: The number and kind of variables in the original and translation must
+**!** The number and kind of variables in the original and translation must
 match. 
 
 Variables tend to follow certain forms, primarily strftime and printf, but a
@@ -1457,7 +1457,7 @@ display reasons for this line-break, so we simply do the same.
 
 Although we can copy the language in the string, and the variable…
 
-:!: You achieve a translation of a much higher quality if you take some time to
+**!** You achieve a translation of a much higher quality if you take some time to
 think about what the string is going to do in the program. 
 
 This can be difficult without developer comments explaining the string.
@@ -1528,7 +1528,7 @@ program happily substitutes the current values and I see:
 
 :-)
 
-:!: So, keep the same number, exact appearance and order of variables in
+**!** So, keep the same number, exact appearance and order of variables in
 strings. If you need to change the order, use the process above.
 
 ----
@@ -1610,12 +1610,12 @@ In order to submit a completed translation file ((see your team leader for help
 with any files you can’t complete)), all you need to do is email them to the TP
 robot program. 
 
-:!: Make sure your msgfmt check comes up clean, with no errors, before sending.
+**!** Make sure your msgfmt check comes up clean, with no errors, before sending.
 
-:!: Make sure the details in the subject line of the email are exact, or your
+**!** Make sure the details in the subject line of the email are exact, or your
 file will not be accepted. 
 
-:!: Make sure you have changed the name of your file to languagecode.po, in my
+**!** Make sure you have changed the name of your file to languagecode.po, in my
 case, **vi.po** **Note**: you may wish to keep the complete filename, e.g. (in
 my case, and for the file gnubiff-2.3pre1) **gnubiff-2.3pre1.vi.po** to avoid
 confusing files with the same name. Another useful precaution is to gzip your
@@ -1634,10 +1634,10 @@ For example, with gnubiff in Vietnamese::
 
   gnubiff-2.1.3.vi.po
 
-:!: Make sure the package name is exact, a hyphen between the program name and
+**!** Make sure the package name is exact, a hyphen between the program name and
 the version number, and full stops/periods in the version number.
 
-:!: Make sure there is one full stop/period between the version number and the
+**!** Make sure there is one full stop/period between the version number and the
 language code, and between the language code and the po extension.
 
 I’ve made a template in my mail program, so whenever I have a file to submit, I
@@ -1658,10 +1658,10 @@ I hope you have found this information, which I’ve scraped together by making
 probably every conceivable mistake :-D, useful. Please feel free to add to it.
 I look forward to seeing your experiences here.
 
-:?: If there is any part of this document which you find hard to understand,
+**?** If there is any part of this document which you find hard to understand,
 please leave a note here, and I will try to explain it.
 
-:?: We would welcome translations of this document, or any similar howto, in
+**?** We would welcome translations of this document, or any similar howto, in
 your language.
 
 Enjoy your translating time in the exciting and welcoming Free Software
