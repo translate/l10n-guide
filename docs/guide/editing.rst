@@ -112,6 +112,8 @@ section of this guide.
 Adding another language or translating
 ======================================
 
+FIXME
+
 Please make use of namespaces to seperate your translations from the main
 document.  Use your languages iso639 code as the namespace.  For Zulu this page
 would be refered to as ::
