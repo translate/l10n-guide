@@ -335,9 +335,9 @@ Source Control
 
   * A `Git-SVN Crash Course <http://git.or.cz/course/svn.html>`_ for people
     switching from SVN
-  * How to use `Git <http://wiki.debian.org/Alioth/Git>`_ at Debian
-  * How to use `Git <http://live.gnome.org/TranslationProject/GitHowTo>`_ at
-    GNOME
+  * How to use `Git at Debian <http://wiki.debian.org/Alioth/Git>`_
+  * How to use `Git at GNOME
+    <http://live.gnome.org/TranslationProject/GitHowTo>`_
 
 * Using `Bazaar <http://bazaar.canonical.com/DownloadBzr>`_
 
