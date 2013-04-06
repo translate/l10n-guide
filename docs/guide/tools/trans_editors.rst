@@ -68,6 +68,5 @@ Or you can try to convert and/or use another format:
 * :ref:`XLIFF <toolkit:xliff>` --- This is an emerging translation interchange
   standard.  We will see much more available in this format, convertors are
   being created to move PO files to Xliff and a number of editors both GPL and
-  commercial are being made available.  :doc:`Here
-  <xliff_support_by_ms_windows_programs>` is a small report on Xliff support
-  for MS Windows.
+  commercial are being made available.  A short report on :doc:`XLIFF support
+  for MS Windows  <xliff_support_by_ms_windows_programs>`.
