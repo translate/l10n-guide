@@ -236,8 +236,8 @@ granted.  There are a few things you can do to increase quality.
   reviewing things in context.
 * For consistency at large events, it is probably worthwhile to prepare a
   terminology list before the event and install that in Pootle for
-  :ref:`terminology suggestions <pootle:features/terminology>`. This will at
-  least eliminate certain types of inconsistencies. :ref:`Translation memory
+  :ref:`terminology suggestions <pootle:terminology>`. This will at least
+  eliminate certain types of inconsistencies. :ref:`Translation memory
   <pootle:updatetm>` is another way to help, although that might be harder to
   setup, depending on the administration skills available.
 
