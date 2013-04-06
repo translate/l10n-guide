@@ -27,26 +27,26 @@ Each escape sequence has a special meaning:
 +-------------------+------------------------+-----------------------------------------------------------------------------------+
 | Escape Sequence   | Effect                 | Description                                                                       |
 +===================+========================+===================================================================================+
-| \n                | newline                | Adds a newline at that place in the text (similar to pressing Enter). It might be |
+| ``\n``            | newline                | Adds a newline at that place in the text (similar to pressing Enter). It might be |
 |                   |                        | shown with the ¶ in your translation program.                                     |
 +-------------------+------------------------+-----------------------------------------------------------------------------------+
-| \t                | tab                    | Add a tab marker at that spot in the text. This is sometimes used to align text   |
+| ``\t``            | tab                    | Add a tab marker at that spot in the text. This is sometimes used to align text   |
 |                   |                        | in columns.                                                                       |
 +-------------------+------------------------+-----------------------------------------------------------------------------------+
-| \r                | carriage return        | Return without advancing the line This is usually used with \n in software for    |
+| ``\r``            | carriage return        | Return without advancing the line This is usually used with \n in software for    |
 |                   |                        | Windows.                                                                          |
 +-------------------+------------------------+-----------------------------------------------------------------------------------+
-| \\\\              | Print a real backslash | If you need a real backslash then you need to escape the backslash. The computer  |
+| ``\\``            | Print a real backslash | If you need a real backslash then you need to escape the backslash. The computer  |
 |                   |                        | will only print one backslash.                                                    |
 +-------------------+------------------------+-----------------------------------------------------------------------------------+
-| \"                | double quote (")       | In some cases a double quote has a special meaning, and should be escaped if you  |
+| ``\"``            | double quote (")       | In some cases a double quote has a special meaning, and should be escaped if you  |
 |                   |                        | really want a double quote.                                                       |
 +-------------------+------------------------+-----------------------------------------------------------------------------------+
-| \uxxxx            | Unicode character      | Sometime you want to refer to Unicode characters using normal ASCII.  Many        |
+| ``\uxxxx``        | Unicode character      | Sometime you want to refer to Unicode characters using normal ASCII.  Many        |
 |                   |                        | programs and programmers use \u to refer to the Unicode character.  Where xxxx is |
 |                   |                        | the hexadecimal or decimal value for the specific Unicode character.              |
 +-------------------+------------------------+-----------------------------------------------------------------------------------+
-| &apos;            | apostrophe (')         | In some XML documents, you might need to represent the apostrophe and some other  |
+| ``&apos;``        | apostrophe (')         | In some XML documents, you might need to represent the apostrophe and some other  |
 |                   |                        | characters with XML entities. For example '<a href="index.html"                   |
 |                   |                        | title="Rock &apos;n Roll">link</a>'                                               |
 +-------------------+------------------------+-----------------------------------------------------------------------------------+
