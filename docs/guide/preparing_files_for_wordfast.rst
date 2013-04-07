@@ -121,7 +121,8 @@ Here's how:
 #. Close MS Word, and start MS Word again.  See if the tw4win styles are now
    present in the styles dropdown list (usually upper left corner).
 
-You can download such a document :doc:`here <guide:tw4winstyles.doc>`.
+.. note:: You can download a prepared `tw4winstyles.doc
+   <../_static/tw4winstyles.doc>`_ document.
 
 .. _../pages/guide/preparing_files_for_wordfast#how_to_create_wordfast_styles_easy_way,_not_ideal_though:
 
@@ -215,9 +216,8 @@ quite useful.
 What we're going to do, is to mark a document with tw4winExternal.  It is
 assumed that either normal.dot or the document will itself have a style called
 tw4winExternal already defined.  The easiest document to practice on, is a
-Mozilla DTD file.  You can find it :doc:`here <guide:about.zip>` (zipped,
-called about.dtd).  Open the file about.dtd in MS Word as describe above.  The
-encoding is UTF-8.
+Mozilla DTD file called `about.dtd <../_static/wordfast/about.dtd>`_. Open the
+file ``about.dtd`` in MS Word as describe above.  The encoding is UTF-8.
 
 The file looks like this:
 
@@ -248,7 +248,8 @@ Here's how we do it:
   style at the Replace box is tw4winExternal (if not, add it)
 - Deselect "Use Wildcards", and click "Replace all"
 
-The result should look like :doc:`this <guide:about.doc>` or like this:
+The result should look like `this <../_static/wordfast/about.doc>`_ or like
+this:
 
 .. image:: /_static/about_dtd_external.jpg
 
@@ -355,8 +356,8 @@ Adding a macro from an existing document
 
 Adding a macro to normal.dot from an existing document is similar to what we
 did in the "easy way" for adding styles.  I assume you have a document with a
-macro embedded in it.  I've embedded the above macro for you, in a document
-:doc:`here <guide:with_apple.doc>`.
+macro embedded in it.  I've embedded the above macro for you, `in a document
+<../_static/wordfast/with_apple.doc>`_.
 
 To add the macro to normal.dot, here's how:
 
