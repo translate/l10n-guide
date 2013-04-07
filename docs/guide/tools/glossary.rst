@@ -46,10 +46,10 @@ to be accurate.
 
 You might also be able to do monolingual term extraction on a TM.
 
-.. _../pages/guide/tools/glossary#poterminology_from_the_translate_toolkit:
+.. _../pages/guide/tools/glossary#poterminology:
 
-Poterminology from the translate toolkit
-""""""""""""""""""""""""""""""""""""""""
+Poterminology
+"""""""""""""
 
 The `Translate Toolkit <http://toolkit.translatehouse.org>`_ contains
 :ref:`poterminology <toolkit:poterminology>` which can do bilingual term
@@ -69,9 +69,9 @@ not occur in a dictionary or established term list.  Such an extraction usually
 contains a large percentage of useless terms unless steps are taken to remove
 irrelevant repetitions from the result.
 
-.. _../pages/guide/tools/glossary#poterminology_from_the_translate_toolkit:
+.. _../pages/guide/tools/glossary#poterminology_for_monolingual_extraction:
 
-Poterminology from the translate toolkit
+Poterminology for monolingual extraction
 """"""""""""""""""""""""""""""""""""""""
 
 :ref:`poterminology <toolkit:poterminology>` (see above) can also work on

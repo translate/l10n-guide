@@ -125,10 +125,10 @@ from the Web. He saves it to his ``/po`` directory. He updates his translation.
 Then he tries to commit the updated PO file. The SVN server refuses it, says it
 is out-of-date! Why? It's the latest file.
 
-.. _../pages/guide/svntips#solution:
+.. _../pages/guide/svntips#solution_1:
 
-Solution
-^^^^^^^^
+Solution 1
+^^^^^^^^^^
 
 The file may be the latest, but the SVN server doesn't know that. As far as it
 knows, Minh last updated his ``vi.po`` file via SVN some time ago. He certainly
@@ -171,10 +171,10 @@ vi.po*
 **Program X svn server:** Not according to your .svn directory. End of
 conversation. Stop wasting my time.
 
-.. _../pages/guide/svntips#doing_it_right:
+.. _../pages/guide/svntips#doing_it_right_1:
 
-Doing it right
-^^^^^^^^^^^^^^
+Doing it right 1
+^^^^^^^^^^^^^^^^
 
 Minh receives an updated ``vi.po`` file via email, or downloads it from the
 Web. He saves it somewhere else on his disk (*not* in his working copy ``/po``
@@ -196,19 +196,19 @@ untranslated and fuzzy strings, so she updates the translation, then commits
 the file. The SVN server rejects the file, saying it is out-of-date. Why? She
 updated it yesterday!
 
-.. _../pages/guide/svntips#solution:
+.. _../pages/guide/svntips#solution_2:
 
-Solution
-^^^^^^^^
+Solution 2
+^^^^^^^^^^
 
 Another member of Sonja's translation team has fixed some typos in the existing
 translations. He committed his changes this morning. So yesterday's file is no
 longer the current copy of the ``ro.po`` file.
 
-.. _../pages/guide/svntips#doing_it_right:
+.. _../pages/guide/svntips#doing_it_right_2:
 
-Doing it right
-^^^^^^^^^^^^^^
+Doing it right 2
+^^^^^^^^^^^^^^^^
 
 Sonja wants to know if her ``ro.po`` file for Program Y has been updated or
 not. She updated it yesterday, but who knows what has happened on the server
@@ -228,10 +228,10 @@ updates the translation, then tries to commit the file. The SVN server rejects
 the file, saying it is out-of-date. Why? No other translator can have changed
 the file!
 
-.. _../pages/guide/svntips#solution:
+.. _../pages/guide/svntips#solution_3:
 
-Solution
-^^^^^^^^
+Solution 3
+^^^^^^^^^^
 
 The developer added a couple of new strings, and committed them this morning.
 She then updated all the .po files. Jean-Christophe's version of the file is no
@@ -240,10 +240,10 @@ you're the only person who would change a file, unless you're the only person
 with write access, and even then, you might have setup some regular scripts
 which update the files! So don't assume: **svn update**.
 
-.. _../pages/guide/svntips#doing_it_right:
+.. _../pages/guide/svntips#doing_it_right_3:
 
-Doing it right
-^^^^^^^^^^^^^^
+Doing it right 3
+^^^^^^^^^^^^^^^^
 
 Jean-Christophe wants to know if his ``fr.po`` file for Program Z has been
 updated or not. He updated it yesterday, but anything could have happened since

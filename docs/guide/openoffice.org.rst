@@ -78,8 +78,7 @@ http://wiki.services.openoffice.org/wiki/Category:Localization
 
 Things are now very easy since they are using `Pootle
 <http://pootle.translatehouse.org>`_. You can translate online on Pootle, or
-download the files to work offline with something like `Virtaal
-<http://virtaal.transatehouse.org>`_.
+download the files to work offline with something like `Virtaal`_.
 
 .. _../pages/guide/openoffice.org#gsicheck:
 
@@ -128,8 +127,8 @@ DocumentList.csv is a comma separated list with the mistyped word in the first
 column and the correct word in the second column, all also surrounded by double
 quotes.
 
-The translation program `Virtaal <http://virtaal.translatehouse.org>`_ also
-makes use of these files, so consider contributing it to this project as well.
+The translation program `Virtaal`_ also makes use of these files, so consider
+contributing it to this project as well.
 
 .. _../pages/guide/openoffice.org#wordexceptlist.xml:
 
@@ -251,3 +250,5 @@ integrated/fixed:
 Now you see which l10n CWS have been integrated and which not. By clicking on
 the CWS name you see the list of the bugs registered to that CWS. Once approved
 by QA you'll exactly know in which milestone the CWS has been integrated.
+
+.. _Virtaal: http://virtaal.translatehouse.org

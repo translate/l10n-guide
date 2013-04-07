@@ -37,14 +37,6 @@ How to open a CSV file
 When opening a CSV file you will be presented with a number of questions.  Here
 are the answers you should provide:
 
-.. _../pages/guide/tools/spreadsheet#openoffice.org_1.1.x:
-
-OpenOffice.org 1.1.x
---------------------
-
-There is a problem with OpenOffice.org 1.1.x in that it does not read CSV file
-correctly. Use OpenOffice.org 2.0 instead. 
-
 .. _../pages/guide/tools/spreadsheet#openoffice.org_2.0:
 
 OpenOffice.org 2.0
@@ -94,18 +86,10 @@ following:
 Each Spreadsheet application will achieve the above in a slightly different
 way.  Here are specific instructions.
 
-.. _../pages/guide/tools/spreadsheet#openoffice.org_1.1.x:
+.. _../pages/guide/tools/spreadsheet#openoffice.org:
 
-OpenOffice.org 1.1.x
---------------------
-
-There is a problem with OpenOffice.org 1.1.x in that it does not read CSV file
-correctly.  Use OpenOffice.org 2.0 instead.
-
-.. _../pages/guide/tools/spreadsheet#openoffice.org_2.0:
-
-OpenOffice.org 2.0
-------------------
+OpenOffice.org
+--------------
 
 - Right click on the header of Column A.  Select "Column Width". Type in a
   value in the "Width" field.

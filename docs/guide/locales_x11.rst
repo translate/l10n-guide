@@ -24,8 +24,8 @@ distributions you will probably want to patch both of these.
 Where to find the files to change
 =================================
 
-You can view these files using CVS web for `XFree86
-<http://cvsweb.xfree86.org/cvsweb/xc/nls/>`_ and `X.org
+You can view these files using `XFree86 CVS web
+<http://cvsweb.xfree86.org/cvsweb/xc/nls/>`_ and `X.org CVS web
 <http://cvs.freedesktop.org/xorg/xc/nls/>`_
 
 We have used the Kinyarawanda example here to illustrate what needs to be

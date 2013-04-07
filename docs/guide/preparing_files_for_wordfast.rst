@@ -172,11 +172,11 @@ How to create Wordfast styles (if you can install external macros)
 ------------------------------------------------------------------
 
 If you know how to install external macros (i.e. if you know where you should
-copy a file in MS Windows' hidden folder structure), you can install AndoTools
-(`here <http://atools.dotsrc.org/>`_) into MS Word, which has a function to
-insert all tw4win styles into any document easily.  Once you've installed
-AndoTools, in MS Word go Ando -> Documenet Operations -> Fonts and Language.
-Click "Add tw4win styles" to add them to the current document.
+copy a file in MS Windows' hidden folder structure), you can install `AndoTools
+<http://atools.dotsrc.org/>`_ into MS Word, which has a function to insert all
+tw4win styles into any document easily.  Once you've installed AndoTools, in MS
+Word go Ando -> Documenet Operations -> Fonts and Language.  Click "Add tw4win
+styles" to add them to the current document.
 
 .. _../pages/guide/preparing_files_for_wordfast#how_to_prepare_a_l10n_file_for_wordfast:
 

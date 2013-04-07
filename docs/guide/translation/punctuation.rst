@@ -67,7 +67,7 @@ better.  If during testing you notice that it doesn't work or that there should
 be a fullstop then correct appropriately and report the bug.  But in the first
 translations simply follow the English.
 
-.. _../pages/guide/translation/punctuation#colons_::
+.. _../pages/guide/translation/punctuation#colons:
 
 Colons (:)
 ----------

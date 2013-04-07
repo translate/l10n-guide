@@ -60,7 +60,7 @@ Booting
 
 **END OF BOOT PROCESS** the next stage depends on the run level, most end-users will never see run level 3
 
-.. _../pages/guide/bootup#init_3:
+.. _../pages/guide/bootup#booting_init_3:
 
 Init 3
 ------
@@ -71,7 +71,7 @@ Init 3
  /bin/login                 found in util-linux - should try and extract only /bin/login strings    
 =============  ==========  =======================================================================
 
-.. _../pages/guide/bootup#init_5:
+.. _../pages/guide/bootup#booting_init_5:
 
 Init 5
 ------
@@ -93,7 +93,7 @@ The booting process will take a computer to the place where the user is
 required to login.  This section looks at what items are seen just after the
 user logs in.
 
-.. _../pages/guide/bootup#init_5:
+.. _../pages/guide/bootup#post_booting_init_5:
 
 Init 5
 ------
@@ -107,7 +107,7 @@ Init 5
   * Clock
   * Desktop
 
-.. _../pages/guide/bootup#init_3:
+.. _../pages/guide/bootup#post_booting_init_3:
 
 Init 3
 ------

@@ -35,16 +35,16 @@ Vietnamese
 Nguyễn Thái Ngọc Duy
 ^^^^^^^^^^^^^^^^^^^^
 I have been working on vspell, a Vietnamese spell checker, since 2003 (there
-were huge gaps when I did not work on it at all, though). The source code can
-be found `here <http://repo.or.cz/w/vspell.git>`_ (click on the first
-"snapshot" link to get a tarball). The core idea is quite simple. It is trained
-with a word-segmented corpus. When a sentence is given (actually a phrase
-because it still does not understand "sentence"), it will generate similar
-sentences based on common spelling errors. It then uses statistics from the
-corpus to determine which sentence (the original one or one of the generated
-ones) is "better". If a generated one is better, then it assumes the original
-one is misspelled. That's all. The rest of work is matching the original one
-and the "right" one to see differences between them and tell users about that.
+were huge gaps when I did not work on it at all, though). The `source code
+<http://repo.or.cz/w/vspell.git>`_ is available (click on the first "snapshot"
+link to get a tarball). The core idea is quite simple. It is trained with a
+word-segmented corpus. When a sentence is given (actually a phrase because it
+still does not understand "sentence"), it will generate similar sentences based
+on common spelling errors. It then uses statistics from the corpus to determine
+which sentence (the original one or one of the generated ones) is "better". If
+a generated one is better, then it assumes the original one is misspelled.
+That's all. The rest of work is matching the original one and the "right" one
+to see differences between them and tell users about that.
 
 The result as of three months ago was not very promising: precise rate was
 about 60%-70% (I expected at least 80% to be useful). I was investigating to
@@ -215,10 +215,9 @@ important part of the work in terms of the words and word lists, and combined
 with proper affix rules (developed separately), we can create a usable spell
 checker (for an agglutinative language).
 
-People interested can have a look `here
-<http://translate.sourceforge.net/specifications/Spelt/>`_ at our ideas for how
-this should work. This is currently really meant to be a small project that can
-be implemented quite quickly.
+People interested can have a look at our `ideas for how this should work
+<http://translate.sourceforge.net/specifications/Spelt/>`_. This is currently
+really meant to be a small project that can be implemented quite quickly.
 
 .. _../pages/guide/spell_checker_case_studies#statistical_support:
 

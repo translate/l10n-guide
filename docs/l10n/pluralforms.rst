@@ -15,9 +15,9 @@ Understanding how the Gettext functions use plural forms will help you `design
 a correct plural form
 <http://www.gnu.org/software/gettext/manual/gettext.html#Plural-forms>`_.
 
-Note: Launchpad also has `plural information about many languages
-<https://translations.launchpad.net/+languages>`_, please add it here if your
-language is missing.
+Note: Launchpad also has `plural information
+<https://translations.launchpad.net/+languages>`_ for many languages, please
+add it here if your language is missing.
 
 Note: Mozilla now also uses `plural forms
 <http://developer.mozilla.org/en/docs/Localization_and_Plurals>`_.  Although
@@ -26,7 +26,7 @@ they follow a slightly different form, the `underlying equations
 seem to be the same as those used by Gettext.
 
 Note: `Unicode CLDR <http://unicode.org/cldr>`_ also collects `plural
-information about many languages
+information for many languages
 <http://www.unicode.org/cldr/data/charts/supplemental/language_plural_rules.html>`_.
 (Also in `XML form
 <http://unicode.org/cldr/trac/browser/trunk/common/supplemental/plurals.xml>`_.)

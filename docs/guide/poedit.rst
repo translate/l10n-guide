@@ -84,13 +84,6 @@ Don't forget to save regularly using Ctrl-S.
 
 Press F1 at anytime for the Poedit user manual.
 
-.. _../pages/guide/poedit#using_poedit:
-
-Using Poedit
-------------
-
-FIXME
-
 .. _../pages/guide/poedit#using_the_catalogue_manager:
 
 Using the Catalogue Manager

@@ -30,13 +30,10 @@ Multi-format editors
 * `Lokalize <http://userbase.kde.org/Lokalize>`_
 * :doc:`/guide/omegat`
 
-XXX
----
+.. _../pages/guide/tools/list#non-foss:
 
-.. _../pages/guide/tools/list#non-foss::
-
-non-FOSS:
-^^^^^^^^^
+non-FOSS
+--------
 * `Heartsome Translation Studio <http://www.heartsome.net/EN/xlfedit.html>`_
 * `Swordfish <http://www.maxprograms.com/products/swordfish.html>`_ 
 * `Wordfast <http://www.wordfast.net/>`_

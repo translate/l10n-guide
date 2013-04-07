@@ -61,9 +61,9 @@ Starting
 As usual check on the mailing list to see if anyone is translating your
 language.  If someone is then work out a way to combine forces.  If not you
 will probably become the translation coordinator for your language.  Either way
-you might want :ref:`CVS access <#getting_cvs_access>`.  In order to
-translate you don't need CVS access.  But you will as soon as you want the data
-in the applications. 
+you might want :ref:`CVS access <guide/fedora#getting_cvs_access>`.  In order
+to translate you don't need CVS access.  But you will as soon as you want the
+data in the applications.
 
 .. _guide/fedora#getting_cvs_access:
 

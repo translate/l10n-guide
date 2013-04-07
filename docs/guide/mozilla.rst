@@ -91,8 +91,8 @@ contains the rest of the information needed to start a new localisation or join
 an existing localisation team.
 
 - **Preparing translation files:** POT files for any string frozen version of
-  Firefox or Thunderbird can be downloaded from the `Mozilla l10n
-  <http://l10n.mozilla.org/pootle/pot>`_ server or you can :ref:`create it
+  Firefox or Thunderbird can be downloaded from the `Mozilla l10n server
+  <http://l10n.mozilla.org/pootle/pot>`_ or you can :ref:`create it
   <toolkit:creating_mozilla_pot_files>` yourself. You can then create updated
   PO files with :ref:`pomigrate2 <toolkit:pomigrate2>`. :ref:`These scripts
   <toolkit:mozilla_l10n_scripts>` can help to keep a repository of Mozilla PO

@@ -53,10 +53,10 @@ Methods to use:
 * Open a new tab (Ctrl+T), then type "aoi searchword" and ENTER to search for
   "searchword".
 
-.. _../pages/guide/custom_web_searches#adding_a_custom_search_in_opera:
+.. _../pages/guide/custom_web_searches#adding_a_custom_search_in_firefox:
 
-Adding a custom search in Opera
-===============================
+Adding a custom search in Firefox
+=================================
 
 How to create a custom search in Firefox 2
 
