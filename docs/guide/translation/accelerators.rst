@@ -14,10 +14,10 @@ What is an accelerator key and an accelerator marker
 ====================================================
 
 If you look at the menu bar on any application you will see that the first
-letter of each entry in underlined.  Notice that *F*ile, *E*dit and *V*iew each
+letter of each entry in underlined.  Notice that F̲ile, E̲dit and V̲iew each
 have the first letter underlined.  To quickly open the File menu press Alt+F.
 You will notice that most of the menu entries also have accelerator keys, to
-access *O*pen simply type **o** after typing Alt+F.
+access O̲pen simply type **o** after typing Alt+F.
 
 An *accelerator marker* is the special character we use to mark accelerator
 keys when we translate.
@@ -30,13 +30,13 @@ Identifying the accelerator key
 In translations accelerator keys are shown by various characters:
 
 ==========================  =========  =============  ======================  =================  =============================
- Application                 Marker     Name           Source Text Example     Displays As        Note                        
+ Application                 Marker     Name           Source Text Example     Displays As        Note
 ==========================  =========  =============  ======================  =================  =============================
- KDE                          &         ampersand      Save &As...             Save __A__s...                                 
- GNOME                        _         underscore     Save _As...             Save __A__s...                                 
- OpenOffice.org               ~         tilde          Save ~As...             Save __A__s...                                 
- Mozilla                      &         ampersand      Save &As...             Save __A__s...     Using :ref:`toolkit:moz2po`  
- Windows :ref:`toolkit:rc`    &         ampersand      Save &As...             Save __A__s...              
+ KDE                          &         ampersand      Save &As...             Save A̲s...
+ GNOME                        _         underscore     Save _As...             Save A̲s...
+ OpenOffice.org               ~         tilde          Save ~As...             Save A̲s...
+ Mozilla                      &         ampersand      Save &As...             Save A̲s...        Using :ref:`toolkit:moz2po`
+ Windows :ref:`toolkit:rc`    &         ampersand      Save &As...             Save A̲s...
 ==========================  =========  =============  ======================  =================  =============================
 
 In all of the above examples pressing **A** would take you to the *Save As*
@@ -104,9 +104,9 @@ Accelerator Clashes
 If we have two accelerator keys using the same letter then we say that we have
 a clash.  Assume that the following list are the top three entries in a menu:
 
-* **A**uthor 
-* **A**ddress
-* Available **A**ctions...
+* A̲uthor
+* A̲ddress
+* Available A̲tions...
 
 You will notice that all the accelerators use the **A** key --- this is a
 clash.  Fortunately most applications will cycle through the options as you
@@ -116,9 +116,9 @@ This if this appeared first you would never be able to access the other items.
 
 Here is a better choice of accelerators for the same menu:
 
-* **A**uthor 
-* A**d**dress
-* Available A**c**tions...
+* A̲uthor
+* Ad̲dress
+* Available Ac̲tions...
 
 We now use **A**, **d** and **c** --- there are no conflicts.
 
@@ -130,9 +130,9 @@ Examples
 ===========================  ===================================  ===============================  ============================================================================================================================================================================================================================================================================================================================================================================================================================
  English                      Bad                                  Good                             Why?                                                                                                                                                                                                                                                                                                                                                                                                                         
 ===========================  ===================================  ===============================  ============================================================================================================================================================================================================================================================================================================================================================================================================================
- __X__ Axis...                __K__hona ya X...                    Khona ya __X__...                This accelerator appears nicely on the letter X in the English.  The translator slavishly followed the first rule of keeping the accelerator in the same position.  Yet the good version, which follows rule 2, is much better as it keeps the same letter and it also works for the next string which is //"__Y__ Axis..."//                                                                                                
- __8__00x600 pixels           __d__ikarolwana tse 800x600          dikarolwana tse __8__00x600      This follows the previous example.  The translator has continued to use the first letter of the translation even though the number work well in the translation so there was no need to change the accelerator.  It also work with the surrounding translations that cover 1024x768, etc.  With the option chosen by the translator all of these translations would use the __d__ as the accelerator which wouldn't work.    
- URL for __P__erl scripts     URL bakeng sa __m__aqephe a Perl     URL bakeng sa maqephe a Perl     You will notice that Perl is untranslated this is because in Sotho it was decided not to translate the names of computer languages, they're really like brand names.  So here the accelerator appears in English associated with Perl.  Perl appears in the translation and therefore we could simply have transferred it without any worry about accelerator conflicts.                                                     
+ X̲ Axis...                    K̲hona ya X...                        Khona ya X̲...                    This accelerator appears nicely on the letter X in the English.  The translator slavishly followed the first rule of keeping the accelerator in the same position.  Yet the good version, which follows rule 2, is much better as it keeps the same letter and it also works for the next string which is //"__Y__ Axis..."//                                                                                                
+ 8̲00x600 pixels               d̲ikarolwana tse 800x600              dikarolwana tse 8̲00x600          This follows the previous example.  The translator has continued to use the first letter of the translation even though the number work well in the translation so there was no need to change the accelerator.  It also work with the surrounding translations that cover 1024x768, etc.  With the option chosen by the translator all of these translations would use the __d__ as the accelerator which wouldn't work.    
+ URL for P̲erl scripts         URL bakeng sa m̲aqephe a Perl         URL bakeng sa maqephe a P̲erl     You will notice that Perl is untranslated this is because in Sotho it was decided not to translate the names of computer languages, they're really like brand names.  So here the accelerator appears in English associated with Perl.  Perl appears in the translation and therefore we could simply have transferred it without any worry about accelerator conflicts.                                                     
  An ~example                  Bad~translation                      Good ~translation                This example shows a common error of leaving out a space between words.  Because the accelerator sometimes in your mind looks like a space its easy to forget to place the space between words in the translation.                                                                                                                                                                                                           
 ===========================  ===================================  ===============================  ============================================================================================================================================================================================================================================================================================================================================================================================================================
 
