@@ -401,5 +401,4 @@ Another way...
 --------------
 
 Some of what is written here, is re-inventing the wheel.  The wheel we're
-talking about, is Tortoise Tagger, `here
-<http://www.accurussian.net/tagger.htm>`_.
+talking about, is `Tortoise Tagger <http://www.accurussian.net/tagger.htm>`_.
