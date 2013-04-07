@@ -68,15 +68,17 @@ Extensions
 
 A file is made up of the:
 
-+------------+----------------------------+
-| path       | **/the/path/to/**file.doc  |
-+------------+----------------------------+
-| filename   | /the/path/to/**file.doc**  |
-+------------+----------------------------+
-| basename   | /the/path/to/**file**.doc  |
-+------------+----------------------------+
-| extension  | /the/path/to/file.**doc**  |
-+------------+----------------------------+
++------------+-----------------------+
+| fullname   | /the/path/to/file.doc |
++============+=======================+
+| path       | /the/path/to/         |
++------------+-----------------------+
+| filename   | file.doc              |
++------------+-----------------------+
+| basename   | file                  |
++------------+-----------------------+
+| extension  | doc                   |
++------------+-----------------------+
 
 The file extension is thus the characters that appear after the last fullstop
 in a filename.  You do not translate the file extension but you do translate
