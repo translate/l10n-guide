@@ -190,11 +190,9 @@ Event close
 ===========
 
 Don't forget to thank people.  It is also good to get participants to fill out
-an evaluation form as this allows people to give feedback.  You can also use it
-to recruite people to the mailing lists and to help organise your next event.
-
-Here is an :doc:`example evaluation form
-<translateathon-evaluation_form.odt>`
+an evaluation form (`example <../_static/translateathon-evaluation_form.odt>`_)
+as this allows people to give feedback.  You can also use it to recruite people
+to the mailing lists and to help organise your next event.
 
 .. _../pages/guide/translateathon#post_translate@thon_followup:
 
