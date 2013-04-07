@@ -12,7 +12,7 @@ you can look.
 License unkown
 ==============
 
-* `STIX fonts <http://www.stixfonts.org>`_ --- a project to create a complete
+* `STIX fonts <http://www.stixfonts.org>`_ -- a project to create a complete
   set of fonts for technical publication.  They are nearing the completion of
   their goal.  They are still to determine a `usage license
   <http://www.stixfonts.org/user_license.html>`_

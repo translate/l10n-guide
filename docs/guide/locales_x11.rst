@@ -96,7 +96,7 @@ and also ::
 xc/programs/Xserver/XpConfig/Imakefile
 --------------------------------------
 
-This only seems to be relevant to X.org - this defines if your should inherit
+This only seems to be relevant to X.org -- this defines if your should inherit
 paper size from C or en_US.  Add your locale and its permutations to the
 correct list.
 

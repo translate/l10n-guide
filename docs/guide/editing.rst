@@ -32,7 +32,7 @@ What goes where
 The wiki contains some distinct sections:
 
 - The guides to the Translate Toolkit
-- This guide - the localisers guide
+- This guide -- the localisers guide
 - A glossary of localisation terms
 
 Each of these make use of namespaces to distinguish sections from each other.
@@ -75,7 +75,7 @@ Spelling and Grammar
 ====================
 
 Firstly I can't spell!  We also realise that some contributors are not native
-English speakers so don't worry too much about that - or ask someone on
+English speakers so don't worry too much about that -- or ask someone on
 translat-devel@lists.sourceforge.net to check you spelling and grammar.  The
 main idea is that it be understandable. Ask yourself, "Would this help me learn
 something, start something or start contributing?"  If the answer is "Yes.",
@@ -88,7 +88,7 @@ Licensing
 
 This guide is under a creative commons license.  Please be aware of that before
 adding your content and be aware that copy and paste might violate someone
-elses copyright - rather write from scratch or paraphrase the documents you
+elses copyright -- rather write from scratch or paraphrase the documents you
 want to copy.
 
 .. _../pages/guide/editing#credit:

@@ -166,8 +166,8 @@ Web based creation and management tools
 * `Pootle <http://pootle.translatehouse.org>`_ can do terminology extraction
   based on :ref:`poterminology <toolkit:poterminology>` since version 2.1.
   Term lists can be translated and downloaded for offline editing/use.
-* `KiPot <http://www.it46.se/kipot/>`_ --- produced by `it46
+* `KiPot <http://www.it46.se/kipot/>`_ -- produced by `it46
   <http://www.it46.se/>`_ and used by the Kiswahili Localisation team
-* `Gakartuleba.org <http://gakartuleba.sapikhvno.org/glossary_en.php>`_ ---
+* `Gakartuleba.org <http://gakartuleba.sapikhvno.org/glossary_en.php>`_ --
   custom tool used by the Georgian localisation team (requires free account)
-* `Glossword <http://glossword.info>`_ --- helps to create your own dictionary or dictionaries
+* `Glossword <http://glossword.info>`_ -- helps to create your own dictionary or dictionaries

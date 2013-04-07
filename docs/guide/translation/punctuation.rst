@@ -6,9 +6,9 @@ Punctuation
 
 Punctuation is used to indicate various things in program menus e.g.:
 
-* Ellipses (...) --- a dialogue box will appear for further input e.g. "Save
+* Ellipses (...) -- a dialogue box will appear for further input e.g. "Save
   As..."
-* Colon (:) --- usually in a list of entry fields e.g. "Name: "
+* Colon (:) -- usually in a list of entry fields e.g. "Name: "
 
 And sometimes it is simply there for style.
 
@@ -87,7 +87,7 @@ word and :;!# e.g.::
   You will delete all your files ! 
   Name :
 
-French also uses a space before ? - a question mark. Most languages do not
+French also uses a space before ? -- a question mark. Most languages do not
 follow this style, so be sure to use the accepted punctuation style in your
 language.
 

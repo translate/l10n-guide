@@ -13,12 +13,12 @@ Contributors
 
 The Writers, section contributors:
 
-* `Translate.org.za <http://www.translate.org.za/>`_ --- The foundation which
+* `Translate.org.za <http://www.translate.org.za/>`_ -- The foundation which
   made this possible in the first place.
-* `Dwayne Bailey <mailto:dwayne@translate.org.za>`_ --- Capturing the
+* `Dwayne Bailey <mailto:dwayne@translate.org.za>`_ -- Capturing the
   experience of Translate.org.za to ensure that the pain for other localisers
   is considerably reduced.
-* `Javier SOLA <mailto:javier@khmeros.info>`_ --- Documenting the usage of the
+* `Javier SOLA <mailto:javier@khmeros.info>`_ -- Documenting the usage of the
   tools, instructions aimed at newbies and at Windows users and the guide for
   OpenOffice.org localisation
 
@@ -28,7 +28,7 @@ Page contributors:
 
 The techies.
 
-* `David Fraser <imailto:david@translate.org.za>`_ --- Creation of mikiwiki to
+* `David Fraser <imailto:david@translate.org.za>`_ -- Creation of mikiwiki to
   change this from a text only to a simple HTML document.  Plus migration to
   the current wiki and various Pootle documentation.
 
@@ -36,9 +36,9 @@ Helpful input
 
 The people whose input has helped shape the document.
 
-* `Tactical tech <http://tacticaltech.org/>`_ --- Who seeded the idea of
+* `Tactical tech <http://tacticaltech.org/>`_ -- Who seeded the idea of
   capturing this information.
-* `South African Department of Communications <http://www.doc.gov.za/>`_ ---
+* `South African Department of Communications <http://www.doc.gov.za/>`_ --
   Whose funding of Translate.org.za made the writing and capturing of this
   information possible.
 

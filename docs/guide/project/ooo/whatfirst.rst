@@ -60,7 +60,7 @@ Office Shell
 
 | svx-inc
 | offm-so-app
-| scp-s-calc/impr/draw - doc types under new menu
+| scp-s-calc/impr/draw -- doc types under new menu
 
 .. _../pages/guide/project/ooo/whatfirst#writer:
 

@@ -19,7 +19,7 @@ In your translations you have the opportunity of removing language that is too
 casual.  Be carefull when translating games and kiddies programs as you might
 want to keep informal language.
 
-Here is a snippet of an email from Malcolm Hunter - one of the British English
+Here is a snippet of an email from Malcolm Hunter -- one of the British English
 translator.  You might want to take note of his points and remove these from
 your translations.
 

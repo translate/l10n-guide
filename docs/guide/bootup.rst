@@ -68,7 +68,7 @@ Init 3
 =============  ==========  =======================================================================
  Stage          Messages    Description                                                             
 =============  ==========  =======================================================================
- /bin/login                 found in util-linux - should try and extract only /bin/login strings    
+ /bin/login                 found in util-linux -- should try and extract only /bin/login strings
 =============  ==========  =======================================================================
 
 .. _../pages/guide/bootup#booting_init_5:
@@ -99,7 +99,7 @@ Init 5
 ------
 
 * Wallpaper (if different from login wallpaper)
-* Fedora - menu's
+* Fedora -- menu's
 * GNOME / KDE
 
   * Kicker

@@ -15,10 +15,10 @@ dictionary.  Fortunately there are a number of good resource available.
 Online Dictionaries
 ===================
 
-* `Dict.org <http://www.dict.org/>`_ --- Online dictionary with many resource:
+* `Dict.org <http://www.dict.org/>`_ -- Online dictionary with many resource:
   Webster, computer terms, etc
 * `Foldoc <http://www.foldoc.org/>`_ (Free On-line Dictionary of Computing)
-* `Wiktionary <http://wiktionary.org/>`_ --- sister of Wikipedia
+* `Wiktionary <http://wiktionary.org/>`_ -- sister of Wikipedia
 
 .. _../pages/guide/word_definitions#online_encyclopedias:
 

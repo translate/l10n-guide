@@ -64,8 +64,8 @@ Gettext plurals
 
 Gettext uses the "Plural-Forms" header in the PO file to define:
 
-* ``nplural`` --- the number of plural forms.
-* ``plural`` --- an expression which when evaluated determines which form is
+* ``nplural`` -- the number of plural forms.
+* ``plural`` -- an expression which when evaluated determines which form is
   appropriate for that number.  If a definition does not exist for your
   language then you will need to create one or get someone to help you.
 

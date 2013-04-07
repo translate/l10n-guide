@@ -49,7 +49,7 @@ reflect to a normal user not an aeroplane pilot where this site is located.
 * https://www.notams.jcs.mil/common/icao/index.html -- This is a good listing
   of sites sorted by country
 * http://www.nws.noaa.gov/oso/site.shtml -- Contains downloadable ASCII version
-  and instructions on obtaining hardcopy versions - downloadable version seems
+  and instructions on obtaining hardcopy versions -- downloadable version seems
   to be missing
 * http://www.wapf.com/world/FALA.html -- Produces nice maps and proximity to
   other stations to help you identify the location.

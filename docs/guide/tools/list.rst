@@ -67,7 +67,8 @@ Qt TS editors
 XLIFF converters
 ================
 
-* `file2xliff4j <http://file2xliff4j.sourceforge.net/>`_ - converts various file formats to XLIFF (written in Java)
+* `file2xliff4j <http://file2xliff4j.sourceforge.net/>`_ -- converts various
+  file formats to XLIFF (written in Java)
 
 .. _../pages/guide/tools/list#other_translation_editors:
 

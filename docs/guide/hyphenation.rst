@@ -10,15 +10,15 @@ Resources
 =========
 
 * A simple explanation of `TeX based hyphenation
-  <http://www.tex.ac.uk/cgi-bin/texfaq2html?label=hyphen>`_ --- OpenOffice.org
+  <http://www.tex.ac.uk/cgi-bin/texfaq2html?label=hyphen>`_ -- OpenOffice.org
   uses the same TeX files to hyphenate
-* :man:`patgen` --- creates Hypenation pattern files from a set of good
+* :man:`patgen` -- creates Hypenation pattern files from a set of good
   hyphenations
 * Frank Liang, `Word hy-phen-a-tion by com-puter
   <http://www.tug.org/docs/liang/>`_, STAN-CS-83-977, Stanford University Ph.D.
-  thesis, 1983. --- the creator of the Hyphenation system in TeX
+  thesis, 1983. -- the creator of the Hyphenation system in TeX
 * `OpenOffice.org hyphenation page
-  <http://lingucomponent.openoffice.org/hyphenator.html>`_ --- OpenOffice.org
+  <http://lingucomponent.openoffice.org/hyphenator.html>`_ -- OpenOffice.org
   use the ALTLinux hyphenator which is based on libhnj library by Raph Levien.
   It uses TeX hyphenation dictionaries with small corrections.
 * `Current OpenOffice.org hyphenation dictionaries
@@ -26,7 +26,7 @@ Resources
 * `ALTLinux standalone hyphenator
   <http://lingucomponent.openoffice.org/altlinux_Hyph.zip>`_
 * Knuth's `The TeXbook
-  <http://www.ctan.org/tex-archive/systems/knuth/tex/texbook.tex>`_ --- you
+  <http://www.ctan.org/tex-archive/systems/knuth/tex/texbook.tex>`_ -- you
   can't generate this but you can read the TeX in appendix H
 * This `patgen2 tutorial
   <ftp://tug.ctan.org/pub/tex-archive/info/patgen2.tutorial>`_ might be
@@ -73,11 +73,11 @@ You use patgen to create the initial hypenation file. ::
 
 Where:
 
-* dictionary - is the input hyphenation list
-* patterns - is the existing hyphenation pattern file
-* output - is the new hypenation pattern file
-* translate - is a configuration style file (it is explained in some places but
-  not that well)
+* dictionary -- is the input hyphenation list
+* patterns -- is the existing hyphenation pattern file
+* output -- is the new hypenation pattern file
+* translate -- is a configuration style file (it is explained in some places
+  but not that well)
 
 When you run the command you will be asked various questions, again not sure of
 what these are about.
@@ -211,8 +211,8 @@ something like::
 
 Where:
 
-* HYPH --- indicates its a hyphenation dictionary as apposed to a spelling DICTionary
-* xh and ZA --- the language and country
-* hyph_xh --- the name of the dictionary file without the .dic suffix
+* HYPH -- indicates its a hyphenation dictionary as apposed to a spelling DICTionary
+* xh and ZA -- the language and country
+* hyph_xh -- the name of the dictionary file without the .dic suffix
 
 FIXME once again please check this :)

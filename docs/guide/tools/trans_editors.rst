@@ -55,17 +55,17 @@ Other alternatives
 
 You may be able to use a text editor to edit PO files, since they are text: 
 
-* **vi** --- You can use the vi editor.  It includes syntax highlighting, but
+* **vi** -- You can use the vi editor.  It includes syntax highlighting, but
   you might want to check if there is a `newer version
   <http://www.vim.org/scripts/script.php?script_id=913>`_
-* **emacs** --- The Emacs editor has a PO mode for editing PO files.
+* **emacs** -- The Emacs editor has a PO mode for editing PO files.
 
 Or you can try to convert and/or use another format:
 
-* :ref:`CSV <toolkit:csv>` --- You can use a Spreadsheet to edit PO files that
+* :ref:`CSV <toolkit:csv>` -- You can use a Spreadsheet to edit PO files that
   have been converted into CSV. It works quite well but is not highly
   recommended if you have good access to a PO editor listed above.
-* :ref:`XLIFF <toolkit:xliff>` --- This is an emerging translation interchange
+* :ref:`XLIFF <toolkit:xliff>` -- This is an emerging translation interchange
   standard.  We will see much more available in this format, convertors are
   being created to move PO files to Xliff and a number of editors both GPL and
   commercial are being made available.  A short report on :doc:`XLIFF support

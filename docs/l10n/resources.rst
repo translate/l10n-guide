@@ -4,8 +4,8 @@
 Resources
 *********
 
-* `ISO639 <http://www.loc.gov/standards/iso639-2/php/English_list.php>`_ ---
-  use this to determine your language's ISO code.
+* `ISO639 <http://www.loc.gov/standards/iso639-2/php/English_list.php>`_ -- use
+  this to determine your language's ISO code.
 * `FOLDOC <http://foldoc.org/>`_ -- The Free On-line Dictionary of Computing --
   meanings of technical terms.
 * If FOLDOC doesn't have it, try `Wikepedia <http://wikipedia.org>`_, `The
@@ -16,16 +16,17 @@ Resources
   annoying and cryptic names like GPSD, AARNET and MTA.
 * `The alphabetic file extension list <http://filext.com/alphalist.php>`_ tells
   you what those file-extension abbreviations like .csv and .php really mean!
-* `dict.org <http://dict.org>`_ --- various online dictionaries that you can
-  use to help define English words and thus help you create or find equivalents
-  in your language.
+* `dict.org <http://dict.org>`_ -- various online dictionaries that you can use
+  to help define English words and thus help you create or find equivalents in
+  your language.
 * `Wiktionary <http://wiktionary.org/>`_ is a wiki-based dictionary system
   available in many languages, to which anyone can contribute. You can use its
   current resources, and build your own glossaries there.
-* :doc:`Language names <languagenames>` - how do *you* write the name of your
+* :doc:`Language names <languagenames>` -- how do *you* write the name of your
   language?
-* :doc:`Plural forms <pluralforms>` — what plural forms does your language use?
-* :doc:`Display settings <displaysettings>` - what settings are necessary for
+* :doc:`Plural forms <pluralforms>` -- what plural forms does your language
+  use?
+* :doc:`Display settings <displaysettings>` -- what settings are necessary for
   ideal display of your language?
 * `Quotation Marks <http://www.witch.westfalen.de/csstest/quotes/quotes.html>`_
   -- what does *your* language use for quotation marks? Also how to set

@@ -70,7 +70,7 @@ Strings are shown in different colours:
 +---------+-----------------------------------------------------------------+
 | Cyan    | untranslated                                                    |
 +---------+-----------------------------------------------------------------+
-| Yellow  | fuzzy - needs to be examined and might need to be retranslated  |
+| Yellow  | fuzzy -- needs to be examined and might need to be retranslated |
 +---------+-----------------------------------------------------------------+
 | White   | translated                                                      |
 +---------+-----------------------------------------------------------------+

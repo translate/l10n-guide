@@ -18,7 +18,7 @@ localised desktop.
 Resource
 ========
 
-* KhmerOS --- These pages prepared by Javier SOLA are by far your best resource
+* KhmerOS -- These pages prepared by Javier SOLA are by far your best resource
   for localising OpenOffice.org
 
   * `Localisation Guide to OpenOffice.org 2.0
@@ -114,10 +114,10 @@ which generates an AutoCorrect file from CSV sources.
 
 The autocorrect file contains 3 XML files:
 
-* DocumentList.xml - pairs of mistyped words and their correct spelling
-* SentenceExceptList.xml - abbreviations that end with a fullstop that should
+* DocumentList.xml -- pairs of mistyped words and their correct spelling
+* SentenceExceptList.xml -- abbreviations that end with a fullstop that should
   be ignored when determining the end of a sentence
-* WordExceptList.xml - Words that may contain more than 2 leading capital eg.
+* WordExceptList.xml -- Words that may contain more than 2 leading capital eg.
   CDs
 
 When using csv2acor.py your need to have 3 files with the same name as above
@@ -167,7 +167,7 @@ following::
 
 Your'll need to edit DocumentList.csv to remove some of the remaining XML data.  
 
-A cleaner method is to use the following XSLT - this way you don't have to
+A cleaner method is to use the following XSLT -- this way you don't have to
 clean any XML data (so this is suitable for batch mode):
 
 .. code-block:: xml

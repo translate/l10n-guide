@@ -28,12 +28,12 @@ To get the most our of your Translate@thon it is important that you understand
 what kind of outcomes you can expect and align your expectations accordingly.
 You will get different outcomes from small and large events.
 
-* **Large event** --- 40+ people.  Most people will be new a translating and
+* **Large event** -- 40+ people.  Most people will be new a translating and
   most probably unskilled.  You will spend a lot of time explaining things,
   doing presentations, etc.  Some people who are there might just be there for
   the social and will disturb others reducing their output.  Expect low
   quality.
-* **Small event** --- 5 people. Usually the group is dedicated.  The ratio of
+* **Small event** -- 5 people. Usually the group is dedicated.  The ratio of
   techies to translators is high so the quality goes up.  The atmosphere is one
   of hard fun work as opposed to the carnival atmosphere at a large event.
 
@@ -163,7 +163,7 @@ This is the suggested program that we use.
     Program
 =================  ===============================================================
 09:00              Arrive tea, Register (hand out program, translation guidelines)
-09:30              Start - intro talk (very basics of translation)
+09:30              Start -- intro talk (very basics of translation)
 10:00              Translate short session
 10:15              More talk covering more advanced topics
 11:00              Translate

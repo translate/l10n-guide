@@ -4,7 +4,7 @@
 Contributing
 ************
 
-We welcome contributions - if you are a localiser then this is your document.
+We welcome contributions -- if you are a localiser then this is your document.
 Please think of this as a living document.  If you are using part of it and
 find that it is out of date then please update it so that others don't have to
 go through your pain.

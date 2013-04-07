@@ -71,7 +71,7 @@ Initially the first column will stretch across the page as it contains a large
 amount of data, but you cannot see or work with this data.  Therefore do the
 following:
 
-- **Adjust the column widths** - 5" works well as you can then see both the
+- **Adjust the column widths** -- 5" works well as you can then see both the
   original and translation clearly.
 - **Adjust the cell formating** for the first column to allow the insertion of
   automatic line breaks (this will cause the data to wrap within the column and

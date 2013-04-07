@@ -39,7 +39,7 @@ repository.  They are useful for building and testing glibc locales:
    * - `error <http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/errors?view=markup>`_         
      - displays any compilation errors detected                        
    * - `install <http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/install?view=markup>`_       
-     - performs a test install (use -r for a real install - must be root)  
+     - performs a test install (use -r for a real install -- must be root)
    * - `definition <http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/definition?view=markup>`_    
      - prints the value of a locale field (installed locales only)     
    * - `locale-escape <http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/locale-escape?view=markup>`_ 

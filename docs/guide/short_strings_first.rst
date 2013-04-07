@@ -59,7 +59,7 @@ than that from *complete* and place them in *short*.  Once these strings have
 been translated you would use :ref:`toolkit:pomerge` to combine them with the
 complete PO file(s). This way it is sometimes possible to translate more than
 60% of the messages by translating less than 40% of the words. Use
-:ref:`toolkit:pocount` to see how much work has been isolated by pogrep - this
+:ref:`toolkit:pocount` to see how much work has been isolated by pogrep -- this
 will help you to plan your time.
 
 .. _../pages/guide/short_strings_first#example_of_the_potential_impact:

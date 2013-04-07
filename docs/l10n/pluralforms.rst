@@ -7,8 +7,8 @@ Plural Forms
 This is a list of the plural forms, as used by Gettext PO, that are appropriate
 to each language.
 
-If your language isn't represented - please add it, or if the information is
-inaccurate or inadequate in some way - please edit it.  The Plural information
+If your language isn't represented -- please add it, or if the information is
+inaccurate or inadequate in some way -- please edit it.  The Plural information
 is usually very hard to find and also in many ways hard for a new localiser to
 understand.  So please see this as a repository that can help localisers.
 Understanding how the Gettext functions use plural forms will help you `design

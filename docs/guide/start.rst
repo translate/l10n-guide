@@ -12,7 +12,7 @@ general enough overview of common mistakes and pitfalls.  We have found the
 localisation community very fragmented and hope that through this document we
 can bring people together and unify information that is out there but in many
 many different places.  The one section that we feel is unique is the guide to
-developers --- they make assumptions about localisation without fully
+developers -- they make assumptions about localisation without fully
 understanding the implications, we complain but honestly there is not one place
 that can help give a developer and overview of what is needed from them, we
 hope that the developer section goes a long way to solving that issue.
@@ -63,7 +63,7 @@ Reading List
 Some useful reading for the soon to be and established localisers.  Please add
 good useful articles to these lists.
 
-* :doc:`general_articles` - as yet unclassified but interesting
+* :doc:`general_articles` -- as yet unclassified but interesting
 
 .. _../pages/guide/start#managing_a_translation_effort:
 
@@ -169,7 +169,7 @@ Project specific information
   * :doc:`Man pages <project/manpages>`
   * `WINE <http://wiki.winehq.org/Translating>`_
   * `ReactOS <http://www.reactos.org/wiki/index.php/Translation_Introduction>`_
-    - Microsoft Windows clone
+    -- Microsoft Windows clone
   * `OpenMoko <http://wiki.openmoko.org/wiki/Translation_HOWTO>`_
 
 .. _../pages/guide/start#translation:
@@ -313,7 +313,7 @@ Source Control
 
 * Using :doc:`cvs`
 
-  * :doc:`tortoise` and :doc:`wincvs` --- CVS applications for Windows
+  * :doc:`tortoise` and :doc:`wincvs` -- CVS applications for Windows
   * `CrossVC <http://crossvc.com/>`_ -- cross-platform CVS GUI front-end
   * The `BBEdit <http://www.barebones.com/index.shtml>`_ text editor for OSX
     integrates CVS
@@ -521,7 +521,7 @@ Notes to programmers
 * :doc:`Variables <variables_programmers>`
 * :doc:`translation_comments`
 * :doc:`unicode_normalization`
-* `intltool <http://www.freedesktop.org/wiki/Software/intltool>`_ - used by
+* `intltool <http://www.freedesktop.org/wiki/Software/intltool>`_ -- used by
   Gnome and others to localise .desktop, .xml, .glade and other file types.
 * :doc:`unfuzzying` typo/grammar fixes to original strings
 * :doc:`monolingual` formats create certain problems that need resolving for

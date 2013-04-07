@@ -52,7 +52,7 @@ Computer experience
 -------------------
 
 Someone who has no computer experience will not have the best understanding of
-words used differently in the computer world - words such as 'execute' and
+words used differently in the computer world -- words such as 'execute' and
 'run'.  But a BSc is also not needed.  You need someone who can comfortably use
 a computer they can always lookup difficult words in online computer
 dictionaries.

@@ -63,7 +63,7 @@ whole file useless and causes an unnecessary debug process just to get the file
 in a usable order. Issues related to XML tags, escaping and correct formats are
 not always known to translators, and any time spent on these issues just mean
 less time for translation and review. Translators might now also have to worry
-about line-endings, BOM markers - things that are not even visible in normal
+about line-endings, BOM markers -- things that are not even visible in normal
 text editors.
 
 Another consequence of such formats, is that they are usually extremely badly

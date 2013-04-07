@@ -12,18 +12,18 @@ translating them or using them without permission.  Examples include
 
 Most brand names are easily left as is while some are tempting to translate:
 
-* **OpenOffice.org**: Writer, Calc, Draw, Impress - are all translatable.  You
+* **OpenOffice.org**: Writer, Calc, Draw, Impress -- are all translatable.  You
   team needs to define its policy on this..
-* **Mozilla**: Editor, Mail & News - are all translatable.  Unlike The
+* **Mozilla**: Editor, Mail & News -- are all translatable.  Unlike The
   OpenOffice.org case these are probably best translated.  A user would say I
   edit my webpages with the Mozilla Editor.  Unlike OpenOffice.org were a user
   might say 'to do that you need to open Calc and go to...'.  Editor is much
   more generic than the OpenOffice.org examples.
-* **KDE**: kaddressbook - an unoriginal name for an application.  This probably
-  should be translated.  But be aware a user can only run kaddressbook from the
-  command line by actually typing 'kaddressbook' it will not work if they type
-  the translated name, this is not an issue if your users make use of the GUI
-  and not the command line.
+* **KDE**: kaddressbook -- an unoriginal name for an application.  This
+  probably should be translated.  But be aware a user can only run kaddressbook
+  from the command line by actually typing 'kaddressbook' it will not work if
+  they type the translated name, this is not an issue if your users make use of
+  the GUI and not the command line.
 
 .. _../pages/guide/translation/brandnames#simple_policy:
 

@@ -21,15 +21,15 @@ Resources
   Windows fonts <http://wiki.winehq.org/CreateFonts>`_
 * `Scribus page on fonts
   <http://www.scribus.org.uk/modules.php?op=modload&name=Web_Links&file=index&req=viewlink&cid=3>`_
-* `FontForge <http://fontforge.sourceforge.net/>`_ --- Free font editing and
+* `FontForge <http://fontforge.sourceforge.net/>`_ -- Free font editing and
   creation tool  
-* Indrek Hein's `Letter Database <http://www.eki.ee/letter/>`_ --- what special
+* Indrek Hein's `Letter Database <http://www.eki.ee/letter/>`_ -- what special
   characters are needed by your/a language, their Unicode codes, etc
 * Fontconfig `Orthographies
-  <http://cgit.freedesktop.org/fontconfig/tree/fc-lang>`_ --- these fc-lang
+  <http://cgit.freedesktop.org/fontconfig/tree/fc-lang>`_ -- these fc-lang
   files contain the list of characters needed by various languages and are used
   to better guess which font to use to render a document.
-* http://www.travelphrases.info/fonts.html --- want to see the scripts of
+* http://www.travelphrases.info/fonts.html -- want to see the scripts of
   various languages and their fonts, plus links to both free and proprietary
   fonts.
 * Troubleshooting
@@ -43,7 +43,7 @@ Resources
 
   * `Open Source and other fonts
     <http://freedesktop.org/wiki/Software_2fFonts>`_
-  * `BSD and GPLd <http://xorg.freedesktop.org/wiki/FreeFonts>`_ fonts --- this
+  * `BSD and GPLd <http://xorg.freedesktop.org/wiki/FreeFonts>`_ fonts -- this
     covers many non-Latin fonts
 
 * `A survey of free font licenses
@@ -63,15 +63,15 @@ We probably need to start classifiying this list: decrotive, bitmap, etc.
   langauges characters
 * `DejaVu <http://dejavu.sourceforge.net/wiki/index.php/Main_Page>`_ -- if you
   have to extend Bitstream Vera then do it in this font.
-* Greenville --- Tahoma replacement (`comparison
+* Greenville -- Tahoma replacement (`comparison
   <http://www.winehq.com/hypermail/wine-devel/2004/09/att-0601/01-Comparison_6_8_10_12_13.png>`_)
-  --- seems to be vapourware
-* `URW <ftp://ftp.gnome.ru/fonts/urw/release/>`_ --- the 35 standard
+  -- seems to be vapourware
+* `URW <ftp://ftp.gnome.ru/fonts/urw/release/>`_ -- the 35 standard
   PostScript(TM) fonts, donated under the GPL by URW++ Design and Development
   GmbH.
 * `X.org's list of Open Source fonts
   <http://www.freedesktop.org/wiki/Software_2fFonts>`_
-* `Free UCS Outline Fonts <http://www.nongnu.org/freefont/>`_ --- This project
+* `Free UCS Outline Fonts <http://www.nongnu.org/freefont/>`_ -- This project
   aims to provide a set of free outline (PostScript Type0, TrueType,
   OpenType...) fonts covering the ISO 10646/Unicode UCS (Universal Character
   Set).

@@ -44,7 +44,7 @@ Creating keyboards on Microsoft
 Microsoft Keyboard Layout Creator (MSKLC)
 -----------------------------------------
 
-* `MSKLC <http://www.microsoft.com/globaldev/tools/msklc.mspx>`_ --- Microsoft
+* `MSKLC <http://www.microsoft.com/globaldev/tools/msklc.mspx>`_ -- Microsoft
   Keyboard Layout Creator
 
 This will only work on Windows 2000 and XP.  It WILL NOT work on Windows 95,
@@ -63,15 +63,15 @@ for the other modified state (usualy AltGr).  For dead keys you must define one
 of the states as being a dead key and then define each of the combinations.
 Quite easy but tedious.
 
-Once you are happy with your keyboard then select 'Project - Test Keyboard
+Once you are happy with your keyboard then select 'Project -> Test Keyboard
 Layout...' you will see a text entry field and can type and test the keyboard.
-If all works well then select 'Project - Validate Layout', this will give you a
-report about any problems that were detected in your keyboard.  
+If all works well then select 'Project -- Validate Layout', this will give you
+a report about any problems that were detected in your keyboard.
 
-Want a picture of your new keyboard? 'File - Save As Image' - they're ugly but
-they get the message across.
+Want a picture of your new keyboard? 'File -> Save As Image' -- they're ugly
+but they get the message across.
 
-The last step is to build your keyboard for that select 'Project - Build DLL
+The last step is to build your keyboard for that select 'Project -- Build DLL
 and Setup Package'.  This will create and MSI installer and a keyboard DLL, see
 the section below for steps on how to actually make the installer work.
 

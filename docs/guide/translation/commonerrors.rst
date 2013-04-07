@@ -4,7 +4,7 @@
 Common Translation Errors
 *************************
 
-Translators - even professional translators - usually make these error when
+Translators -- even professional translators -- usually make these error when
 translating computer software.
 
 .. _../pages/guide/translation/commonerrors#overview_of_common_errors:

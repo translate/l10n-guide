@@ -108,7 +108,7 @@ a clash.  Assume that the following list are the top three entries in a menu:
 * A̲ddress
 * Available A̲tions...
 
-You will notice that all the accelerators use the **A** key --- this is a
+You will notice that all the accelerators use the **A** key -- this is a
 clash.  Fortunately most applications will cycle through the options as you
 press A repeatedly.  But what would happen if the 3rd item appeared first? (The
 third item uses the ellipses (...) to indicate that a dialogue box will open.
@@ -120,7 +120,7 @@ Here is a better choice of accelerators for the same menu:
 * Ad̲dress
 * Available Ac̲tions...
 
-We now use **A**, **d** and **c** --- there are no conflicts.
+We now use **A**, **d** and **c** -- there are no conflicts.
 
 .. _../pages/guide/translation/accelerators#examples:
 

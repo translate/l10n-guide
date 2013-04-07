@@ -24,7 +24,7 @@ The :doc:`translation_guidelines_template` is designed to be a basis from which
 to develop your languages guidelines.  If you see that you re adding a new
 section to your policy first check to see if its in the template.  If not then
 please add it. We want the template to be a model of what issues people should
-be considering.  The policy document is yours - make ot do what you need it to
+be considering.  The policy document is yours -- make ot do what you need it to
 do.
 
 .. _../pages/guide/translation_guidelines#language_guidline_documents:

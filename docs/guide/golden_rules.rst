@@ -113,19 +113,19 @@ you something with which to encourage others to help you.
 
 Here are some ideas of projects to look into:
 
-- `Tuxpaint <http://tuxpaint.org>`_ - A drawing program for children. This is a
-  very small translation (less than 1000 words) and the program is not
+- `Tuxpaint <http://tuxpaint.org>`_ -- A drawing program for children. This is
+  a very small translation (less than 1000 words) and the program is not
   dependent on any libraries or GUI toolkits that need to be translated.
-- `Pootle <http://pootle.locamotion.org/>`_ - A online system for translation
+- `Pootle <http://pootle.locamotion.org/>`_ -- A online system for translation
   and translation management. This is not such a high priority program to
   translate, but it is easy to do it, and provides lots of help. Translating
   Pootle can therefore also help to train new translators in your team.
-- `GCompris <http://www.gcompris.net/>`_ - Educational software for children.
+- `GCompris <http://www.gcompris.net/>`_ -- Educational software for children.
   This is quite a large translation (more than 10 thousand words), but it is
   fairly easy to prioritise the effort either by targeting specific activities,
   or by doing the :doc:`short_strings_first`. GCompris is not dependent on any
   libraries or GUI toolkits that need to be translated.
-- `xdg-user-dirs <http://l10n.gnome.org/module/xdg-user-dirs>`_ - Translations
+- `xdg-user-dirs <http://l10n.gnome.org/module/xdg-user-dirs>`_ -- Translations
   for the common directories on Linux type systems (Documents, Desktop, Videos,
   Music, etc.) It is a very small translation (less than 50 words) and the
   effects should be visible in most "Open" and "Save" dialog boxes on Linux
@@ -141,12 +141,12 @@ Here are some ideas of projects to look into:
   "Undo", "Preferences", etc. These are used by many applications, so
   translating them will give an initial boost to the localised feel of all your
   programs using GTK+.
-- `Pidgin <http://pidgin.im/>`_ - A chat program for several protocols. This
+- `Pidgin <http://pidgin.im/>`_ -- A chat program for several protocols. This
   translation is quite big (more than 15 000 words), but it is easy to avoid
   translations that deal with certain obscure protocols (check the #:
   comments). Pidgin uses GTK+, so at least a partial translation of GTK+ will
   be needed to have Pidgin 100% translated.
-- `Audacity <http://audacity.sourceforge.net/>`_ - An audio editor. This
+- `Audacity <http://audacity.sourceforge.net/>`_ -- An audio editor. This
   translation is not that big, but it contains a lot of technical terms that
   might make it a bit more difficult. Audacity depends on the wxWidgets
   toolkit. For Linux this means that GTK+ should be translated as mentioned

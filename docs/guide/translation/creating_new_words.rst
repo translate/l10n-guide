@@ -4,7 +4,7 @@
 Selecting and Creating new words
 ********************************
 
-Your language does not have a word for a certain computer term - what do you
+Your language does not have a word for a certain computer term -- what do you
 do?  Many people decide to leave the term in English.  However, please take a
 moment to think about why you are translating this software.  Will people who
 use your language be able to identify or understand the English word?  Will
@@ -47,7 +47,7 @@ Acronyms
 
 Acronyms are words formed from the intial letters of phrases.  
 
-* HTTP --- HyperText Transfer Protocol
+* HTTP -- HyperText Transfer Protocol
 
 We often choose to leave these as they are as the meaning of the acronym is to
 most people disasociated with the actual words that make up the acronym.  Some

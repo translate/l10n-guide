@@ -70,10 +70,10 @@ Programming languages
 You will often see text that relates to programming or programming like
 languages.  Some of them you can change.
 
-* Spreadsheet functions - you can translate these if they make sense
-* Program syntax - never translate as this is the grammar of a programming
+* Spreadsheet functions -- you can translate these if they make sense
+* Program syntax -- never translate as this is the grammar of a programming
   language
-* SQL - you should never change this unless the program is providing some user
+* SQL -- you should never change this unless the program is providing some user
   interface that will hide people from the actual SQL language.
 
 .. _../pages/guide/translation/problem_words#do_translate:

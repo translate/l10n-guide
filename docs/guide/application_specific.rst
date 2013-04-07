@@ -16,8 +16,8 @@ elaborated.
 Country Specific
 ================
 
-* KOrganizer --- public holidays
-* Evolution --- public holidays
+* KOrganizer -- public holidays
+* Evolution -- public holidays
 * Any Internet dialup logging
 * Mozilla dates and times (might be locale specific)
 * OpenOffice date and tiem formats (might be locale specific)
@@ -43,13 +43,13 @@ Country Specific
 Language Specific
 =================
 
-* KTuberling --- language wav files
+* KTuberling -- language wav files
 * Locale files
-* Mozilla, Konqueror --- default language preferences set
+* Mozilla, Konqueror -- default language preferences set
 
 .. _../pages/guide/application_specific#both_language_and_country_specific:
 
 Both Language and Country specific
 ==================================
 
-* OpenOffice --- locale files
+* OpenOffice -- locale files

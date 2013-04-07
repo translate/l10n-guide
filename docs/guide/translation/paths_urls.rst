@@ -82,7 +82,7 @@ A file is made up of the:
 
 The file extension is thus the characters that appear after the last fullstop
 in a filename.  You do not translate the file extension but you do translate
-the basename.  Eg. budget.doc - Translate **budget** but do not translate
+the basename.  Eg. budget.doc -- Translate **budget** but do not translate
 **.doc**.
 
 .. _../pages/guide/translation/paths_urls#examples:

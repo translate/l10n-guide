@@ -5,8 +5,8 @@ Translating HTML
 ****************
 
 HTML is used to design web pages, but it often occurs in GUI translations.  You
-will also see XML - which looks very much like HTML.  They are both examples of
-markup languages used to specify some information about text.  This guide
+will also see XML -- which looks very much like HTML.  They are both examples
+of markup languages used to specify some information about text.  This guide
 explains which parts of HTML you can safely translate and which you should
 leave unchanged.
 
@@ -16,7 +16,7 @@ A tag can also contain extra information: <img src="picture.jpg" />  Here the
 img (image) tag contains an extra attribute to specify the file name of the
 picture to show in the image tag.
 
-Tags often occur in pairs: <p> </p> - note the difference between the opening
+Tags often occur in pairs: <p> </p> -- note the difference between the opening
 and closing tag.
 
 .. _../pages/guide/translation/html#what_not_to_translate:
@@ -41,7 +41,7 @@ Some markers just beg to be translated, such as these:
 
    <title>, <center>, <body>
 
-Do not be tempted - these need to remain in English.
+Do not be tempted -- these need to remain in English.
 
 .. _../pages/guide/translation/html#reordering_or_changing_tags:
 
@@ -60,8 +60,8 @@ together in pairs, and that the closing tags always follow the opening tags.
 
 .. _../pages/guide/translation/html#attributes_-_which_to_translate:
 
-Attributes - which to translate
-===============================
+Attributes -- which to translate
+================================
 
 An attribute is a variable associated with a tag.  E.g.  <body bgcolor=blue>,
 here "bgcolor" is an attribute and "blue" is its value.  Attributes, like tags,

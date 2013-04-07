@@ -16,9 +16,9 @@ translation memory from KBabel.
 Installing
 ==========
 
-* Linux --- Forms part of the kdesdk package.  Install that and any
+* Linux -- Forms part of the kdesdk package.  Install that and any
   dependencies. 
-* Windows --- Porting still in progress (`screenshot
+* Windows -- Porting still in progress (`screenshot
   <http://iidea.pl/~js/qkw/2004-11-25-kbabel_win32.png>`_)
 
 .. _../pages/guide/kbabel#using_kbabel:

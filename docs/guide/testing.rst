@@ -16,8 +16,8 @@ Cannot test
 
 These cannot be quickly tested:
 
-* OpenOffice.org - requires the application be recompiled
-* Mozilla Firefox and Thunderbird - requires the creation and installation of
+* OpenOffice.org -- requires the application be recompiled
+* Mozilla Firefox and Thunderbird -- requires the creation and installation of
   an XPI
 
 .. _../pages/guide/testing#gettext:
