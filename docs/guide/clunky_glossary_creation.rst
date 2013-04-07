@@ -18,9 +18,9 @@ jargon from the project that can be translated beforehand.
 1. Extract the source text
 ==========================
 
-Take the PO file and do po2csv on it::
+Take the PO file and do :ref:`po2csv <toolkit:po2csv>` on it::
 
-  python po2csv file.po file.csv
+  po2csv file.po file.csv
 
 Open the CSV file in Excel or Calc.
 

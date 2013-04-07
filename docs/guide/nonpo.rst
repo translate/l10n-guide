@@ -106,8 +106,8 @@ source, you have to do the following:
 - convert the OO format to PO format (see above)
 - ... more to come
 
-(see :ref:`toolkit:oo2po` if you want to convert them using the translate
-toolkit)
+(see :ref:`oo2po <toolkit:oo2po>` if you want to convert them using the
+translate toolkit)
 
 .. _../pages/guide/nonpo#firefox:
 

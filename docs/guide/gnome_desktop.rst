@@ -65,7 +65,7 @@ across future GNOME localisations.
 Start with the latest versions in of `GnomeGlossary.csv
 <http://cvs.gnome.org/viewcvs/gnome-i18n/glossary/GnomeGlossary.csv?view=log>`_
 in CSV format and convert to PO using the csv-to-pot.sh script.  The layout is
-slightly different from the layout created by :ref:`toolkit:po2csv` so you
+slightly different from the layout created by :ref:`po2csv <toolkit:po2csv>` so you
 cannot convert the created POT file to a `Translate Toolkit
 <http://toolkit.translatehouse.org>`_ style CSV file.
 
