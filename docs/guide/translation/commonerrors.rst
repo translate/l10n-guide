@@ -18,7 +18,8 @@ Capitalisation
 --------------
 
 | **Wrong**: no capitalisation in translation
-| **Correct**: translation follows translation language capitalisation convention
+| **Correct**: translation follows translation language capitalisation
+| convention
 
 .. _../pages/guide/translation/commonerrors#double_words:
 
@@ -46,8 +47,10 @@ Variables
 | **Wrong**: variables left out of translation
 | **Correct**: variable in translation in the correct order for the language
 
-| **Wrong**: environment variable names (eg. EDITOR) and possible fixed values (eg. COLOR, TRANSPARENT) translated
-| **Correct**: left in English and perhaps surrounded by single quotes to indicate that they are not in the target language on purpose.
+| **Wrong**: environment variable names (eg. EDITOR) and possible fixed values
+| (eg. COLOR, TRANSPARENT) translated
+| **Correct**: left in English and perhaps surrounded by single quotes to
+| indicate that they are not in the target language on purpose.
 
 .. _../pages/guide/translation/commonerrors#punctuation:
 
@@ -55,13 +58,17 @@ Punctuation
 -----------
 
 | **Wrong**: leaving out end punctuation and whitespace (eg. ``"File: "``)
-| **Correct**: copying end punctuation and whitespace almost exactly as the original into the translation.
+| **Correct**: copying end punctuation and whitespace almost exactly as the
+| original into the translation.
 
 | **Wrong**: adding missing fullstops to translated sentence
-| **Correct**: if full sentences do not contain a fullstop in the original do not add one to the translation.
+| **Correct**: if full sentences do not contain a fullstop in the original do
+| not add one to the translation.
 
 | **Wrong**: adding exclamation marks (!) to the translation when they occur in the original
-| **Correct**: use exclamation marks to correspond with the tone of the application and the convention of the translated language.  Ie you may leave them out of the translation.
+| **Correct**: use exclamation marks to correspond with the tone of the
+| application and the convention of the translated language.  Ie you may leave
+| them out of the translation.
 
 | **Wrong**: leaving out ellipses (...)
 | **Correct**: always add ellipses to the translation
@@ -75,13 +82,13 @@ Accelerators
 | **Correct**: if the original has an accelerator so should the translation
 
 | **Wrong**: placing the accelerator exactly in the same position as the original
-| **Correct**: place the accelerator on the word / syllable / part of the sentence
-that is accented in its pronunciation or is the focus of the sentence.
+| **Correct**: place the accelerator on the word / syllable / part of the
+| sentence that is accented in its pronunciation or is the focus of the sentence.
 
 | **Wrong**: using the same letter for accelerator keys
 | **Correct**: try to vary the letters chosen as the accelerator key (in some
-languages almost all words start with U or I.  In this case make an effort to
-choose other letters)
+| languages almost all words start with U or I.  In this case make an effort to
+| choose other letters)
 
 .. _../pages/guide/translation/commonerrors#html:
 
@@ -92,6 +99,7 @@ HTML
 | **Correct**: HTML tags are not translated
 
 | **Wrong**: translatable HTML entities are not translated
-| **Correct**: translate items that will be viewable.  E.g. HTML img tag's alt attribute <img alt="translate me">, a tag's title
-attribute <a href=blah title="translate me">.
+| **Correct**: translate items that will be viewable.  E.g. HTML img tag's alt
+| attribute <img alt="translate me">, a tag's title attribute <a href=blah
+| title="translate me">.
 
