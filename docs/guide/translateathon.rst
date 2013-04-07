@@ -236,8 +236,8 @@ granted.  There are a few things you can do to increase quality.
   terminology list before the event and install that in Pootle for
   :ref:`terminology suggestions <pootle:terminology>`. This will at least
   eliminate certain types of inconsistencies. :ref:`Translation memory
-  <pootle:updatetm>` is another way to help, although that might be harder to
-  setup, depending on the administration skills available.
+  <pootle:translation_memory>` is another way to help, although that might be
+  harder to setup, depending on the administration skills available.
 
 .. _../pages/guide/translateathon#checklist:
 
