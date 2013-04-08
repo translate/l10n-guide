@@ -51,8 +51,7 @@ If you use the 'less' program in the terminal::
 
 you will also see bold text and underscored text highlighting the differences.
 
-You can find `more information on wdiff
-<http://wdiff.progiciels-bpi.ca/index.html>`_.
+You can find `more information on wdiff <http://www.gnu.org/software/wdiff/>`_.
 
 .. _../pages/guide/comparingfiles#gui_software:
 

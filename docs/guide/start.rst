@@ -315,7 +315,7 @@ Source Control
 
   * :doc:`tortoise` and :doc:`wincvs` -- CVS applications for Windows
   * `CrossVC <http://crossvc.com/>`_ -- cross-platform CVS GUI front-end
-  * The `BBEdit <http://www.barebones.com/index.shtml>`_ text editor for OSX
+  * The `BBEdit <http://www.barebones.com/index.html>`_ text editor for OSX
     integrates CVS
 
 * `Using SVN <http://svnbook.red-bean.com/en/1.1/>`_
@@ -328,7 +328,7 @@ Source Control
     -- intuitive SVN front-end for Mac OSX
   * `PathFinder <http://www.cocoatech.com/>`_ for OSX has an SVN pane, and a
     multi-tab terminal pane
-  * The `BBEdit <http://www.barebones.com/index.shtml>`_ text editor for OSX
+  * The `BBEdit <http://www.barebones.com/index.html>`_ text editor for OSX
     integrates SVN
 
 * Using `Git <http://git-scm.com/>`_
@@ -337,7 +337,7 @@ Source Control
     switching from SVN
   * How to use `Git at Debian <http://wiki.debian.org/Alioth/Git>`_
   * How to use `Git at GNOME
-    <http://live.gnome.org/TranslationProject/GitHowTo>`_
+    <https://live.gnome.org/TranslationProject/GitHowTo>`_
 
 * Using `Bazaar <http://bazaar.canonical.com/DownloadBzr>`_
 

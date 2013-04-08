@@ -35,7 +35,7 @@ most people aren't.  The problem with people with multi-language skills is that
 they often do not have access to a deep understanding of either language.  And
 a deep understanding is what you need if you want to find words that can be
 reused in a different way in a computer translation.  So treat the
-:wp:`polyglot <list_of_noted_polyglots>` with caution until proved otherwise.
+:wp:`polyglot <List_of_noted_polyglots>` with caution until proved otherwise.
 
 .. _../pages/guide/translator_skill_requirements#passionate:
 

@@ -31,7 +31,7 @@ Problems
 FIXME this data may be out of date please check and update it.
 
 In Evolution there is a problem in that location names are not localisable.
-Bug `#89746 <http://bugzilla.gnome.org/show_bug.cgi?id=89746>`_ refers to this
+Bug `#89746 <https://bugzilla.gnome.org/show_bug.cgi?id=89746>`_ refers to this
 problem.
 
 .. _../pages/guide/weather_applications#where_do_you_get_the_data:

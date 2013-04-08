@@ -28,7 +28,7 @@ Page contributors:
 
 The techies.
 
-* `David Fraser <imailto:david@translate.org.za>`_ -- Creation of mikiwiki to
+* `David Fraser <mailto:david@translate.org.za>`_ -- Creation of mikiwiki to
   change this from a text only to a simple HTML document.  Plus migration to
   the current wiki and various Pootle documentation.
 
@@ -36,7 +36,7 @@ Helpful input
 
 The people whose input has helped shape the document.
 
-* `Tactical tech <http://tacticaltech.org/>`_ -- Who seeded the idea of
+* `Tactical tech <https://tacticaltech.org/>`_ -- Who seeded the idea of
   capturing this information.
 * `South African Department of Communications <http://www.doc.gov.za/>`_ --
   Whose funding of Translate.org.za made the writing and capturing of this

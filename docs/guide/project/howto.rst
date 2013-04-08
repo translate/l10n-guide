@@ -63,8 +63,7 @@ A translation tool
 You can simplify your task considerably by using a dedicated .po editor. These
 are currently:
 
-* `Virtaal <http://translate.sourceforge.net/wiki/virtaal/index>`_
-  (Windows+Linux)
+* `Virtaal <http://virtaal.translatehouse.org>`_ (Windows+Linux)
 * `kbabel <http://i18n.kde.org/tools/kbabel>`_ (KDE)
 * `gtranslator <http://gtranslator.sourceforge.net/>`_ (GNOME)
 * `emacs <http://www.gnu.org/software/emacs/emacs.html>`_ (various platforms,
@@ -444,7 +443,7 @@ a good idea to encourage your developers to fill in this header.
 
 bug-PACKAGE_NAME@gnu.org
 
-* all GNOME bugs are reported via `Bugzilla <http://bugzilla.gnome.org/>`_
+* all GNOME bugs are reported via `Bugzilla <https://bugzilla.gnome.org/>`_
 * all Debian bugs are reported via email to:
 
 owner@bugs.debian.org 
@@ -708,14 +707,13 @@ his or her tools. The .po format is one of our tools.
 Where do we get our files?
 -------------------------- 
 
-Your `team page
-<http://www.iro.umontreal.ca/translation/registry.cgi?team=index>`_ ((If your
-language does not have a team yet, please contact the TP co-ordinator about
-creating one.)) at the TP will list the files available to be translated. You
-need to ask your team leader which files need translating, or ask to translate
-particular files, and s/he will notify the TP co-ordinator that you are
-assigned to that file. Your name will appear next to it on your team page. What
-does becoming a TP translator involve?
+Your `team page <http://translationproject.org/html/welcome.html?team=index>`_
+((If your language does not have a team yet, please contact the TP co-ordinator
+about creating one.)) at the TP will list the files available to be translated.
+You need to ask your team leader which files need translating, or ask to
+translate particular files, and s/he will notify the TP co-ordinator that you
+are assigned to that file. Your name will appear next to it on your team page.
+What does becoming a TP translator involve?
 
 .. _../pages/guide/project/howto#to_be_a_tp_translator:
 
@@ -723,8 +721,8 @@ To be a TP translator
 ^^^^^^^^^^^^^^^^^^^^^
 
 You need to register with `the TP
-<http://www.iro.umontreal.ca/translation/HTML/index.html>`_. This is simple,
-although it involves one hold-up: the disclaimer.
+<http://translationproject.org/html/welcome.html>`_. This is simple, although
+it involves one hold-up: the disclaimer.
 
 * Your team-leader may email the TP co-ordinator 
 
@@ -775,8 +773,8 @@ How do we get the most current files?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The files listed on `your team page
-<http://www.iro.umontreal.ca/translation/registry.cgi?team=index>`_ *should* be
-the most current files. Developers send them in to the TP to be translated, and
+<http://translationproject.org/html/welcome.html?team=index>`_ *should* be the
+most current files. Developers send them in to the TP to be translated, and
 they should be sent in automatically, each time they are updated. It is
 extremely important to translate the current file, otherwise, your translation
 may not be used at all, or won’t be used by the majority of users. Downloading

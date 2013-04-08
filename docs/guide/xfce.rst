@@ -17,8 +17,7 @@ Resources
   <http://lunar-linux.org/mailman/listinfo/xfce-i18n>`_ and `archives
   <http://lunar-linux.org/pipermail/xfce-i18n/>`_
 * `Translation statistics <http://xfce.org/~kelnos/xfce4/i18n/>`_
-* `CVS notes for translation
-  <http://www.xfce.org/index.php?page=developers〈=en#contribute>`_
+* `Translation instructions <http://www.xfce.org/getinvolved/translation>`_
 
 .. _../pages/guide/xfce#what_first:
 

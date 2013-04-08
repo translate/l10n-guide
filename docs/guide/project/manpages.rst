@@ -18,7 +18,7 @@ called that page).
 Manpages have been translated, and distributed separately by language groups,
 or made available at certain sites. The aim of a small project liaising between
 `GNU <http://gnu.org/>`_ and `The Translation Project
-<http://www.iro.umontreal.ca/translation/HTML/index.html>`_ is to integrate the
+<http://translationproject.org/html/welcome.html>`_ is to integrate the
 translation process with the central manpage distribution process. Manpages
 will be translated, just like applications, then distributed with the original
 package, just like applications.
@@ -79,7 +79,7 @@ Manpage process
   * For **bash**, find and edit your ``<~/.bash_profile>`` or ``<~/.profile>``
     file, where ~ is your username, your user directory. You can edit this type
     of file in your text editor. I used `BBEdit
-    <http://www.barebones.com/index.shtml>`_ for Mac OSX.
+    <http://www.barebones.com/index.html>`_ for Mac OSX.
   * Type ``export LC_ALL=ll_LL.UTF-8`` where ``ll_LL`` is your language code
     (and possibly country), e.g. for me it was ``export LC_ALL=vi_VI.UTF-8``.
   * Save the file, don't change the name or location.

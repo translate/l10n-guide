@@ -20,12 +20,12 @@ Note: Launchpad also has `plural information
 add it here if your language is missing.
 
 Note: Mozilla now also uses `plural forms
-<http://developer.mozilla.org/en/docs/Localization_and_Plurals>`_.  Although
+<https://developer.mozilla.org/en/docs/Localization_and_Plurals>`_.  Although
 they follow a slightly different form, the `underlying equations
 <http://mxr.mozilla.org/mozilla/source/intl/locale/src/PluralForm.jsm#59>`_
 seem to be the same as those used by Gettext.
 
-Note: `Unicode CLDR <http://unicode.org/cldr>`_ also collects `plural
+Note: `Unicode CLDR <http://cldr.unicode.org/>`_ also collects `plural
 information for many languages
 <http://www.unicode.org/cldr/data/charts/supplemental/language_plural_rules.html>`_.
 (Also in `XML form
