@@ -15,8 +15,8 @@ What is normalization?
 A composed character in Unicode can often have a number of different ways of
 representing the character.  E.g
 
-* Precomposed Ḽ -> U1e3c
-* Composed Ḽ = L + ^ -> U004c + U032d
+* Precomposed Ḽ --> U1e3c
+* Composed Ḽ = L + ^ --> U004c + U032d
 
 You'll notice that if you where comparing the above two characters that indeed
 Ḽ != Ḽ

@@ -14,10 +14,10 @@ What is an accelerator key and an accelerator marker
 ====================================================
 
 If you look at the menu bar on any application you will see that the first
-letter of each entry in underlined.  Notice that F̲ile, E̲dit and V̲iew each
-have the first letter underlined.  To quickly open the File menu press Alt+F.
+letter of each entry in underlined.  Notice that F̲ile, E̲dit and V̲iew each have
+the first letter underlined.  To quickly open the File menu press :kbd:`Alt+F`.
 You will notice that most of the menu entries also have accelerator keys, to
-access O̲pen simply type **o** after typing Alt+F.
+access O̲pen simply type :kbd:`O` after typing :kbd:`Alt+F`.
 
 An *accelerator marker* is the special character we use to mark accelerator
 keys when we translate.
@@ -39,7 +39,7 @@ In translations accelerator keys are shown by various characters:
  Windows :ref:`toolkit:rc`    &         ampersand      Save &As...             Save A̲s...
 ==========================  =========  =============  ======================  =================  =============================
 
-In all of the above examples pressing **A** would take you to the *Save As*
+In all of the above examples pressing :kbd:`A` would take you to the *Save As*
 dialogue box.
 
 What happens if you want to use the & character without making it an
@@ -67,8 +67,8 @@ in mind:
 
 We usually follow these simple rules.
 
-#. Try to keep the same position as the original.  E.g. "&File" -> "&Ifayile"
-#. Try to keep the same letter as the original. E.g. "&File" -> "I&fayile"
+#. Try to keep the same position as the original.  E.g. "&File" --> "&Ifayile"
+#. Try to keep the same letter as the original. E.g. "&File" --> "I&fayile"
 #. Select an uncommon letter.  In Xhosa the letter I occurs frequently so we try
    to avoid using it too much.
 #. Avoid adding accelerators under characters with descenders such as lower case
@@ -88,7 +88,7 @@ We usually follow these simple rules.
    that they will be usable by the end-users.
 #. No available character.  Usually in Asian languages where a keyboard is
    Western. Translate the word into your language and use the original English
-   accelerator. Ie "&File" -> "XXXX(&F)".  In Mozilla you can safely ignore
+   accelerator. Ie "&File" --> "XXXX(&F)".  In Mozilla you can safely ignore
    defining the accelerator in which case it will default to the English
    version (FIXME: validate this :)
 #. Non-letters like numbers and punctuation marks can be used if they are
@@ -108,7 +108,7 @@ a clash.  Assume that the following list are the top three entries in a menu:
 * A̲ddress
 * Available A̲tions...
 
-You will notice that all the accelerators use the **A** key -- this is a
+You will notice that all the accelerators use the :kbd:`A` key -- this is a
 clash.  Fortunately most applications will cycle through the options as you
 press A repeatedly.  But what would happen if the 3rd item appeared first? (The
 third item uses the ellipses (...) to indicate that a dialogue box will open.
@@ -120,7 +120,7 @@ Here is a better choice of accelerators for the same menu:
 * Ad̲dress
 * Available Ac̲tions...
 
-We now use **A**, **d** and **c** -- there are no conflicts.
+We now use :kbd:`A`, :kbd:`d` and :kbd:`c` -- there are no conflicts.
 
 .. _../pages/guide/translation/accelerators#examples:
 

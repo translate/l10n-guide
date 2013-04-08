@@ -31,4 +31,4 @@ OpenOffice.org
 * restart OpenOffice.org (and the quickstarter in Windows, if used)
 
 Select a word (like "talented" or "talk") and activate the thesaurus. The
-thesaurus can be accessed under Tools->Language.
+thesaurus can be accessed under :menuselection:`Tools --> Language`.

@@ -48,11 +48,11 @@ Word (either by drag-and-drop or by using the File Open menu item), MS Word
 will guess the encoding and prompt the user to select it from a list.
 
 The trick for our purposes is to force MS Word to prompt the user when opening
-an XML file.  To this, open a blank document in MS Word, then go Tools ->
-Options -> General -> Confirm conversion at open.  Then open the file by using
-the File -> Open menu item (not by drag-and-drop).  If all goes well, MS Word
-will ask what the file type is (answer "Encoded text") and what the encoding is
-(usually UTF-8).
+an XML file.  To this, open a blank document in MS Word, then go
+:menuselection:`Tools --> Options --> General --> Confirm conversion at open`.
+Then open the file by using the :menuselection:`File --> Open` menu item (not
+by drag-and-drop).  If all goes well, MS Word will ask what the file type is
+(answer "Encoded text") and what the encoding is (usually UTF-8).
 
 MS Word has something called "Unicode" in addition to "UTF-8" -- this is a
 special Microsoft kind of Unicode that is not really compatible with UTF-8.
@@ -69,8 +69,9 @@ text file when an RTF file is resaved as text.  With MS Word, what you see is
 what you get (or rather, what you see is what gets saved, if you save as
 plaintext).
 
-To save a file in MS Word, press F12, and type in the file name, and select the
-file type.  RTF is sufficient, but MS Word is usually used by Wordfast users.
+To save a file in MS Word, press :kbd:`F12`, and type in the file name, and
+select the file type.  RTF is sufficient, but MS Word is usually used by
+Wordfast users.
 
 .. _../pages/guide/introduction_to_wordfast#3._prepare_the_file_for_translation_optional:
 
@@ -151,17 +152,17 @@ sentences.  If Wordfast misguesses where a sentence begins or ends (eg if an
 unexpected abbreviation occurs in mid-sentence), the translator can easily fix
 the faulty segmentation there and then.
 
-Basically, the translator presses Alt+down to move to the "next segment", then
-translates it, then presses Alt+down again, and so on.
+Basically, the translator presses :kbd:`Alt+Down` to move to the "next
+segment", then translates it, then presses :kbd:`Alt+Down` again, and so on.
 
-When the translator presses Alt+down, the next segment is opened in a visual
-source text box, with an empty target text box below it.  The translator then
-types his translation in the target text box.  When the translator presses
-Alt+down again, the two boxes disappear but both the source and target text
-remain visible, with some special Wordfast codes between them.  These codes are
-actually hidden text (and the source text is too), so if you press Ctrl+comma,
-the hidden text is no longer displayed and you can see what the final text
-would look like.
+When the translator presses :kbd:`Alt+Down`, the next segment is opened in a
+visual source text box, with an empty target text box below it.  The translator
+then types his translation in the target text box.  When the translator presses
+:kbd:`Alt+Down` again, the two boxes disappear but both the source and target
+text remain visible, with some special Wordfast codes between them.  These
+codes are actually hidden text (and the source text is too), so if you press
+:kbd:`Ctrl+,`, the hidden text is no longer displayed and you can see what the
+final text would look like.
 
 Here are some screenshots of the above dog/cat example (external = grey,
 internal = red, translatable = black).
@@ -180,10 +181,10 @@ the language.
 
 .. _../pages/guide/introduction_to_wordfast#4.2_alt+down_to_start_translating:
 
-4.2 Alt+down to start translating
+4.2 Alt+Down to start translating
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In the screenshot below, the translator had pressed Alt+down (i.e. "next
+In the screenshot below, the translator had pressed :kbd:`Alt+Down` (i.e. "next
 segment") in Wordfast.  Wordfast moves the text to be translated to a new line,
 opens it in a box, and creates an empty box beneath it.  The translator will
 type his translation in the empty box.  The purple stuff are codes created by
@@ -209,12 +210,12 @@ it to the position of the cursor in the target box.
 
 .. _../pages/guide/introduction_to_wordfast#4.4_alt+down_to_go_to_next_segment:
 
-4.4 Alt+down to go to next segment
+4.4 Alt+Down to go to next segment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In the screenshot below, the translator had pressed Alt+down again, to go to
-the next segment.  The previous segment is no longer on its own line, but is
-inline with the text surrounding it.  The purple markers remain, to tell
+In the screenshot below, the translator had pressed :kbd:`Alt+Down` again, to
+go to the next segment.  The previous segment is no longer on its own line, but
+is inline with the text surrounding it.  The purple markers remain, to tell
 Wordfast where the segment begins and ends.
 
 .. image:: /_static/wordfast4.jpg
@@ -244,7 +245,7 @@ automatically ended because the last segment was reached.
 4.7 Hide hidden text
 ^^^^^^^^^^^^^^^^^^^^
 
-In the screenshot below, the translator had pressed Ctrl+comma (i.e. "toggle
+In the screenshot below, the translator had pressed :kbd:`Ctrl+,` (i.e. "toggle
 hidden text").  Only the text that doesn't have the "hidden" attribute is
 displayed.  This is also what the document would look like after clean-up.
 
@@ -266,7 +267,7 @@ untranslatable markings.
 The screenshot at 4.7 above is what a cleaned file would look like.
 
 The translator can reopen any segment by placing his cursor anywhere in the
-segment and pressing Alt+down (next segment).  He can then edit the
+segment and pressing :kbd:`Alt+Down` (next segment).  He can then edit the
 translation, and close the segment again.  In sucn a case, the TM is updated
 automatically with the new translation.
 

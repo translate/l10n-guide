@@ -80,18 +80,17 @@ English string appears in the left.  You type your translations in the bottom
 right hand section.  It seems that keyboard navigation does not work properly
 so you will have to select each new string with the mouse.
 
-Don't forget to save regularly using Ctrl-S.
+Don't forget to save regularly using :kbd:`Ctrl+S`.
 
-Press F1 at anytime for the Poedit user manual.
+Press :kbd:`F1` at anytime for the Poedit user manual.
 
 .. _../pages/guide/poedit#using_the_catalogue_manager:
 
 Using the Catalogue Manager
 ---------------------------
 
-The catalogue manager allows you to manage projects with multiple PO files. ::
-
-  File -> Catalog manager
+The catalogue manager (:menuselection:`File --> Catalog manager`) allows you to
+manage projects with multiple PO files.
 
 Click on create new translation project.  Then for each directory that has PO
 files add it to the project.

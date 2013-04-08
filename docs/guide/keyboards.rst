@@ -59,21 +59,23 @@ Firstly load an existing keyboard layout if you simply want to extend and
 existing layout.
 
 You will notice that you can define keys for for each of the shift states and
-for the other modified state (usualy AltGr).  For dead keys you must define one
-of the states as being a dead key and then define each of the combinations.
-Quite easy but tedious.
+for the other modified state (usualy :kbd:`AltGr`).  For dead keys you must
+define one of the states as being a dead key and then define each of the
+combinations.  Quite easy but tedious.
 
-Once you are happy with your keyboard then select 'Project -> Test Keyboard
-Layout...' you will see a text entry field and can type and test the keyboard.
-If all works well then select 'Project -- Validate Layout', this will give you
-a report about any problems that were detected in your keyboard.
+Once you are happy with your keyboard then select :menuselection:`Project -->
+Test Keyboard Layout...` you will see a text entry field and can type and test
+the keyboard.  If all works well then select :menuselection:`Project -->
+Validate Layout`, this will give you a report about any problems that were
+detected in your keyboard.
 
-Want a picture of your new keyboard? 'File -> Save As Image' -- they're ugly
-but they get the message across.
+Want a picture of your new keyboard? :menuselection:`File --> Save As Image` --
+they're ugly but they get the message across.
 
-The last step is to build your keyboard for that select 'Project -- Build DLL
-and Setup Package'.  This will create and MSI installer and a keyboard DLL, see
-the section below for steps on how to actually make the installer work.
+The last step is to build your keyboard for that select :menuselection:`Project
+--> Build DLL and Setup Package`.  This will create and MSI installer and a
+keyboard DLL, see the section below for steps on how to actually make the
+installer work.
 
 .. _../pages/guide/keyboards#repackaging_installers_with_wix:
 

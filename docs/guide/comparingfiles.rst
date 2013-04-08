@@ -70,17 +70,17 @@ To compare two files, drag and drop one of them onto the Winmerge icon, and
 Winmerge will prompt you for the other file.
 
 You can use Winmerge in combination with Tortoise SVN.  In the SVN tree,
-right-click the folder with changes in it, and select Tortoise -> Check for
-Modifications.  In the Modifications dialog, where modified files are
-displayed, simply double-click a file to have it opened in Winmerge.
+right-click the folder with changes in it, and select :menuselection:`Tortoise
+--> Check for Modifications`.  In the Modifications dialog, where modified files
+are displayed, simply double-click a file to have it opened in Winmerge.
 
 You can make changes to a file in Winmerge.
 
 Winmerge requires a BOM to recognise a Unicode file, so if your Unicode files
 don't have BOMs (which is the case with Toolkit produced files), you have to
 tell Winmerge to "fall back" to Unicode when opening a "non-Unicode" file (no,
-I'm not joking).  Go Edit -> Options -> Codepage -> Custom Codepage and type in
-65001 (which is the codepage for UTF8).
+I'm not joking).  Go :menuselection:`Edit --> Options --> Codepage --> Custom
+Codepage` and type in 65001 (which is the codepage for UTF8).
 
 Winmerge can also be used to compare trees and directories.
 

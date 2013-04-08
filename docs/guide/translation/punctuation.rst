@@ -44,15 +44,15 @@ Make sure that you include all ellipses in your translation.  You might find
 that a programmer has used 2 or 4 dots instead of 3: use 3 dots in your
 translation and report the error to the programmers.
 
-| \.. -> ...
-| .... -> ...
+| \.. --> ...
+| .... --> ...
 
 The ellipse always occurs at the end of a message to indicate continuation.
 Even if you need to change the word order for your language make sure that the
 ellipses occurs at the end of the sentence.
 
-| Blah blee... -> Flee... flah is **WRONG**
-| Blah blee... -> Flee flah... is **CORRECT**
+| Blah blee... --> Flee... flah is **WRONG**
+| Blah blee... --> Flee flah... is **CORRECT**
 
 .. _../pages/guide/translation/punctuation#fullstops_.:
 

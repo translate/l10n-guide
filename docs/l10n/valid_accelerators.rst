@@ -5,8 +5,8 @@ Valid Accelerators
 ******************
 
 Accelerators are used to allow quick access to items in menus and dialogs.
-Usually the user accesses them by pressing Alt+X where X is a character found
-on their keyboard.
+Usually the user accesses them by pressing :kbd:`Alt+X` where :kbd:`X` is a
+character found on their keyboard.
 
 In certain locales a keyboard can accept various characters including those
 with diacritics, therefore it is important to gather data for those locales so

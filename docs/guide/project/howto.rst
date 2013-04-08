@@ -238,7 +238,7 @@ use this year):
 
 If you can access the copyright sign © fairly easily from a keyboard layout or
 special characters’ input feature, it does look more professional. ;-) (It’s
-typed Right Alt+c on a qwerty international keyboard.)
+typed Right :kbd:`Alt+C` on a qwerty international keyboard.)
 
 Occasionally, a file will come with a proprietary copyright header: somebody
 has created, and claims copyright over this file (for example):

@@ -46,12 +46,12 @@ How to create a custom search in Opera 9.5
 
 Methods to use:
 
-* Select text, then right-click the selection and use "Search with..." -> "Art
-  of Illusion".
-* Double-click a word (it will be selected), then use "Search with..." -> "Art
-  of Illusion".
-* Open a new tab (Ctrl+T), then type "aoi searchword" and ENTER to search for
-  "searchword".
+* Select text, then right-click the selection and use :menuselection:`Search
+  with... --> Art of Illusion`.
+* Double-click a word (it will be selected), then use :menuselection:`Search
+  with... --> Art of Illusion`.
+* Open a new tab :kbd:`Ctrl+T`, then type "aoi searchword" and :kbd:`Enter` to
+  search for "searchword".
 
 .. _../pages/guide/custom_web_searches#adding_a_custom_search_in_firefox:
 
@@ -70,6 +70,6 @@ How to create a custom search in Firefox 2
 
 Methods to use:
 
-* Open a new tab (Ctrl+T), then type "aoi searchword" and ENTER to search for
-  "searchword".
+* Open a new tab :kbd:`Ctrl+T`, then type "aoi searchword" and :kbd:`Enter` to
+  search for "searchword".
 

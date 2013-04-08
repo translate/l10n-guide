@@ -37,9 +37,10 @@ Use `ExtPhr32 <http://publish.uwo.ca/~craven/freeware.htm>`_ to extract the
 most used terms from it:
 
 * Do not select a stoplist (click "Cancel" when asked)
-* Go Options -> Minimum occurances, and select "1"
-* Go Options -> Maximum words in phrase, and select "1"
-* Go File -> Extract from, and select the file with source text
+* Go :menuselection:`Options --> Minimum occurances`, and select "1"
+* Go :menuselection:`Options --> Maximum words in phrase`, and select "1"
+* Go :menuselection:`File -> Extract from`, and select the file with source
+  text
 
 * In ExtPhr, change the "Minimum occurances" higher and higher until you have
   about 200 terms (or, about 5 occurances should do it).
@@ -65,8 +66,9 @@ better because then you could legally distribute it).
 Use `Kastrul <http://www.esaro.se/index2.php?LANG=en>`_ to spellcheck the
 "5ormore.txt":
 
-* Go File -> Open dictionary, and select your 3000 most common words.
-* Go File -> Check file, and select 5ormore.txt
+* Go :menuselection:`File --> Open dictionary`, and select your 3000 most
+  common words.
+* Go :menuselection:`File --> Check file`, and select 5ormore.txt
 * Copy the result, and save it as glossary.txt.
 
 That is your glossary.  Remember to change it all to lowercase, and to ensure

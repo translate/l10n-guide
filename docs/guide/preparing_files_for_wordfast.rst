@@ -36,17 +36,18 @@ To prevent MS Word from parsing the file, do the following (MS Word 2000
 instructions):
 
 #. Open a blank document in MS Word
-#. Go to Tools -> Options -> General
+#. Go to :menuselection:`Tools --> Options --> General`
 #. Select Confirm conversion at open
-#. Click OK, etc
+#. Click :guilabel:`OK`, etc
 #. Close the blank document
 
 MS Word doesn't seem to remember this setting, so you have to check that it is
 enabled everytime you open a l10n file.
 
 Normally there are many ways to open a document in MS Word, eg drag-and-drop,
-Ctrl+O, File->Open, and double-clicking.  For MS Word to respect the setting
-mentioned above, the l10n file has to be opend using the File -> Open method.
+:kbd:`Ctrl+O`, :menuselection:`File --> Open`, and double-clicking.  For MS
+Word to respect the setting mentioned above, the l10n file has to be opend
+using the :menuselection:`File --> Open` method.
 
 Usually, when opening a l10n file, MS Word will ask you to confirm the type of
 file.  Do not choose "HTML", for example.  Choose "Encoded Text", and when
@@ -54,15 +55,15 @@ prompted for the encoding, select the encoding applicable to the file.  Do not
 choose the option named "Unicode" -- be more specific than that.  If your file
 is in UTF-8, choose UTF-8 as the file open type.
 
-Once the file is open in MS Word, save it as a DOC file by pressing F12 and
-selecting the DOC option.
+Once the file is open in MS Word, save it as a DOC file by pressing :kbd:`F12`
+and selecting the DOC option.
 
 At the end of the translation process, if you're certain that no hidden codes
-are left in the file, you can save it as plain text again, by pressing F12 and
-selecting "Encoded Text" as the file save type, and choosing the correct
-encoding (again, do not choose simply "Unicode" but be more specific).  MS Word
-might complain that you will loose formatting, but hey, that's exactly what you
-want.
+are left in the file, you can save it as plain text again, by pressing
+:kbd:`F12` and selecting "Encoded Text" as the file save type, and choosing the
+correct encoding (again, do not choose simply "Unicode" but be more specific).
+MS Word might complain that you will loose formatting, but hey, that's exactly
+what you want.
 
 .. _../pages/guide/preparing_files_for_wordfast#how_wordfast_knows_which_text_is_which:
 
@@ -113,11 +114,12 @@ etc).
 Here's how:
 
 #. Open the document that contains Wordfast styles
-#. In MS Word, go Format -> Style, and click "Organizer"
+#. In MS Word, go :menuselection:`Format --> Style`, and click
+   :guilabel:`Organizer`
 #. In the organiser you'll see two documents open, namely the normal.dot and
    your current document.  Simply select the tw4win styles in the current
-   document, and click "Copy" to copy them to the normal.dot.
-#. Close both documents in the organiser, and click OK etc
+   document, and click :guilabel:`Copy` to copy them to the normal.dot.
+#. Close both documents in the organiser, and click :guilabel:`OK` etc
 #. Close MS Word, and start MS Word again.  See if the tw4win styles are now
    present in the styles dropdown list (usually upper left corner).
 
@@ -138,10 +140,10 @@ To do this manually, you need to know what the exact style names are, because
 really that's all Wordfast really cares about.  Here's how:
 
 #. Open a blank document in MS Word, or open any other document in MS Word
-#. In MS Word, go Format -> Style, and click "New"
+#. In MS Word, go :menuselection:`Format --> Style`, and click :guilabel:`New`
 #. Name the style tw4winExternal, and make it a "Character" style
-#. Click the Format button, and select various pieces of formatting
-#. Click OK, etc.
+#. Click the :guilabel:`Format` button, and select various pieces of formatting
+#. Click :guilabel:`OK`, etc.
 
 The style is now part of the current document.  To have the style available for
 other documents, you should add it to the normal.dot template, described above
@@ -175,8 +177,8 @@ If you know how to install external macros (i.e. if you know where you should
 copy a file in MS Windows' hidden folder structure), you can install `AndoTools
 <http://atools.dotsrc.org/>`_ into MS Word, which has a function to insert all
 tw4win styles into any document easily.  Once you've installed AndoTools, in MS
-Word go Ando -> Documenet Operations -> Fonts and Language.  Click "Add tw4win
-styles" to add them to the current document.
+Word go :menuselection:`Ando --> Documenet Operations --> Fonts and Language`.
+Click "Add tw4win styles" to add them to the current document.
 
 .. _../pages/guide/preparing_files_for_wordfast#how_to_prepare_a_l10n_file_for_wordfast:
 
@@ -236,12 +238,12 @@ tw4winExternal.
 
 Here's how we do it:
 
-- In MS Word, press Ctrl+H (the find/replace box).  Click "More" to open
+- In MS Word, press :kbd:`Ctrl+H` (the find/replace box).  Click "More" to open
   advanced features.
 - Placing your cursor in the Find box, type ``(\<\!ENTITY)(*)(\")``.
 - Place your cursor in the Replace box, and type ``\1\2\3``.
-- Make sure your cursor is still in the Replace box, then click Format ->
-  Styles, and select tw4winExternal from the list
+- Make sure your cursor is still in the Replace box, then click
+  :menuselection:`Format --> Styles`, and select tw4winExternal from the list
 - Select "Use Wildcards", and click "Replace all"
 - Then, place your cursor in the Find box, and type ``">``.
 - In the Replace box, remove everything (it must be empty).  Check that the
@@ -334,16 +336,16 @@ down to less lines.
 
 To add the above macro, do the following:
 
-- Select and copy the macro (copy to clipboard, Ctrl+C)
+- Select and copy the macro (copy to clipboard, :kbd:`Ctrl+C`)
 - Open a blank document in MS Word.
-- In MS Word, go Tools -> Macro -> Macros.
+- In MS Word, go :menuselection:`Tools --> Macro --> Macros`.
 - Type in the macro name, say, "apple" (use a name at the beginning of the
   alphabet, to find it easily).
 - Click "Create".
 - Place your cursor in the line above "EndSub" (by default your cursor will be
   there).
 - Paste the above macro at that point.
-- Press Ctrl+S to save, and exit the macro writer
+- Press :kbd:`Ctrl+S` to save, and exit the macro writer
 
 The macro is now added to normal.dot, and can be used for any document that is
 opened in MS Word.  Incidently, the above macro does exactly what we did in the
@@ -362,11 +364,11 @@ macro embedded in it.  I've embedded the above macro for you, `in a document
 To add the macro to normal.dot, here's how:
 
 - Open a blank document in MS Word.
-- In MS Word, go Tools -> Macro -> Macros.
-- Click "Organizer".  It should show you the macros in with_apple.doc and
+- In MS Word, go :menuselection:`Tools --> Macro --> Macros`.
+- Click :guilabel:`Organizer`.  It should show you the macros in with_apple.doc and
   normal.dot.
-- Select "apple" and click Copy to copy to normal.dot.
-- Close both files, and click OK etc.
+- Select "apple" and click :guilabel:`Copy` to copy to normal.dot.
+- Close both files, and click :guilabel:`OK` etc.
 
 And that's it.  Now a macro called apple.apple is part of normal.dot, and can
 be used on any document you open in MS Word.
@@ -383,7 +385,7 @@ which will perform the find/replace operation mentioned previously.  This will
 mark the necessary text as "untranslatable", so that Wordfast will ignore it.
 
 - Open the l10n file in MS Word (described above)
-- In MS Word, go Tools -> Macro -> Macros.
+- In MS Word, go :menuselection:`Tools --> Macro --> Macros`.
 - Select the macro apple or apple.apple in the list, and click "Run" (if you
   can't see the macro, it is either not in the normal.dot, or the normal.dot is
   not selected in the dropdown list).

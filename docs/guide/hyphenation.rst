@@ -133,8 +133,9 @@ wrong hyphenation. Therefore, “ex-am-ple”. The software can now choose the
 hyphenation point that results in the best layout. There will usually be
 settings in the software that prohibits hyphenation in the very first and very
 last characters of a word, in order to avoid having just one or two characters
-left on the beginning or end of a line. (OpenOffice.org 2.0: Tools -> Options
--> Language settings -> Language aids -> Options)
+left on the beginning or end of a line. (OpenOffice.org 2.0:
+:menuselection:`Tools --> Options --> Language settings --> Language aids -->
+Options`)
 
 To encode exceptions, simply make sure that the pattern is surrounded by full
 stops. It might be necessary to encode exceptions in cases where a word doesn’t

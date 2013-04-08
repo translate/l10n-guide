@@ -109,8 +109,8 @@ Where xx is your language code.  Also running msgfmt in check mode
 Checking accelerators
 =====================
 
-You now need to add the following to your kdeglobals in order to use the F12
-accelerator check feature:
+You now need to add the following to your kdeglobals in order to use the
+:kbd:`F12` accelerator check feature:
 
 .. code-block:: ini
 

@@ -27,8 +27,8 @@ Each escape sequence has a special meaning:
 +-------------------+------------------------+-----------------------------------------------------------------------------------+
 | Escape Sequence   | Effect                 | Description                                                                       |
 +===================+========================+===================================================================================+
-| ``\n``            | newline                | Adds a newline at that place in the text (similar to pressing Enter). It might be |
-|                   |                        | shown with the ¶ in your translation program.                                     |
+| ``\n``            | newline                | Adds a newline at that place in the text (similar to pressing :kbd:`Enter`). It   |
+|                   |                        | might be shown with the ¶ in your translation program.                            |
 +-------------------+------------------------+-----------------------------------------------------------------------------------+
 | ``\t``            | tab                    | Add a tab marker at that spot in the text. This is sometimes used to align text   |
 |                   |                        | in columns.                                                                       |
