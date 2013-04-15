@@ -1,4 +1,5 @@
 
+.. _accelerators:
 .. _../pages/guide/translation/accelerators#accelerator_keys:
 
 Accelerator Keys
