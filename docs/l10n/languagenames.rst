@@ -1,4 +1,3 @@
-
 .. _../pages/l10n/languagenames#language_names:
 
 Language Names
@@ -57,6 +56,8 @@ on the English name.
      - 日本語
    * - Korean
      - 한국어
+   * - Lao
+     - ພາສາລາວ
    * - Malay
      - Bahasa Melayu
    * - Malayalam
