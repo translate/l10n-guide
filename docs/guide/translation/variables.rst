@@ -43,6 +43,7 @@ applications:
 OpenOffice.org
 --------------
 ::
+
   &file;
   %PROGRAMNAME 
   %PROGRAMNAME%
@@ -59,8 +60,8 @@ OpenOffice.org
 
 Mozilla
 -------
-
 ::
+
   &name;
   %name%
   %s
@@ -72,6 +73,7 @@ Mozilla
 GNOME, The Translation Project and others
 -----------------------------------------
 ::
+
   %s
   $(name)
   %(name)s  [Python named variables]
