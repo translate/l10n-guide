@@ -1,10 +1,9 @@
-
 .. _../pages/guide/poedit#poedit:
 
 Poedit
 ******
 
-Poedit is a PO editing tool that will run on Linux or Windows.  It has a
+Poedit is a PO editing tool that will run on Linux, Mac or Windows.  It has a
 reasonably simple interface as well as translation memory.  Its catalogue
 manager does not seem logical at first but is powerful in that it allows you to
 manage multiple projects.
