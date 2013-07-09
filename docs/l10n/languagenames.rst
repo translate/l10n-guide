@@ -82,6 +82,8 @@ on the English name.
      - српски *or* srpski
    * - Sinhala
      - සිංහල
+   * - Slovak
+     - Slovenský
    * - Sotho, Southern
      - Sesotho
    * - Spanish
