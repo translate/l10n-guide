@@ -1,4 +1,3 @@
-
 .. _pluralforms:
 
 Plural Forms
@@ -64,7 +63,7 @@ a correct plural form
    ca,    Catalan,               nplurals=2; plural=(n != 1);
    cgg,   Chiga,                 nplurals=1; plural=0;
    cs,    Czech,                 nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;
-   csb,   Kashubian,             nplurals=3; n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;
+   csb,   Kashubian,             nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;
    cy,    Welsh,                 nplurals=4; plural= (n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;
    **D**
    da,    Danish,                nplurals=2; plural=(n != 1);
