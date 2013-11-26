@@ -1,5 +1,5 @@
 
-.. _../pages/l10n/valid_accelerators#valid_accelerators:
+.. _valid_accelerators:
 
 Valid Accelerators
 ******************
