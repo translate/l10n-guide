@@ -1,5 +1,5 @@
 
-.. _valid_accelerators:
+.. _valid-accelerators:
 
 Valid Accelerators
 ******************
