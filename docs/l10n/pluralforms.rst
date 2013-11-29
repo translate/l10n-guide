@@ -46,8 +46,10 @@ a correct plural form
    ak,    Akan,                  nplurals=2; plural=(n > 1);
    am,    Amharic,               nplurals=2; plural=(n > 1);
    an,    Aragonese,             nplurals=2; plural=(n != 1);
+   anp,   Angika,                nplurals=2; plural=(n != 1);
    ar,    Arabic [#f1]_,         nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);
    arn,   Mapudungun,            nplurals=2; plural=(n > 1);
+   as,    Assamese,              nplurals=2; plural=(n != 1);
    ast,   Asturian,              nplurals=2; plural=(n != 1);
    ay,    Aymará,                nplurals=1; plural=0;
    az,    Azerbaijani,           nplurals=2; plural=(n != 1);
