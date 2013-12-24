@@ -213,7 +213,11 @@ Markennamen
 ===========
 Werden üblicherweise nicht übersetzt. Ausnahmen sollten nur dann gemacht werden
 wenn die Marke auch im allgemeinen Sprachgebrauch in der übersetzten Form
-benutzt wird (mir fällt gerade keine solche ein)
+benutzt wird:  
+  
+| Sellotape™ [Br.] / Scotch ® Tape [Am.] -> Tesa {n} (ugs. für Tesafilm®) / Tixo [österreichisch]
+| Kleenex ® (umg.) (Taschentuch) -> Tempo ® (umg.) (Taschentuch)
+
 
 .. _../pages/guide/translation_guidelines_german#fehler_im_original:
 
