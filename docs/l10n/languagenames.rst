@@ -32,6 +32,8 @@ on the English name.
      - 繁體中文
    * - Cornish
      - Kernewek
+   * - Danish
+     - Dansk
    * - Dutch
      - Nederlands
    * - English
@@ -46,6 +48,8 @@ on the English name.
      - Galego
    * - German
      - Deutsch
+   * - Greenlandic
+     - Kalaallisut
    * - Icelandic
      - Íslenska
    * - Indonesian
