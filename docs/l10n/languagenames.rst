@@ -24,6 +24,8 @@ on the English name.
      - Português do Brasil
    * - Breton
      - Brezhoneg
+   * - Bulgarian
+     - Български
    * - Catalan
      - Català
    * - Chinese (simplified)
