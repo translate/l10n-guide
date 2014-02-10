@@ -98,6 +98,8 @@ on the English name.
      - Basa Sunda
    * - Swati *or* Swazi
      - Siswati
+   * - Tamil
+     - தமிழ்
    * - Tsonga
      - Xitsonga
    * - Tswana
