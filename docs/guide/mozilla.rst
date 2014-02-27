@@ -176,21 +176,3 @@ Links
   <http://www.mozilla.org/foundation/trademarks/l10n-policy.html>`_ (`2
   <http://www.mozilla.org/foundation/licensing.html>`_)
 * :ref:`Scripts used by Translate.org.za <toolkit:mozilla_l10n_scripts>`
-
-.. _../pages/guide/mozilla#deprecated_information:
-
-Deprecated information
-----------------------
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-
-   mozillacvs
-
-* :doc:`Mozilla CVS <mozillacvs>`: Information about localising older versions
-  of Mozilla products that used CVS.
-* :ref:`Migrating Mozilla translations to Firefox
-  <toolkit:migrating_to_firefox>`: This quick-start shows you how to migrate
-  your existing translations of the Mozilla suite to the Firefox web-browser.
-  The same instructions can be used to migrate Thunderbird.
-
