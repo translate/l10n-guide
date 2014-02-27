@@ -5,7 +5,8 @@ install:
   - pip install sphinx
 script:
   - python -m compileall -x '[.]py$' -q -f .
-  - cd docs; make SPHINXOPTS=-W html
+  #- cd docs; make SPHINXOPTS=-W html
+  - cd docs; make html
 notifications:
   email:
     on_failure: always
