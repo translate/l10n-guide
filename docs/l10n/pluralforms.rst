@@ -65,8 +65,8 @@ a correct plural form
    ca,    Catalan,               nplurals=2; plural=(n != 1);
    cgg,   Chiga,                 nplurals=1; plural=0;
    cs,    Czech,                 nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;
-   csb,   Kashubian,             nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;
-   cy,    Welsh,                 nplurals=4; plural= (n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;
+   csb,   Kashubian,             nplurals=3; plural=(n==1) ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;
+   cy,    Welsh,                 nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;
    **D**
    da,    Danish,                nplurals=2; plural=(n != 1);
    de,    German,                nplurals=2; plural=(n != 1);
@@ -90,7 +90,7 @@ a correct plural form
    fur,   Friulian,              nplurals=2; plural=(n != 1);
    fy,    Frisian,               nplurals=2; plural=(n != 1);
    **G**
-   ga,    Irish,                 nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4;
+   ga,    Irish,                 nplurals=5; plural=(n==1) ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4;
    gd,    Scottish Gaelic,       nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3;
    gl,    Galician,              nplurals=2; plural=(n != 1);
    gu,    Gujarati,              nplurals=2; plural=(n != 1);
@@ -120,7 +120,7 @@ a correct plural form
    kn,    Kannada,               nplurals=2; plural=(n != 1);
    ko,    Korean,                nplurals=1; plural=0;
    ku,    Kurdish,               nplurals=2; plural=(n != 1);
-   kw,    Cornish,               nplurals=4; plural= (n==1) ? 0 : (n==2) ? 1 : (n == 3) ? 2 : 3;
+   kw,    Cornish,               nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n == 3) ? 2 : 3;
    ky,    Kyrgyz,                nplurals=1; plural=0;
    **L**
    lb,    Letzeburgesch,         nplurals=2; plural=(n != 1);
