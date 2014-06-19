@@ -74,6 +74,8 @@ on the English name.
      - فارسی
    * - Portuguese
      - Português
+   * - Romanian
+     - Română
    * - Russian
      - русский
    * - Serbian
