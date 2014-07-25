@@ -190,7 +190,7 @@ a correct plural form
    ti,    Tigrinya,              nplurals=2; plural=(n > 1);
    th,    Thai,                  nplurals=1; plural=0;
    tk,    Turkmen,               nplurals=2; plural=(n != 1);
-   tr,    Turkish,               nplurals=2; plural=(n > 1);
+   tr,    Turkish,               nplurals=1; plural=0;
    tt,    Tatar,                 nplurals=1; plural=0;
    **U**
    ug,    Uyghur,                nplurals=1; plural=0;
