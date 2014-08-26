@@ -115,7 +115,7 @@ a correct plural form
    **K**
    ka,    Georgian,              nplurals=1; plural=0;
    kk,    Kazakh,                nplurals=1; plural=0;
-   kl,    Greenlandic            nplurals=2; plural=(n != 1);
+   kl,    Greenlandic,           nplurals=2; plural=(n != 1);
    km,    Khmer,                 nplurals=1; plural=0;
    kn,    Kannada,               nplurals=2; plural=(n != 1);
    ko,    Korean,                nplurals=1; plural=0;
