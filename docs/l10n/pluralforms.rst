@@ -202,6 +202,8 @@ a correct plural form
    **W**
    wa,    Walloon,               nplurals=2; plural=(n > 1);
    wo,    Wolof,                 nplurals=1; plural=0;
+   **X**
+   xh,   Xhosa,                  nplurals=2; plural=n!=1;
    **Y**
    yo,    Yoruba,                nplurals=2; plural=(n != 1);
    **Z**
