@@ -19,6 +19,6 @@ How to translate
 
 The process is simple, `register
 <https://services.google.com/tc/welcome.html>`_ and then follow the on screen
-instructions.  One advantage of translating Google is that you can quicly see
+instructions.  One advantage of translating Google is that you can quickly see
 what your translation will look like in real life.  That is an advantage of a
 web based applications.
