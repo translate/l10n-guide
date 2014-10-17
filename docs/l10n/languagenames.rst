@@ -100,6 +100,8 @@ on the English name.
      - Siswati
    * - Tamil
      - தமிழ்
+   * - Tifinagh
+     - ⵜⵉⴼⵉⵏⴰⵖ
    * - Tsonga
      - Xitsonga
    * - Tswana
