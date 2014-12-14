@@ -29,3 +29,5 @@ which case you might specify a list that is shorter then the normal English.
 +-----------+-------------------------------------------------------------------------+-----------------------+
 | Finish    | abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890 äöÄÖ   | Bug :bug:`289 <289>`  |
 +-----------+-------------------------------------------------------------------------+-----------------------+
+| Polish    | abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 1234567890 ąćęłńóśźżĄĆĘŁŃÓŚŹŻ   |         |
++-----------+-------------------------------------------------------------------------+-----------------------+
