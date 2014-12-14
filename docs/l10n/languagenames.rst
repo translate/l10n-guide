@@ -78,6 +78,8 @@ on the English name.
      - Papiamentu
    * - Persian
      - فارسی
+   * - Polish
+     - Polski
    * - Portuguese
      - Português
    * - Romanian
