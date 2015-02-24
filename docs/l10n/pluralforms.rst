@@ -130,6 +130,7 @@ a correct plural form
    lv,    Latvian,               nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);
    **M**
    mai,   Maithili,              nplurals=2; plural=(n != 1);
+   me,    Montenegro,            nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;
    mfe,   Mauritian Creole,      nplurals=2; plural=(n > 1);
    mg,    Malagasy,              nplurals=2; plural=(n > 1);
    mi,    Maori,                 nplurals=2; plural=(n > 1);
