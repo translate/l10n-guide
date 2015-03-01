@@ -64,7 +64,7 @@ a correct plural form
    **C**
    ca,    Catalan,               nplurals=2; plural=(n != 1);
    cgg,   Chiga,                 nplurals=1; plural=0;
-   cs,    Czech,                 nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;
+   cs,    Czech,                 nplurals=3; plural=(n==1) ? 0 : ((n>=2 && n<=4) ? 1 : 2);
    csb,   Kashubian,             nplurals=3; plural=(n==1) ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;
    cy,    Welsh,                 nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;
    **D**
@@ -174,7 +174,7 @@ a correct plural form
    sco,   Scots,                 nplurals=2; plural=(n != 1);
    sd,    Sindhi,                nplurals=2; plural=(n != 1);
    si,    Sinhala,               nplurals=2; plural=(n != 1);
-   sk,    Slovak,                nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;
+   sk,    Slovak,                nplurals=3; plural=(n==1) ? 0 : ((n>=2 && n<=4) ? 1 : 2);
    sl,    Slovenian,             nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);
    so,    Somali,                nplurals=2; plural=(n != 1);
    son,   Songhay,               nplurals=2; plural=(n != 1);
