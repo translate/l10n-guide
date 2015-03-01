@@ -36,6 +36,8 @@ on the English name.
      - Kernewek
    * - Croatian
      - Hrvatski
+   * - Czech
+     - Čeština
    * - Danish
      - Dansk
    * - Dutch
