@@ -90,7 +90,7 @@ a correct plural form
    fur,   Friulian,              nplurals=2; plural=(n != 1);
    fy,    Frisian,               nplurals=2; plural=(n != 1);
    **G**
-   ga,    Irish,                 nplurals=5; plural=(n==1) ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4;
+   ga,    Irish,                 nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :(n>6 && n<11) ? 3 : 4;
    gd,    Scottish Gaelic,       nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3;
    gl,    Galician,              nplurals=2; plural=(n != 1);
    gu,    Gujarati,              nplurals=2; plural=(n != 1);
