@@ -207,10 +207,10 @@ a correct plural form
    **Z**
    zh,    Chinese [#f2]_,        nplurals=1; plural=0;
    zh,    Chinese [#f3]_,        nplurals=2; plural=(n > 1);
-   zh_CN, Chinese [#f2]_,        nplurals=1; plural=0;
-   zh_HK, Chinese [#f2]_,        nplurals=1; plural=0;
-   zh_SG, Chinese [#f2]_,        nplurals=1; plural=0;
-   zh_TW, Chinese [#f2]_,        nplurals=1; plural=0;
+   zh_CN, Chinese (China),       nplurals=1; plural=0;
+   zh_HK, Chinese (Hong Kong),   nplurals=1; plural=0;
+   zh_SG, Chinese (Singapore),   nplurals=1; plural=0;
+   zh_TW, Chinese (Taiwan),      nplurals=1; plural=0;
    
 
 .. rubric:: Footnotes
