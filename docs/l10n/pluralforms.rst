@@ -57,12 +57,14 @@ a correct plural form
    be,    Belarusian,            nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);
    bg,    Bulgarian,             nplurals=2; plural=(n != 1);
    bn,    Bengali,               nplurals=2; plural=(n != 1);
+   bn_IN, Bengali (India),       nplurals=2; plural=(n != 1);
    bo,    Tibetan,               nplurals=1; plural=0;
    br,    Breton,                nplurals=2; plural=(n > 1);
    brx,   Bodo,                  nplurals=2; plural=(n != 1);
    bs,    Bosnian,               nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);
    **C**
    ca,    Catalan,               nplurals=2; plural=(n != 1);
+   ca@valencia,    Catalan; Valencian (Valencia),               nplurals=2; plural=(n != 1);
    cgg,   Chiga,                 nplurals=1; plural=0;
    cs,    Czech,                 nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;
    csb,   Kashubian,             nplurals=3; plural=(n==1) ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;
@@ -75,6 +77,8 @@ a correct plural form
    **E**
    el,    Greek,                 nplurals=2; plural=(n != 1);
    en,    English,               nplurals=2; plural=(n != 1);
+   en_GB, English (United Kingdom),               nplurals=2; plural=(n != 1);
+   en_ZA, English (South Africa),               nplurals=2; plural=(n != 1);
    eo,    Esperanto,             nplurals=2; plural=(n != 1);
    es,    Spanish,               nplurals=2; plural=(n != 1);
    es_AR, Argentinean Spanish,   nplurals=2; plural=(n != 1);
@@ -101,6 +105,7 @@ a correct plural form
    hi,    Hindi,                 nplurals=2; plural=(n != 1);
    hne,   Chhattisgarhi,         nplurals=2; plural=(n != 1);
    hr,    Croatian,              nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);
+   ht,    Haitian; Haitian Creole,      nplurals=2; plural=(n != 1);
    hu,    Hungarian,             nplurals=2; plural=(n != 1);
    hy,    Armenian,              nplurals=2; plural=(n != 1);
    **I**
@@ -150,6 +155,7 @@ a correct plural form
    nl,    Dutch,                 nplurals=2; plural=(n != 1);
    nn,    Norwegian Nynorsk,     nplurals=2; plural=(n != 1);
    no,    Norwegian (old code),  nplurals=2; plural=(n != 1);
+   nqo,   N'Ko,                  nplurals=2; plural=(n > 1);
    nso,   Northern Sotho,        nplurals=2; plural=(n != 1);
    **O**
    oc,    Occitan,               nplurals=2; plural=(n > 1);
@@ -180,6 +186,7 @@ a correct plural form
    son,   Songhay,               nplurals=2; plural=(n != 1);
    sq,    Albanian,              nplurals=2; plural=(n != 1);
    sr,    Serbian,               nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);
+   st,    Southern Sotho,        nplurals=2; plural=(n != 1);
    su,    Sundanese,             nplurals=1; plural=0;
    sv,    Swedish,               nplurals=2; plural=(n != 1);
    sw,    Swahili,               nplurals=2; plural=(n != 1);
@@ -198,6 +205,7 @@ a correct plural form
    ur,    Urdu,                  nplurals=2; plural=(n != 1);
    uz,    Uzbek,                 nplurals=2; plural=(n > 1);
    **V**
+   ve,    Venda,                 nplurals=2; plural=(n != 1);
    vi,    Vietnamese,            nplurals=1; plural=0;
    **W**
    wa,    Walloon,               nplurals=2; plural=(n > 1);
@@ -207,6 +215,7 @@ a correct plural form
    **Z**
    zh,    Chinese [#f2]_,        nplurals=1; plural=0;
    zh,    Chinese [#f3]_,        nplurals=2; plural=(n > 1);
+   zu,    Zulu,                  nplurals=2; plural=(n != 1);
 
 .. rubric:: Footnotes
 
