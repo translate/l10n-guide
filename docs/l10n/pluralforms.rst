@@ -100,9 +100,9 @@ a correct plural form
    he,    Hebrew,                nplurals=2; plural=(n != 1);
    hi,    Hindi,                 nplurals=2; plural=(n != 1);
    hne,   Chhattisgarhi,         nplurals=2; plural=(n != 1);
-   hy,    Armenian,              nplurals=2; plural=(n != 1);
    hr,    Croatian,              nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);
    hu,    Hungarian,             nplurals=2; plural=(n != 1);
+   hy,    Armenian,              nplurals=2; plural=(n != 1);
    **I**
    ia,    Interlingua,           nplurals=2; plural=(n != 1);
    id,    Indonesian,            nplurals=1; plural=0;
@@ -148,7 +148,6 @@ a correct plural form
    nb,    Norwegian Bokmal,      nplurals=2; plural=(n != 1);
    ne,    Nepali,                nplurals=2; plural=(n != 1);
    nl,    Dutch,                 nplurals=2; plural=(n != 1);
-   se,    Northern Sami,         nplurals=2; plural=(n != 1);
    nn,    Norwegian Nynorsk,     nplurals=2; plural=(n != 1);
    no,    Norwegian (old code),  nplurals=2; plural=(n != 1);
    nso,   Northern Sotho,        nplurals=2; plural=(n != 1);
@@ -156,11 +155,11 @@ a correct plural form
    oc,    Occitan,               nplurals=2; plural=(n > 1);
    or,    Oriya,                 nplurals=2; plural=(n != 1);
    **P**
-   ps,    Pashto,                nplurals=2; plural=(n != 1);
    pa,    Punjabi,               nplurals=2; plural=(n != 1);
    pap,   Papiamento,            nplurals=2; plural=(n != 1);
    pl,    Polish,                nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);
    pms,   Piemontese,            nplurals=2; plural=(n != 1);
+   ps,    Pashto,                nplurals=2; plural=(n != 1);
    pt,    Portuguese,            nplurals=2; plural=(n != 1);
    pt_BR, Brazilian Portuguese,  nplurals=2; plural=(n > 1);
    **R**
@@ -173,6 +172,7 @@ a correct plural form
    sat,   Santali,               nplurals=2; plural=(n != 1);
    sco,   Scots,                 nplurals=2; plural=(n != 1);
    sd,    Sindhi,                nplurals=2; plural=(n != 1);
+   se,    Northern Sami,         nplurals=2; plural=(n != 1);
    si,    Sinhala,               nplurals=2; plural=(n != 1);
    sk,    Slovak,                nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;
    sl,    Slovenian,             nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);
@@ -181,14 +181,14 @@ a correct plural form
    sq,    Albanian,              nplurals=2; plural=(n != 1);
    sr,    Serbian,               nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);
    su,    Sundanese,             nplurals=1; plural=0;
-   sw,    Swahili,               nplurals=2; plural=(n != 1);
    sv,    Swedish,               nplurals=2; plural=(n != 1);
+   sw,    Swahili,               nplurals=2; plural=(n != 1);
    **T**
    ta,    Tamil,                 nplurals=2; plural=(n != 1);
    te,    Telugu,                nplurals=2; plural=(n != 1);
    tg,    Tajik,                 nplurals=2; plural=(n > 1);
-   ti,    Tigrinya,              nplurals=2; plural=(n > 1);
    th,    Thai,                  nplurals=1; plural=0;
+   ti,    Tigrinya,              nplurals=2; plural=(n > 1);
    tk,    Turkmen,               nplurals=2; plural=(n != 1);
    tr,    Turkish,               nplurals=2; plural=(n > 1);
    tt,    Tatar,                 nplurals=1; plural=0;
