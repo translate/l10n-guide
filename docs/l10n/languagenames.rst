@@ -68,6 +68,8 @@ on the English name.
      - 日本語
    * - Javanese
      - Basa Jawa
+   * - Kazakh
+     - Қазақ
    * - Korean
      - 한국어
    * - Lao
