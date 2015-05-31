@@ -34,6 +34,8 @@ on the English name.
      - 繁體中文
    * - Cornish
      - Kernewek
+   * - Croatian
+     - Hrvatski
    * - Danish
      - Dansk
    * - Dutch
