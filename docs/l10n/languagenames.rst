@@ -54,6 +54,8 @@ on the English name.
      - Deutsch
    * - Greenlandic
      - Kalaallisut
+   * - Hebrew
+     - עברית
    * - Icelandic
      - Íslenska
    * - Indonesian
@@ -120,6 +122,8 @@ on the English name.
      - Tiếng Việt
    * - Xhosa
      - IsiXhosa
+   * - Yiddish
+     - ייִדיש
    * - Zulu
      - IsiZulu
    * - Nepali
