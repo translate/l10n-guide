@@ -161,7 +161,7 @@ a correct plural form
    pms,   Piemontese,            nplurals=2; plural=(n != 1);
    ps,    Pashto,                nplurals=2; plural=(n != 1);
    pt,    Portuguese,            nplurals=2; plural=(n != 1);
-   pt_BR, Brazilian Portuguese,  nplurals=2; plural=(n > 1);
+   pt_BR, Brazilian Portuguese,  nplurals=2; plural=(n != 1);
    **R**
    rm,    Romansh,               nplurals=2; plural=(n != 1);
    ro,    Romanian,              nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);
