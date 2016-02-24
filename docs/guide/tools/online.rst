@@ -52,4 +52,7 @@ translation, access control and quality assurance.
 * `Transifex <http://trac.transifex.org/>`_ -- A web based front end for
   version control systems with an editing interface. GPL, but demands the
   signing of a Contributor License Agreement to contribute
-
+* `Weblate <https://weblate.org/>`_ - A free software web-based translation
+  tool with tight version control integration. It features a simple and 
+  clean user interface, propagation of translations across components, 
+  quality checks and automatic linking to source files.
