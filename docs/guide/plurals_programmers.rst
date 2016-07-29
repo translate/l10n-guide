@@ -86,7 +86,7 @@ example which would work for English:
 
 .. code-block:: po
 
-    Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;
+    "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
 
 .. _../pages/guide/plurals_programmers#how_to_use_the_plural_construct:
 

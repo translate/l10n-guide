@@ -1284,9 +1284,7 @@ file:
     "The disk where you are trying to save the file has a limitation on file "
     "sizes.  Please try saving a smaller file or saving it to a disk that does "
     "not have this limitation."
-    msgstr "Đĩa được dùng để lưu tập tin có giới hạn về kích thước tập tin. 
-    Hãy lưu một tập tin nhỏ hơn hoặc lưu tập tin này vào đĩa không đặt ra giới 
-    hạn trên."
+    msgstr "Đĩa được dùng để lưu tập tin có giới hạn về kích thước tập tin.  Hãy lưu một tập tin nhỏ hơn hoặc lưu tập tin này vào đĩa không đặt ra giới hạn trên."
 
 As far as I can work out, you can only remove the extra quotation marks where
 there is no formal line-break (\n). Where the \n character is present, I’ve
@@ -1338,8 +1336,7 @@ break the line.
     msgid ""
     "Specifies the number of spaces that should be displayed instead of Tab\n"
     "characters."
-    msgstr "Xác định số khoảng trắng được hiển thị thay vì ký tự Tab, và một 
-    số từ thêm nữa không cần thiết."
+    msgstr "Xác định số khoảng trắng được hiển thị thay vì ký tự Tab, và một số từ thêm nữa không cần thiết."
 
 This is not correct, because I *did* need to break the first line, as the
 original did, and I didn’t use a \n as it did.
@@ -1352,8 +1349,7 @@ So this would be correct:
     msgid ""
     "Specifies the number of spaces that should be displayed instead of Tab\n"
     "characters."
-    msgstr "Xác định số khoảng trắng được hiển thị thay vì ký tự Tab, và một\n
-    số từ thêm nữa không cần thiết."
+    msgstr "Xác định số khoảng trắng được hiển thị thay vì ký tự Tab, và một\nsố từ thêm nữa không cần thiết."
 
 and even this:
 
@@ -1363,9 +1359,7 @@ and even this:
     msgid ""
     "Specifies the number of spaces that should be displayed instead of Tab\n"
     "characters."
-    msgstr "Xác định số khoảng trắng được hiển thị thay vì ký tự Tab, và một\n
-    số từ thêm nữa không cần thiết. Hơn nữa, tôi có thể nói chuyện bằng cách\n
-    này được mấy ngày."
+    msgstr "Xác định số khoảng trắng được hiển thị thay vì ký tự Tab, và một\nsố từ thêm nữa không cần thiết. Hơn nữa, tôi có thể nói chuyện bằng cách\nnày được mấy ngày."
 
 The result has to be the same layout as the msgid. If it needs to break each
 line at a certain number of characters (roughly), then you do the same,
