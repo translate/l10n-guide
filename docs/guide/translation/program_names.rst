@@ -23,7 +23,7 @@ Pros and Cons of Translating Program Names
 ==========================================
 
 +-------+---------------------------------------------------------------------------+
-| Pros  | The program is shown is a script/pronunciation that the user understands  |
+| Pros  | The program is shown as a script/pronunciation that the user understands  |
 +-------+---------------------------------------------------------------------------+
 | Cons  | A user will not find the translated program anywhere on the system.  I.e. |
 |       | they will not be able to run the program using its translated name        |
