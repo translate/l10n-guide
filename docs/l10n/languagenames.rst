@@ -60,6 +60,8 @@ on the English name.
      - Italiano
    * - Japanese
      - 日本語
+   * - Javanese
+     - Basa Jawa
    * - Korean
      - 한국어
    * - Lao
