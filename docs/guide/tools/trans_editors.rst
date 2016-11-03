@@ -13,8 +13,8 @@ which platform you are running:
 
 * I use Windows
 
-  * Install `Virtaal <http://virtaal.translatehouse.org>`_, :doc:`Poedit
-    </guide/poedit>`, or `IniTranslator
+  * Install `Virtaal <http://virtaal.translatehouse.org>`_, `Poedit
+    <https://poedit.net>`_, or `IniTranslator
     <http://initranslator.sourceforge.net/wiki/index.php/Main_Page>`_
 
 * I use Linux
