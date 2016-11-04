@@ -1,6 +1,9 @@
 Translate's Localization Guide
 ==============================
 
+.. image:: https://secure.travis-ci.org/translate/l10n-guide.png
+    :target: https://travis-ci.org/translate/l10n-guide
+
 A guide to localization written by Translate to help educate and foster best
 practises in localization.
 
