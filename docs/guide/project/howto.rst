@@ -69,6 +69,7 @@ are currently:
 * `emacs <http://www.gnu.org/software/emacs/emacs.html>`_ (various platforms,
   including Mac OSX GUI)
 * `poedit <http://www.poedit.org/index.php>`_ (various)
+* `Attesoro <http://www.attesoro.org>`_ (Windows)
 
 .. _../pages/guide/project/howto#people:
 
