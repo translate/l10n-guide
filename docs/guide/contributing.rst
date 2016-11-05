@@ -16,6 +16,6 @@ we also welcome it but if you accompany it with the changes then you are more
 likely to be listened to (its easy to complain, a little harder to contribute
 meaningfully)
 
-We :doc:`credit <credits>` those who contribute whole sections and
+We \:doc\:`credit <credits.rst>`_ those who contribute whole sections and
 significatant update.
 
