@@ -8,10 +8,10 @@ Resources
   this to determine your language's ISO code.
 * `FOLDOC <http://foldoc.org/>`_ -- The Free On-line Dictionary of Computing --
   meanings of technical terms.
-* If FOLDOC doesn't have it, try `Wikepedia <http://wikipedia.org>`_, `The
+* If FOLDOC doesn't have it, try `Wikipedia <http://wikipedia.org>`_, `The
   Webopedia Computing Dictionary <http://webopedia.com/>`_, or Google (try
   searching for "TERM definition" or "TERM meaning")
-* `High-Tech Buzzwords <http://hightechbuzzwords.com/index.htm>`_ will tell you
+* `High-Tech Buzzwords <http://www.hightechbuzzwords.com/index.htm#htacro>`_ will tell you
   the meaning of just about any computing or technical acronym! Look up those
   annoying and cryptic names like GPSD, AARNET and MTA.
 * `The alphabetic file extension list <http://filext.com/alphalist.php>`_ tells
