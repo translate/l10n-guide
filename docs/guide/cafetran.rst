@@ -8,7 +8,7 @@ Cafetran is a CAT tool with translation memory, glossary lookup, and web
 searching.  It also supports sourceless translation using an autocomplete
 function.
 
-http://www.cafetran.republika.pl/
+https://www.cafetran.com
 
 .. image:: /_static/cafetran1.jpg
 

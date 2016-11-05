@@ -18,7 +18,7 @@ How to translate
 ================
 
 The process is simple, `register
-<https://services.google.com/tc/welcome.html>`_ and then follow the on screen
+<https://translate.google.com/community?source=t-new-user>`_ and then follow the on screen
 instructions.  One advantage of translating Google is that you can quicly see
 what your translation will look like in real life.  That is an advantage of a
 web based applications.
