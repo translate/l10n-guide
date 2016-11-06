@@ -157,14 +157,14 @@ Producing you locale file:
 Resource specific to the ISO standard for locales files:
 
 * The `ISO 14652
-  <http://anubis.dkuug.dk/jtc1/sc22/wg20/docs/n897-14652w25.pdf>`_ standard
+  <http://std.dkuug.dk/jtc1/sc22/wg20/docs/n897-14652w25.pdf>`_ standard
   that defines locale or fdcc files (seems to be the latest version fo the
   standard)
 * `Comments from Ulrich Drepper
-  <http://anubis.dkuug.dk/jtc1/sc22/wg20/docs/n922-linux-14652.txt>`_ the
+  <http://www.open-std.org/jtc1/SC22/WG20/docs/n922-linux-14652.txt>`_ the
   creator of locale implementation in glibc
 * `Keld Simonsen's comments on Drepper's mail
-  <http://anubis.dkuug.dk/jtc1/sc22/wg20/docs/n925-14652-keld.txt>`_ (Simonsen
+  <http://www.open-std.org/jtc1/SC22/WG20/docs/n925-14652-keld.txt>`_ (Simonsen
   manages the ISO 14652 standard)
 
 .. _../pages/guide/locales/glibc#notes:

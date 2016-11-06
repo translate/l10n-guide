@@ -14,5 +14,5 @@ others.
 Resources
 =========
 
-* `Home page <http://initranslator.sourceforge.net/>`_
+* `Home page <https://sourceforge.net/p/initranslator/wiki/Home/>`_
 
