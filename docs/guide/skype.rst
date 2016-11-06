@@ -15,7 +15,7 @@ use of an English interface.
 How to localise Skype
 =====================
 
-* `Skype Translation <http://forum.skype.com/lofiversion/index.php/f7.html>`_
+* `Skype Translation <https://community.skype.com/t5/Translations/bd-p/Translations>`_
   forum
 * `Adding unsupported languages
   <http://forum.skype.com/lofiversion/index.php/t111756.html>`_ (Windows)
