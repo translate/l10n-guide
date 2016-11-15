@@ -141,7 +141,7 @@ next major stable release.
 Translation Status Page
 =======================
 
-The `translation status page <http://l10n-status.gnome.org/>`_ keeps up to date
+The `translation status page <http://l10n.gnome.org/>`_ keeps up to date
 statistics on the progress of each language, your language should appear as
 soon as your first file is committed to CVS.
 
@@ -275,17 +275,15 @@ XML file out of the po file later on."
 Finding PO files
 ================
 
-Technical notes on finding PO files via http://l10n-status.gnome.org/ from
+Technical notes on finding PO files via http://l10n.gnome.org/ from
 Simos Xenitellis on the translate-pootle list:
 
 You can get .po files from the statistics pages. Have a look at
-http://l10n-status.gnome.org/gnome-2.10/index.html Click on individual language
+http://l10n.gnome.org/gnome-2.10/index.html Click on individual language
 pages and they will lead you to the .po files. These files are updated daily,
 so the "resolution" of freshness is just one day (not bad).
 
-You can also look at all the PO and POT files for a branch in the PO/
-subdirectory like this: http://l10n-status.gnome.org/gnome-2.12/PO/
-
+FIXME The following script won't work anymore.
 We use the following scripts while making a translation memory IN-A-GLANCE::
 
     % wget -O desktop.html http://l10n-status.gnome.org/gnome-2.10/el/desktop/index.html
