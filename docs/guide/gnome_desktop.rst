@@ -23,19 +23,18 @@ Essential Reading
 
 Please familiarise yourself with these before proceeding:
 
-* `GNOME Translation Project <https://wiki.gnome.org/translationproject/>`_
+* `GNOME Translation Project <https://wiki.gnome.org/TranslationProject/>`_
 * `Localisation Guide
-  <https://wiki.gnome.org/translationproject/localisationguide>`_
+  <https://wiki.gnome.org/TranslationProject/LocalisationGuide>`_
 * `Join the GNOME Translation Project
-  <https://wiki.gnome.org/translationproject/joiningtranslation>`_
+  <https://wiki.gnome.org/TranslationProject/JoiningTranslation>`_
 
 .. _../pages/guide/gnome_desktop#useful_urls:
 
 Useful URLs
 ===========
 
-* `Status Page <http://l10n.gnome.org/releases/gnome-3-4//>`_
-* `Resources Page <http://l10n-status.gnome.org>`_
+* `Status Page <http://l10n.gnome.org/releases/>`_
 
 .. _../pages/guide/gnome_desktop#translating:
 
