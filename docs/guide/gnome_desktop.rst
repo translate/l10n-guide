@@ -106,111 +106,19 @@ gtk+                          1126    toolkit, very largish, but many messages a
 
 FIXME use :ref:`toolkit:podebug` to get a better targeting on these files.
 
-.. _../pages/guide/gnome_desktop#getting_a_cvs_account:
+.. _../pages/guide/gnome_desktop#committing_translations:
 
-Getting a CVS account
-=====================
+Committing translations
+=======================
 
-You will need a CVS account to commit translations.  Read the `account policy
-<http://developer.gnome.org/doc/policies/accounts/requesting.html>`_ so that
-you know what information to provide. Most probably you will only get one if
-you have supplied translations already or are a new team leader.
+Translations can be committed directly from `Damned lies
+<https://l10n.gnome.org/>`_ in most cases. In the rare occasions where this 
+won't work, you can ask on the `gnome-i18n mailing list
+<http://mail.gnome.org/mailman/listinfo/gnome-i18n/>`_ and someone should be
+able to do it for you. If you really need a git account, you should read the 
+git related pages listed on the `wiki
+<https://wiki.gnome.org/TranslationProject>`_
 
-Read the `CVS guide aimed at translators
-<http://developer.gnome.org/doc/tutorials/gnome-i18n/translator.html>`_ to
-ensure that you commit correctly.  The steps are well laid out and very clear,
-you can't go wrong if you follow it carefully. So old time users of CVS you
-must read it.
-
-Your translated PO files are placed within the package in GNU style, ie in the
-po/ directory unlike the KDE system of all languages in one module.  This means
-that you will have to checkout and add files to the various modules that you
-use.  Eg to add translations of gnome-mime-data you will need to checkout the
-module by that name.
-
-**Note for people new to CVS**
-
-This is not as complicated as it may seem.
-
-Firstly, you need an account. Then, you have to set some environment variables
-for your system. All that means is that you set some short-cuts, so the GNOME
-CVS server and your system play nice together (none of those frosty silences ;)
-). Everything you need to know is explained in `Getting the Most our of CVS in
-GNOME <http://developer.gnome.org/tools/cvs.html>`_, as well as in `CVS guide
-aimed at translators
-<http://developer.gnome.org/doc/tutorials/gnome-i18n/translator.html>`_.
-
-Take it one step at a time, and if you don't understand, email cvsmaster AT
-gnomeD0T org
-
-and if you come up with a dumb question I didn't ask on my journey into using
-CVS, I think you get a prize. :D
-
-We all learn in our own way, at our own pace, so don't worry about it, take one
-step at a time, and ask questions.
-
-The big secret about CVS, or it was to me, is how it does its magic. How on
-earth can a server at gnome.org know what to do with a file on my computer?
-Answer: that little "CVS" folder in the same directory. Any directory or file
-you've checked out via CVS will have this magic folder. If it's not there,
-forget about CVS: it simply won't work. (This also applies to SVN, a more
-recent version control system.)
-
-So first, you need to check out something. If you're translating, that will be
-the "application_name/po" directory, e.g. "gedit/po", or your PO file and the
-ChangeLog from that directory ("gedit/po/vi.po, gedit/po/ChangeLog"). You need
-the ChangeLog, to record what changes you've made. Everybody does that, making
-the ChangeLog a sort of "Who Did What, When and Why?" for that file.
-
-Once you've checked out a file or directory, that magic CVS folder just sits
-there, keeping track of things for the CVS server. If the application being
-translated has just "branched", creating another version of itself (defeating
-software birth control), then you need to check out that branch of the same
-folder/files (e.g. "gnome-2-14/gedit/po"). That will create a "tag" file in the
-CVS folder, which tells the CVS server to which version the file belongs. No
-"tag" file, no "branch": in that case, the file belongs to HEAD (the newest
-version of anything).
-
-Once you have a copy of your directory or file, you can keep it "current" by
-updating it. Each time you "update" your directory or file, it gets brought up
-to date with its twin on the CVS server. Each time you add to your translation,
-you "commit" it to the CVS server, which updates the file at the other end.
-
-The whole aim of a system like CVS or SVN is not to have any conflicts, no
-nasty arguments between these related files. The best way to avoid these
-problems is to update your file before you make any changes. That way, you
-should have the latest information.
-
-It's also essential to check your translation for errors (via "msgfmt -cv")
-before committing it. A PO file with errors can break the whole application,
-when the file is re-integrated. The CVS server also runs the msgfmt check, so
-it will reject your file if it still has errors. This can be handy if you've
-forgotten to do it yourself.
-
-So, all you need to do, once you've got your CVS account and set your
-environment variables, is check out the files you're translating, keep them up
-to date, and commit them when you've changed them, making sure they're free of
-errors first. You may use the command-line to run CVS (which is simply a
-program on your machine, and on the GNOME CVS machine at the other end), or you
-may find, as I did, that a GUI front-end makes it easier to see what's going
-on. Less typing, too. ;)  I use LinCVS for Mac OSX. There will most likely be a
-GUI CVS client for your system, so give it a go. It can simplify things a lot.
-
-CVS is just like keeping a shopping list. When you need new things, you add
-them to the list. When things aren't needed any more, you cross them off. The
-only difference between an ordinary shopping list and CVS, is that CVS
-maintains two lists in different places. It's just like syncing your PDA.
-Except other people can add to the list, or take things off it, so there are a
-lot of checks to make sure everyone ends up with the same list.
-
-Your translation file is that shopping list. Check out the original copy, keep
-it up-to-date, and commit it when you change it. That's really all there is to
-it.
-
-So panic later. ;)  Read the CVS docs, take it one step at a time, and you'll
-find it works very well. After all, if I could work it out, anybody can!
-
-by Clytie, Vietnamese translator, gnome-vi
 
 .. _../pages/guide/gnome_desktop#targeting_a_release:
 
