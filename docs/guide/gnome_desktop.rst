@@ -4,7 +4,7 @@
 GNOME
 *****
 
-GNOME is a feature rich Linux graphical desktop environment.  The project has
+`GNOME <https://www.gnome.org/>`_ is a feature rich Linux graphical desktop environment.  The project has
 quite an established localisation initiative.
 
 Since this page has been created, many things in GNOME has changed, and they
