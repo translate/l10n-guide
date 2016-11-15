@@ -11,7 +11,7 @@ Since this page has been created, many things in GNOME has changed, and they
 have good documentation and infrastructure to help translators. 
 
 The most important documentation for translating GNOME is therefore at the
-GNOME website: http://live.gnome.org/TranslationProject/
+GNOME website: http://wiki.gnome.org/TranslationProject/
 
 The rest of this document is kept in place for the time being, but a lot of it
 is now out of date and not 100% accurate any more.
@@ -23,11 +23,11 @@ Essential Reading
 
 Please familiarise yourself with these before proceeding:
 
-* `Gnome Translation Project <https://live.gnome.org/translationproject/>`_
+* `Gnome Translation Project <https://wiki.gnome.org/translationproject/>`_
 * `Localisation Guide
-  <https://live.gnome.org/translationproject/localisationguide>`_
+  <https://wiki.gnome.org/translationproject/localisationguide>`_
 * `Join the Gnome Translation Project
-  <https://live.gnome.org/translationproject/joiningtranslation>`_
+  <https://wiki.gnome.org/translationproject/joiningtranslation>`_
 
 .. _../pages/guide/gnome_desktop#useful_urls:
 
