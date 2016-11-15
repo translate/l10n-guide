@@ -23,10 +23,10 @@ Essential Reading
 
 Please familiarise yourself with these before proceeding:
 
-* `Gnome Translation Project <https://wiki.gnome.org/translationproject/>`_
+* `GNOME Translation Project <https://wiki.gnome.org/translationproject/>`_
 * `Localisation Guide
   <https://wiki.gnome.org/translationproject/localisationguide>`_
-* `Join the Gnome Translation Project
+* `Join the GNOME Translation Project
   <https://wiki.gnome.org/translationproject/joiningtranslation>`_
 
 .. _../pages/guide/gnome_desktop#useful_urls:
@@ -134,10 +134,10 @@ module by that name.
 This is not as complicated as it may seem.
 
 Firstly, you need an account. Then, you have to set some environment variables
-for your system. All that means is that you set some short-cuts, so the Gnome
+for your system. All that means is that you set some short-cuts, so the GNOME
 CVS server and your system play nice together (none of those frosty silences ;)
 ). Everything you need to know is explained in `Getting the Most our of CVS in
-Gnome <http://developer.gnome.org/tools/cvs.html>`_, as well as in `CVS guide
+GNOME <http://developer.gnome.org/tools/cvs.html>`_, as well as in `CVS guide
 aimed at translators
 <http://developer.gnome.org/doc/tutorials/gnome-i18n/translator.html>`_.
 
@@ -192,7 +192,7 @@ So, all you need to do, once you've got your CVS account and set your
 environment variables, is check out the files you're translating, keep them up
 to date, and commit them when you've changed them, making sure they're free of
 errors first. You may use the command-line to run CVS (which is simply a
-program on your machine, and on the Gnome CVS machine at the other end), or you
+program on your machine, and on the GNOME CVS machine at the other end), or you
 may find, as I did, that a GUI front-end makes it easier to see what's going
 on. Less typing, too. ;)  I use LinCVS for Mac OSX. There will most likely be a
 GUI CVS client for your system, so give it a go. It can simplify things a lot.
@@ -218,7 +218,7 @@ by Clytie, Vietnamese translator, gnome-vi
 Targeting a release
 ===================
 
-Gnome follows a regular 6 monthly development cycle with even numbered stable
+GNOME follows a regular 6 monthly development cycle with even numbered stable
 releases and odd number development releases.  The `release schedule
 <http://www.gnome.org/start/unstable/>`_ will help you decide which release to
 target.
@@ -330,9 +330,9 @@ Translating Documentation
 
 **Update**
 
-A large number of Gnome docs are now available for translation, via the
+A large number of GNOME docs are now available for translation, via the
 gnome-doc-utils package, in both XML and PO format. This number is increasing
-steadily. We can look forward to having all Gnome docs available in both
+steadily. We can look forward to having all GNOME docs available in both
 formats. Here is the current list:
 
 http://kvota.net/doc-l10n/by-modules.html
@@ -345,11 +345,11 @@ there isn't a translation for your language yet, or update the current file.
 <http://l10n.gnome.org/teams/>`_ for your language, so effort is not
 duplicated.) As the original documentation is updated, so is the POT, and so
 are the existing translations. Just like the application PO files listed under
-your language on the Gnome l10n status pages.
+your language on the GNOME l10n status pages.
 
 **Older information**
 
-On the Gnome-i18n mailing list Christian Rose says, "At the moment, we don't
+On the gnome-i18n mailing list Christian Rose says, "At the moment, we don't
 translate documentation the same way we translate the user interfaces (i.e.
 with "po" files). However, we hope to do so at some point, since po files
 provide several essential advantages compared to maintaining translations of
