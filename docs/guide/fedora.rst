@@ -73,7 +73,7 @@ Getting CVS access
 Browse to http://i18n.redhat.com/cgi-bin/i18n-signup where you will have to
 supply your ssh public key. Use::
 
-  $ sh-keygen -t dsa
+  $ ssh-keygen -t dsa
 
 if you don't have one. This key is found in ::
 
