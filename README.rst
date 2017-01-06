@@ -12,3 +12,12 @@ History
 -------
 This guide was previously hosted on `Translate's old wiki
 <http://translate.sourceforge.net/wiki/index>`_.
+
+Copyright
+---------
+
+.. Also update this in docs/guide/copyright.rst
+
+The localisation guide is released under the `Creative Commons
+Attribution-ShareAlike <http://creativecommons.org/licenses/by-sa/3.0/>`_
+license.
