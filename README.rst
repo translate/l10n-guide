@@ -1,7 +1,8 @@
 Translate's Localization Guide
 ==============================
 
-.. image:: https://secure.travis-ci.org/translate/l10n-guide.png
+.. image:: https://img.shields.io/travis/translate/l10n-guide/master.svg?style=flat-square
+    :alt: Build Status
     :target: https://travis-ci.org/translate/l10n-guide
 
 A guide to localization written by Translate to help educate and foster best
