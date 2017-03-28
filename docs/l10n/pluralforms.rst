@@ -81,7 +81,7 @@ a correct plural form
    et,    Estonian,              nplurals=2; plural=(n != 1);
    eu,    Basque,                nplurals=2; plural=(n != 1);
    **F**
-   fa,    Persian,               nplurals=1; plural=0;
+   fa,    Persian,               nplurals=2; plural=(n > 1);
    ff,    Fulah,                 nplurals=2; plural=(n != 1);
    fi,    Finnish,               nplurals=2; plural=(n != 1);
    fil,   Filipino,              nplurals=2; plural=(n > 1);
@@ -114,14 +114,14 @@ a correct plural form
    jv,    Javanese,              nplurals=2; plural=(n != 0);
    **K**
    ka,    Georgian,              nplurals=1; plural=0;
-   kk,    Kazakh,                nplurals=1; plural=0;
+   kk,    Kazakh,                nplurals=2; plural=(n != 1);
    kl,    Greenlandic,           nplurals=2; plural=(n != 1);
    km,    Khmer,                 nplurals=1; plural=0;
    kn,    Kannada,               nplurals=2; plural=(n != 1);
    ko,    Korean,                nplurals=1; plural=0;
    ku,    Kurdish,               nplurals=2; plural=(n != 1);
    kw,    Cornish,               nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n == 3) ? 2 : 3;
-   ky,    Kyrgyz,                nplurals=1; plural=0;
+   ky,    Kyrgyz,                nplurals=2; plural=(n != 1);
    **L**
    lb,    Letzeburgesch,         nplurals=2; plural=(n != 1);
    ln,    Lingala,               nplurals=2; plural=(n > 1);
