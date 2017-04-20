@@ -64,7 +64,7 @@ You can simplify your task considerably by using a dedicated .po editor. These
 are currently:
 
 * `Virtaal <http://virtaal.translatehouse.org>`_ (Windows+Linux)
-* `kbabel <http://i18n.kde.org/tools/kbabel>`_ (KDE)
+* `kbabel <http://docs.translatehouse.org/projects/localization-guide/en/latest/guide/kbabel.html>`_ (KDE)
 * `gtranslator <http://gtranslator.sourceforge.net/>`_ (GNOME)
 * `emacs <http://www.gnu.org/software/emacs/emacs.html>`_ (various platforms,
   including Mac OSX GUI)
