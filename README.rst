@@ -18,6 +18,6 @@ Copyright
 
 .. Also update this in docs/guide/copyright.rst
 
-The localisation guide is released under the `Creative Commons
+The localization guide is released under the `Creative Commons
 Attribution-ShareAlike <http://creativecommons.org/licenses/by-sa/3.0/>`_
 license.
