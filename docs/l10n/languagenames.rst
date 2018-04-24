@@ -96,6 +96,8 @@ on the English name.
      - Română
    * - Russian
      - русский
+   * - Sardinian
+     - Sardu
    * - Serbian
      - српски *or* srpski
    * - Sinhala
