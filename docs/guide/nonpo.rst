@@ -16,8 +16,8 @@ format.
 This will be a feature of the Pootle interface: simply choose your format and
 convert the file! The file converters are those in the `Translate Toolkit
 <http://sourceforge.net/project/showfiles.php?group_id=91920&package_id=97082>`_,
-plus those in the `po4a <http://po4a.alioth.debian.org/>`_ package, and any
-others our users find useful.
+plus those in the `po4a <https://po4a.org/>`_ package, and any others our users
+find useful.
 
 So, until you can use the Pootle interface to convert your files, simply email
 `the Pootle mailing list <mailto:translate-pootle@lists.sourceforge.net>`_,
