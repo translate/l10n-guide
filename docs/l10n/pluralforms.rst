@@ -97,7 +97,7 @@ a correct plural form
    gun,   Gun,                   nplurals=2; plural=(n > 1);
    **H**
    ha,    Hausa,                 nplurals=2; plural=(n != 1);
-   he,    Hebrew,                nplurals=2; plural=(n != 1);
+   he,    Hebrew,                nplurals=4; plural=n==1 ? 0 : n==2 ? 1 : (n<0 || n>10) && n%10==0 ? 3 : 4;
    hi,    Hindi,                 nplurals=2; plural=(n != 1);
    hne,   Chhattisgarhi,         nplurals=2; plural=(n != 1);
    hr,    Croatian,              nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);
