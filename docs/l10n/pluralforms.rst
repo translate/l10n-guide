@@ -106,6 +106,7 @@ a correct plural form
    **I**
    ia,    Interlingua,           nplurals=2; plural=(n != 1);
    id,    Indonesian,            nplurals=1; plural=0;
+   ie,    Interlingue,           nplurals=2; plural=(n != 1);
    is,    Icelandic,             nplurals=2; plural=(n%10!=1 || n%100==11);
    it,    Italian,               nplurals=2; plural=(n != 1);
    **J**
