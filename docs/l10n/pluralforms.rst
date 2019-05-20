@@ -192,7 +192,7 @@ a correct plural form
    ti,    Tigrinya,              nplurals=2; plural=(n > 1);
    tk,    Turkmen,               nplurals=2; plural=(n != 1);
    tr,    Turkish,               nplurals=2; plural=(n > 1);
-   tt,    Tatar,                 nplurals=1; plural=0;
+   tt,    Tatar,                 nplurals=2; plural=(n > 1);
    **U**
    ug,    Uyghur,                nplurals=1; plural=0;
    uk,    Ukrainian,             nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);
