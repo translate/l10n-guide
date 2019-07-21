@@ -69,12 +69,12 @@ a correct plural form
    cy,    Welsh,                 nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;
    **D**
    da,    Danish,                nplurals=2; plural=(n != 1);
-   de,    German,                nplurals=2; plural=(n != 1);
+   de,    German,                nplurals=2; plural=(n%100 != 1);
    doi,   Dogri,                 nplurals=2; plural=(n != 1);
    dz,    Dzongkha,              nplurals=1; plural=0;
    **E**
    el,    Greek,                 nplurals=2; plural=(n != 1);
-   en,    English,               nplurals=2; plural=(n != 1);
+   en,    English,               nplurals=2; plural=(n%100 != 1);
    eo,    Esperanto,             nplurals=2; plural=(n != 1);
    es,    Spanish,               nplurals=2; plural=(n != 1);
    es_AR, Argentinean Spanish,   nplurals=2; plural=(n != 1);
