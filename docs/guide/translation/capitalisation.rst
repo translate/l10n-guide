@@ -40,7 +40,7 @@ match these capitals as they are often done for a reason.  Sometimes they
 represent phrases that will be joined at runtime (this is a bad practice and
 should be reported to the programmer for correction).
 
-To check your staring capitals use :ref:`toolkit:pofilter` ::
+To check your starting capitals use :ref:`toolkit:pofilter` ::
 
   pofilter -t startcaps input output
 
