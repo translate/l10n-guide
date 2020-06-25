@@ -269,11 +269,11 @@ coverage_write_headline = False
 # -- Options for Intersphinx -------------------------------------------------
 
 intersphinx_mapping = {
-    'django': ('http://django.readthedocs.org/en/latest/', None),
-    'toolkit': ('http://docs.translatehouse.org/projects/translate-toolkit/en/latest/', None),
-    'pootle': ('http://docs.translatehouse.org/projects/pootle/en/latest/', None),
-    'python': ('http://docs.python.org/2.7', None),
-    'virtaal': ('http://docs.translatehouse.org/projects/virtaal/en/latest/', None),
+    'django': ('https://django.readthedocs.io/en/latest/', None),
+    'toolkit': ('https://docs.translatehouse.org/projects/translate-toolkit/en/latest/', None),
+    'pootle': ('https://pootle.readthedocs.io/en/latest/', None),
+    'python': ('https://docs.python.org/2.7', None),
+    'virtaal': ('https://virtaal.readthedocs.io/en/latest/', None),
 }
 
 
