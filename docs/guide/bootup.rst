@@ -34,7 +34,7 @@ Installation
 =======================  ===========  =================================================================================================================================================
  Stage                    Messages     Description                                                                                                                                       
 =======================  ===========  =================================================================================================================================================
- CD boot messages          (unkown)                                                                                                                                                      
+ CD boot messages          (unknown)                                                                                                                                                      
  rhpl                      134         lists mice keyboards and exceptions might be needed in bootup as it mentions failed mouse detection and not being able to do graphical install    
  Comps                     158         package groups and some descriptions used by anaconda I presume                                                                                   
  Anaconda installer        1473                                                                                                                                                          
@@ -79,7 +79,7 @@ Init 5
 ============  ==========  ===========================================
  Stage         Messages    Description                                 
 ============  ==========  ===========================================
- GDM            695        lots of bumf but hard to seperate it out    
+ GDM            695        lots of bumf but hard to separate it out    
  Wallpaper                                                             
  Fedora         5          artwork                                     
 ============  ==========  ===========================================

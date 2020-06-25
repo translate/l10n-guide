@@ -4,10 +4,10 @@
 Localising Weather Applications
 *******************************
 
-There are a number of weather related applictions for the Linux desktop.  Most
+There are a number of weather related applications for the Linux desktop.  Most
 of these lookup up weather data from airport meteorological stations.  These
 stations are identified by an international 4 character abbreviation.  These
-applcications use this to lookup the corect watehr information.
+applcications use this to lookup the correct weather information.
 
 .. _../pages/guide/weather_applications#applications:
 
@@ -40,7 +40,7 @@ Where do you get the data
 =========================
 
 More pressing then the localisability is the fact that many localitions are
-missing for countries.  The data is easily retreived. Use the following URLs to
+missing for countries.  The data is easily retrieved. Use the following URLs to
 identify weather stations in yor country and locations.
 
 You may have to correct a few where names have changed eg airport names or to
@@ -55,11 +55,11 @@ reflect to a normal user not an aeroplane pilot where this site is located.
   other stations to help you identify the location.
 * http://www.partow.net/miscellaneous/airportdatabase/ -- A database
   representation of the ICAO codes.
-* http://weather.noaa.gov/weather/metar.shtml -- You can retreive data from
-  multiple stations.  Usefull to check whether the ICAO code is valid for
+* http://weather.noaa.gov/weather/metar.shtml -- You can retrieve data from
+  multiple stations.  Useful to check whether the ICAO code is valid for
   weather data.
 * http://weather.noaa.gov/cgi-bin/mgetmetar.pl?cccc=FAJS -- The actual URL used
-  by :doc:`gweather` to retreive weather data.
+  by :doc:`gweather` to retrieve weather data.
 
 Please also check the data of the weather, it might be so out of date that it
 is not valid.

@@ -7,7 +7,7 @@ Skype Localization
 Arguably the most important VoIP solution that can be localised.  This `Skype
 devzone
 <http://share.skype.com/sites/devzone/2006/03/localization_tricky_but_import.html>`_
-article shows the importance of localisation -- ony 28% of users of Skype make
+article shows the importance of localisation -- only 28% of users of Skype make
 use of an English interface.
 
 .. _../pages/guide/skype#how_to_localise_skype:

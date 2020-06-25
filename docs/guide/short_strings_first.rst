@@ -14,9 +14,9 @@ Therefore, if you can initially focus your translation on the short strings
 then you can make a quick visual impact.  Afterwards you can follow up with
 longer and longer strings until the application is fully translated.
 
-.. _../pages/guide/short_strings_first#shortcommings:
+.. _../pages/guide/short_strings_first#shortcomings:
 
-Shortcommings
+Shortcomings
 =============
 
 The problem with this method is that you lose context in that you are not sure
@@ -54,7 +54,7 @@ characters::
 
   pogrep --search=msgid -e '^.*{,30}$' -i complete -o short
 
-This will extract messages that are up to 30 charactes long, but not longer
+This will extract messages that are up to 30 characters long, but not longer
 than that from *complete* and place them in *short*.  Once these strings have
 been translated you would use :ref:`toolkit:pomerge` to combine them with the
 complete PO file(s). This way it is sometimes possible to translate more than

@@ -114,9 +114,9 @@ Adding another language or translating
 
 FIXME
 
-Please make use of namespaces to seperate your translations from the main
+Please make use of namespaces to separate your translations from the main
 document.  Use your languages iso639 code as the namespace.  For Zulu this page
-would be refered to as ::
+would be referred to as ::
 
     zu:guide:editing
 

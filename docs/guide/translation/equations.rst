@@ -18,7 +18,7 @@ the translation that have an equals sign.
 
 Usually these equations refer to real values that appear in a programs
 configuration file or they refer to items that would appear in the header of
-some protocol or email message.  Therefor in the example above neither method=,
+some protocol or email message.  Therefore in the example above neither method=,
 enctype=. POST nor GET would be translated.
 
 Lets say that again.  The computer will understand method=POST but will know

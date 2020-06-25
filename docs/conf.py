@@ -242,7 +242,7 @@ man_pages = [
 texinfo_documents = [
   ('index', 'LocalizationGuide', u"Translate's Localization Guide",
    u'Translate', 'LocalizationGuide',
-   u'Your guide to everythig you want and need to know about localization.',
+   u'Your guide to everything you want and need to know about localization.',
    'Miscellaneous'),
 ]
 

@@ -115,9 +115,9 @@ Defining LC_TIME
 ================
 
 Use 'man date' to see what variables are valid in a locale file date and time
-formating.  If you want to remove space padding then use minus in the variable
+formatting.  If you want to remove space padding then use minus in the variable
 eg: %-e will print the day of the week without a space padding before the
-number.  Eg '[space]1' becomes simply '1'
+number. E.g. '[space]1' becomes simply '1'
 
 .. _../pages/guide/locales/glibc#gentoo_users:
 
@@ -158,7 +158,7 @@ Resource specific to the ISO standard for locales files:
 
 * The `ISO 14652
   <http://std.dkuug.dk/jtc1/sc22/wg20/docs/n897-14652w25.pdf>`_ standard
-  that defines locale or fdcc files (seems to be the latest version fo the
+  that defines locale or fdcc files (seems to be the latest version of the
   standard)
 * `Comments from Ulrich Drepper
   <http://www.open-std.org/jtc1/SC22/WG20/docs/n922-linux-14652.txt>`_ the
@@ -192,7 +192,7 @@ Officially you should send your locale files to:
 * Use the glibcbug script which seems to email glibc-bug-reports-stable@gnu.org
 
 I have in the past sent email to `Ulrich Drepper <mailto:drepper@redhat.com>`_,
-the glibc maintainer.  This is not guarenteed to work but if all else fails try
+the glibc maintainer.  This is not guaranteed to work but if all else fails try
 this route.
 
 Attach the file and preferably a diff between your update and the one in glibc

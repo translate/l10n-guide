@@ -20,7 +20,7 @@ Country Specific
 * Evolution -- public holidays
 * Any Internet dialup logging
 * Mozilla dates and times (might be locale specific)
-* OpenOffice date and tiem formats (might be locale specific)
+* OpenOffice date and time formats (might be locale specific)
 * KDE country and regions selector in locale
 * KDE country.desktop file
 * Mozilla region packs

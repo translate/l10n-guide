@@ -7,10 +7,10 @@ Other fonts
 If you cant't get what you need from the :doc:`foss_fonts` then here is where
 you can look.
 
-.. _../pages/guide/other_fonts#license_unkown:
+.. _../pages/guide/other_fonts#license_unknown:
 
-License unkown
-==============
+License unknown
+===============
 
 * `STIX fonts <http://www.stixfonts.org>`_ -- a project to create a complete
   set of fonts for technical publication.  They are nearing the completion of

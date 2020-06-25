@@ -33,8 +33,8 @@ System directories
 ==================
 
 Many operating systems contain system directories, these are directories used
-by the operating system itself.  System direcotories will not change even when
-your langauge changes.  The following are system directories on Linux and
+by the operating system itself.  System directories will not change even when
+your language changes.  The following are system directories on Linux and
 should not be translated::
 
   /home
@@ -56,7 +56,7 @@ Home directories
 
 On Linux systems each user has a home directory which corresponds to their
 username and is usually located under /home eg. /home/fred.  The word **home**
-should not be translated because it is a sytem directory.  But the username
+should not be translated because it is a system directory.  But the username
 should be translated.  You should probably keep the username to ASCII
 characters (some operating systems cannot use Unicode in filename) and thus
 romanise the name if you needed.
@@ -103,7 +103,7 @@ URLs
 
 A URL is made up of these components ::
 
-  protocal :// server : port / directorie(s) / filename . extension
+  protocol :// server : port / directorie(s) / filename . extension
 
 Here is a real URL, i.e. one that you would actually use::
 

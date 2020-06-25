@@ -67,7 +67,7 @@ Using profiling
 Gettext
 =======
 
-This is the prefered method but it only creates one file.  The gettext manual
+This is the preferred method but it only creates one file.  The gettext manual
 has a `good description
 <http://www.gnu.org/software/gettext/manual/html_node/Prioritizing-messages.html>`_
 of the process.

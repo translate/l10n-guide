@@ -89,7 +89,7 @@ What are the key points?
 - Notice an **.svn** directory that has also arrived from the server. This
   little folder is the key to source control. It keeps notes on where your
   files belong on the server, and what **revision** (version) of the files you
-  have. Everytime you use SVN in that directory, that little **.svn** folder
+  have. Every time you use SVN in that directory, that little **.svn** folder
   updates its information. It knows if your files come from a **branch**
   (separate version of the program), it knows exactly when you last updated or
   committed them. So anything you do outside your **working copy** doesn't

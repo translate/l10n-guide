@@ -14,7 +14,7 @@ as follows:
 =========  =============================================================================================================================================================================================
  Column     Description                                                                                                                                                                                   
 =========  =============================================================================================================================================================================================
-  A         contains the location information from the PO file.  This is sometimes usefull for working out what the message is used for as its location and the name of the message can provide clues.    
+  A         contains the location information from the PO file.  This is sometimes useful for working out what the message is used for as its location and the name of the message can provide clues.    
   B         contains the original or English text                                                                                                                                                         
   C         you add your translations to this column                                                                                                                                                      
 =========  =============================================================================================================================================================================================
@@ -26,7 +26,7 @@ Notes
 
 Preserve filenames, do not change the case of the filename.  Return files in a
 ZIP archive in the same order and directory structure.  This is important
-because the reverse process, coverting CSV to PO is made easier if you do not
+because the reverse process, converting CSV to PO is made easier if you do not
 change these.
 
 .. _../pages/guide/tools/spreadsheet#how_to_open_a_csv_file:
@@ -44,7 +44,7 @@ OpenOffice.org 2.0
 
 - In the text import dialog.  Ensure that the character set in 'Unicode UTF-8'.
   Under 'Separator options' ensure that the 'Separated by' radio button is
-  selected and the 'Comma' is checked.  The text delimeter should be " (double
+  selected and the 'Comma' is checked.  The text delimiter should be " (double
   quotes).
 - Check to see that the import wizard has identified the 3 columns correctly
 - Click OK
@@ -73,7 +73,7 @@ following:
 
 - **Adjust the column widths** -- 5" works well as you can then see both the
   original and translation clearly.
-- **Adjust the cell formating** for the first column to allow the insertion of
+- **Adjust the cell formatting** for the first column to allow the insertion of
   automatic line breaks (this will cause the data to wrap within the column and
   make it all readable) this also allows for automatic hyphenation which will
   then hyphenate long words.  The result of this step is that you can now read

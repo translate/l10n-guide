@@ -25,7 +25,7 @@ Rule of thumb
 ::
 
   Weeks = Strings to translate / 2000
-  Days = Srings to translate / 400 or 500
+  Days = Strings to translate / 400 or 500
     ( Use 400 for large project 500 for a small project. This then evens out
     lost days or slow progress due to complicated section.)
 

@@ -15,8 +15,8 @@ The way Wordfast translates
 ===========================
 
 Since Wordfast is simply a Visual Basic macro that runs inside Microsoft
-Office, translators using Wordfast are in essense using Microsoft Office and
-all of its available featurs.  Wordfast can therefore be used to translate any
+Office, translators using Wordfast are in essence using Microsoft Office and
+all of its available features.  Wordfast can therefore be used to translate any
 document that can be opened in Excel (the spreadsheet) or Word (the word
 processor).  Wordfast can't translate binary files, but it can translate text
 files in various encodings.

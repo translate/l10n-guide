@@ -94,7 +94,7 @@ while there are still low hanging fruit in the cross-platform area.
 We relagate Linux installer and distribution specific localisation to a lower
 rung.  Distribution specific configuration programs are problematic in that
 they have limited impact to the distribution as apposed to a whole sea of Free
-Software users.  But they are important for a seemless end-user experience.
+Software users.  But they are important for a seamless end-user experience.
 Some of them are also only used once, for example during software installation
 making localisation of them wasteful of resources.
 

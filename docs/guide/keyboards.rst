@@ -59,7 +59,7 @@ Firstly load an existing keyboard layout if you simply want to extend and
 existing layout.
 
 You will notice that you can define keys for for each of the shift states and
-for the other modified state (usualy :kbd:`AltGr`).  For dead keys you must
+for the other modified state (usually :kbd:`AltGr`).  For dead keys you must
 define one of the states as being a dead key and then define each of the
 combinations.  Quite easy but tedious.
 
@@ -159,8 +159,8 @@ FIXME various pointers
 Getting a nice picture of your layout
 -------------------------------------
 
-This prooves rather harder than expected.  These pages will give you some
-pointers that are hopefully helpfull.
+This proves rather harder than expected.  These pages will give you some
+pointers that are hopefully helpful.
 
 * `Ogonkify patch for processing xkbprint output
   <http://www.meduna.org/sw_a2ps_en.html>`_
@@ -173,7 +173,7 @@ Keyboard Mapping for Linux (KMFL)
 
 * `Sourceforge project page <http://sourceforge.net/projects/kmfl>`_
 
-This project is trying to bring the kyman keyboard mapings to Linux it is/will
+This project is trying to bring the kyman keyboard mappings to Linux it is/will
 be GPL'd
 
 .. _../pages/guide/keyboards#changes_needed_to_your_linux_distribution:

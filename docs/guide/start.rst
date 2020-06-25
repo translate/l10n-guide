@@ -460,7 +460,7 @@ Other localisation
    thesaurus
    grammar
    application_specific
-   calenders
+   calendars
    weather_applications
    kstars
 
@@ -489,7 +489,7 @@ Other localisation
 
   * A list of programs with :doc:`application_specific`, non-translation,
     localisation requirements
-  * :doc:`calenders`
+  * :doc:`calendars`
   * :doc:`weather_applications`
   * :doc:`kstars`
 

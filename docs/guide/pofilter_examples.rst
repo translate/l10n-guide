@@ -5,7 +5,7 @@ Common Translation Errors
 *************************
 
 The following are common errors detected by the :ref:`toolkit:pofilter` tool.
-It is usefull to see these errors in order that you don't commit them yourself.
+It is useful to see these errors in order that you don't commit them yourself.
 We have given examples of some false positives also.
 
 .. _../pages/guide/pofilter_examples#double_spacing:
@@ -24,7 +24,7 @@ Notice the double space in "lefoko  la".
     msgstr ""
     "tobetsa mmala kgotsa tsenya lefoko  la mmala la html le le letleletsweng"
 
-The following is a false postive, notice that the double space ("account.
+The following is a false positive, notice that the double space ("account.
 There") is in the msgid.
 
 .. code-block:: po
@@ -53,7 +53,7 @@ The sentence is missing a fullstop.
     msgid "Please enter a name for this publishing site."
     msgstr "ka kopa tsenyetsa letlakala le la phatlalatso leina"
 
-The sentence is missing and elipse (...)
+The sentence is missing an ellipsis (...)
 
 .. code-block:: po
 
@@ -343,7 +343,7 @@ Unchanged
 The english has not been translated.  The word plugin is translatable.  In fact
 this example show two more errors, the start capital is missing and the colon
 is also missing.  So this translators took an English string and replace it
-with an untranslated and badly formated string.
+with an untranslated and badly formatted string.
 
 .. code-block:: po
 

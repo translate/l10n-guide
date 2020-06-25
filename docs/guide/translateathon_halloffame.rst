@@ -20,7 +20,7 @@ the Hall of Fame.
    * - :ref:`Feb 2004 <translateathon_halloffame#first_xhosa_translate_thon>`
      - UCT, Cape Town, South Africa
      - Xhosa
-     - PRAESA, Translate.org.za, WC Language Comittee
+     - PRAESA, Translate.org.za, WC Language Committee
      - Mozilla
      -
      - :-)

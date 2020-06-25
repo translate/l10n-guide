@@ -84,10 +84,10 @@ If you specify your language in a file called "inst-apps" then it will probably
 only update your language, which is a good thing.  Have not checked this
 though.
 
-.. _../pages/guide/kde_desktop#comitting_to_cvs:
+.. _../pages/guide/kde_desktop#committing_to_cvs:
 
-Comitting to CVS
-================
+Committing to CVS
+=================
 
 FIXME fix for SVN
 

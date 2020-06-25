@@ -60,7 +60,7 @@ We probably need to start classifiying this list: decrotive, bitmap, etc.
 * `Bitsream Vera <http://www.gnome.org/fonts/>`_ (`2
   <http://www.bitstream.com/font_rendering/products/dev_fonts/vera.html>`_)
   font -- you can't change this one see DejaVu if you want to add your
-  langauges characters
+  languages characters
 * `DejaVu <http://dejavu.sourceforge.net/wiki/index.php/Main_Page>`_ -- if you
   have to extend Bitstream Vera then do it in this font.
 * Greenville -- Tahoma replacement (`comparison
@@ -133,7 +133,7 @@ supplied with a directory or font file.  It must be able to output all code
 points covered or return a coverage percentage if a list of required code
 points is supplied.
 
-The following links could prove usefull in building such an app:
+The following links could prove useful in building such an app:
 
 * MSDN `GetFontUnicodeRanges
   <http://msdn.microsoft.com/library/default.asp?url=/library/en-us/gdi/fontext_2alv.asp>`_,

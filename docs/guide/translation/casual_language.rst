@@ -16,7 +16,7 @@ To:
   That file that you were looking for I can't seem to find it.  Help!
 
 In your translations you have the opportunity of removing language that is too
-casual.  Be carefull when translating games and kiddies programs as you might
+casual.  Be careful when translating games and kiddies programs as you might
 want to keep informal language.
 
 Here is a snippet of an email from Malcolm Hunter -- one of the British English

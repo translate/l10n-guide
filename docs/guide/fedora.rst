@@ -103,7 +103,7 @@ redhat-config-packages-1_1_x branch for Fedora Core 3.
 Per Language Checkout and Update scripts
 ----------------------------------------
 
-Tools use to update POT and PO files for Fedora on a per langauge basis which
+Tools use to update POT and PO files for Fedora on a per language basis which
 is nicer as otherwise everything is thrown at you.
 
 * http://mystery.lviv.net/~lvm/fedora-cvs/fedora-cvs-0.3.tar.gz
