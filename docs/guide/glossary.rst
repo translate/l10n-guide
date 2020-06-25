@@ -33,7 +33,7 @@ CLDR
 
 Common Locale Data Repository
   this is an effort to provide a unifies locale data repository, thus merging a
-  number of seperate efforts.  They have also defined an XML standard for
+  number of separate efforts.  They have also defined an XML standard for
   storing locale data seems to be much more flexible then current methods.
 
 fuzzy translation
@@ -62,8 +62,8 @@ i18n
 
 Internationalisation
   this is the process of making a program localisable.  This would cover work
-  to allow for different fonts and charactersets to be displayed correctly.  To
-  allow for scripts that run from right-to-left, etc.  This work is usually
+  to allow for different fonts and character sets to be displayed correctly.
+  To allow for scripts that run from right-to-left, etc.  This work is usually
   done once for a language, once the toolkits and programs support a language
   the internationalsiation work is usually complete.
 
@@ -74,13 +74,13 @@ l12y
   see Localisability
 
 l18n
-  see either i18n or l10n.  This is a common mispelling of one of
+  see either i18n or l10n.  This is a common misspelling of one of
   these words.
 
 Locale
   this is a file that defines the locale data for your language and country.  A
   locale covers things such as: the names of months and days of the week, how
-  to write dates in your language, how your write numebr and currency values,
+  to write dates in your language, how your write number and currency values,
   the sort order of your language and much else.  This data is essential for a
   computer to support your language.
 
@@ -160,11 +160,11 @@ UI
 UTF-8
   A method of encoding Unicode using 8 bits.  Other methods include UTF-7,
   UTF-16 and UTF-32. UTF-8 is the most dominant method of encoding Unicode
-  characers, but UTF-16 is becoming more common.
+  characters, but UTF-16 is becoming more common.
 
 XLIFF
   A new file format for representing translation data.  It provides much more
-  usefull features then any current format and you will see this become more
+  useful features then any current format and you will see this become more
   widely adopted in future.
 
 xgettext

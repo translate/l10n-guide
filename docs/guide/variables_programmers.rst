@@ -28,7 +28,7 @@ Your guess is as good as mine as to what each of those contain.  Yes the
 previous and next string might help to determine what it means.  But we want it
 translated so lets help the localiser.
 
-A better implmenetation would have the following:
+A better implementation would have the following:
 
 .. code-block:: po
 
@@ -56,7 +56,7 @@ A fictitious translation of the above examples may appear like this:
     msgid "%s returned %s after %s"
     msgstr "Returning %2s was %1s after %3s"
 
-As you can see by allowing reordering the translator can convery the message in
+As you can see by allowing reordering the translator can convert the message in
 the structure of their language.
 
 Check with the implementation of Gettext (or other localisation framework) on

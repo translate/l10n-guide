@@ -102,7 +102,7 @@ Duy
 I know my statistical method isn't ideal. A rule-based approach would be more
 realistic. But the rule-based one requires human power to build the ruleset. A
 rule generation approach like `TBL
-<http://stp.ling.uu.se/~torbjorn/Mutbl/bibliography.html>`_ (Tranformation
+<http://stp.ling.uu.se/~torbjorn/Mutbl/bibliography.html>`_ (Transformation
 Based Learning) requires an annotated corpus, which I don't have.
 
 Identifying composed words is also what I want my spellchecker to do.

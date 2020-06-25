@@ -6,7 +6,7 @@ Program Names
 
 Your language team needs to decide if you are going to translate program names.
 There are a few approaches you can follow to make untranslated program names
-accesible to non-English speakers.
+accessible to non-English speakers.
 
 .. _../pages/guide/translation/program_names#simple_policy:
 

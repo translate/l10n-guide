@@ -12,7 +12,7 @@ Resources
 * A simple explanation of `TeX based hyphenation
   <http://www.tex.ac.uk/cgi-bin/texfaq2html?label=hyphen>`_ -- OpenOffice.org
   uses the same TeX files to hyphenate
-* :man:`patgen` -- creates Hypenation pattern files from a set of good
+* :man:`patgen` -- creates Hyphenation pattern files from a set of good
   hyphenations
 * Frank Liang, `Word hy-phen-a-tion by com-puter
   <http://www.tug.org/docs/liang/>`_, STAN-CS-83-977, Stanford University Ph.D.
@@ -30,7 +30,7 @@ Resources
   can't generate this but you can read the TeX in appendix H
 * This `patgen2 tutorial
   <ftp://tug.ctan.org/pub/tex-archive/info/patgen2.tutorial>`_ might be
-  helpfull
+  helpful
 * This is a well commented (in TeX) version of `patgen
   <http://www.tug.org/tex-archive/systems/knuth/unsupported/texware/patgen.web>`_
 * `A very good explanation with clear examples
@@ -47,7 +47,7 @@ Resources
 Creating you own hyphenation dictionary
 =======================================
 
-Two approaches are possible to construct your hyphenation dicionary. An
+Two approaches are possible to construct your hyphenation dictionary. An
 automated approach, and a manual approach. Which one is best for your needs,
 will depend on the characteristics of your language, and the existing
 information you have at your disposal. 
@@ -67,7 +67,7 @@ patgen
 
 FIXME this is the process as I understand it now. It might be wrong!
 
-You use patgen to create the initial hypenation file. ::
+You use patgen to create the initial hyphenation file. ::
 
   patgen DICTIONARY PATTERNS OUTPUT TRANSLATE
 
@@ -75,7 +75,7 @@ Where:
 
 * dictionary -- is the input hyphenation list
 * patterns -- is the existing hyphenation pattern file
-* output -- is the new hypenation pattern file
+* output -- is the new hyphenation pattern file
 * translate -- is a configuration style file (it is explained in some places
   but not that well)
 

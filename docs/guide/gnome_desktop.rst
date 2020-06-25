@@ -195,7 +195,7 @@ both of the fields above:
 
 - Create a bugzilla account for your mailing list, i.e. a Bugzilla account with
   your list's address as account name.
-- Subscribe the bugzilla deamon address (bugzilla-daemon@widget.gnome.org) to
+- Subscribe the bugzilla daemon address (bugzilla-daemon@widget.gnome.org) to
   your mailing list, but also disable *ALL* mail from the mailing list to this
   address (If it's a Mailman mailing list you can change
   bugzilla-daemon@widget.gnome.org's mailing list options to NOMAIL).

@@ -5,8 +5,8 @@ Microsoft's Core Fonts
 **********************
 
 An unfortunate legacy of the browser wars is that many sites are designed
-specificly for Microsofts Internet Explorer and more importantly are designed
-around a few Microsoft specific fonts.  Fortunately Micrsoft released these
+specifically for Microsofts Internet Explorer and more importantly are designed
+around a few Microsoft specific fonts.  Fortunately Microsoft released these
 fonts gratis on the web.  Note however, that the Tahoma font does require a
 valid Windows License.
 

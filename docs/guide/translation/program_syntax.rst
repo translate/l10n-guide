@@ -41,6 +41,6 @@ versions of software that are in deed translated.  So the common functions,
 SUM, COUNT, etc are translated.  It is probably best that you do not translate
 them unless they are in common usage.  Remember that when someone uses your
 software in their languages and want to type SUM to add a column of figures and
-you have translate this, then they will need to knwo the translated function
+you have translate this, then they will need to know the translated function
 name. Could be very problematic if they already now the English version.  So
 think of Spreadsheet functions as they same as a programming language.

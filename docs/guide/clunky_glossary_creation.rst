@@ -28,22 +28,22 @@ Copy the "original" (or "source") column into a text editor, like `Babelpad
 <http://www.babelstone.co.uk/Software/BabelPad.html>`_, and save the file as
 text.txt.
 
-.. _../pages/guide/clunky_glossary_creation#2._extract_commonly_occuring_words:
+.. _../pages/guide/clunky_glossary_creation#2._extract_commonly_occurring_words:
 
-2. Extract commonly occuring words
-==================================
+2. Extract commonly occurring words
+===================================
 
 Use `ExtPhr32 <http://publish.uwo.ca/~craven/freeware.htm>`_ to extract the
 most used terms from it:
 
 * Do not select a stoplist (click "Cancel" when asked)
-* Go :menuselection:`Options --> Minimum occurances`, and select "1"
+* Go :menuselection:`Options --> Minimum occurrences`, and select "1"
 * Go :menuselection:`Options --> Maximum words in phrase`, and select "1"
 * Go :menuselection:`File -> Extract from`, and select the file with source
   text
 
-* In ExtPhr, change the "Minimum occurances" higher and higher until you have
-  about 200 terms (or, about 5 occurances should do it).
+* In ExtPhr, change the "Minimum occurrences" higher and higher until you have
+  about 200 terms (or, about 5 occurrences should do it).
 
 * Save the result as 5ormore.txt.
 

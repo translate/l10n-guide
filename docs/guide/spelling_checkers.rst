@@ -18,7 +18,7 @@ There is a legacy of previous spell checkers on \*nix platforms and these are:
 * aspell -- an enhancement of ispell with better algorithms for suggestions
   (newer versions have adopted the myspell affix compression)
 * myspell -- originally built for OpenOffice.org and previously also used by
-  Mozila it includes suffix compression (based on the ispell rules but in a new
+  Mozilla it includes suffix compression (based on the ispell rules but in a new
   format) to produce smaller dictionary sizes.  It runs on all platforms
   supported by OpenOffice.org and Mozilla.
 * hunspell -- an enhancement of myspell to allow more sophisticated language
@@ -45,7 +45,7 @@ Resource
 * `OpenOffice.org Lingucomponent
   <http://lingucomponent.openoffice.org/spell_dic.html>`_
 * `Konjugator <http://www.rhedadur.org.uk/index.php?lg=en>`_ is a browser-based
-  conjugator for Welsh verbs.  This might be usefull for developing your own
+  conjugator for Welsh verbs.  This might be useful for developing your own
   spelling and grammar checkers in your language.
 
 For spell checker development on OSX, these links might be useful. Just check

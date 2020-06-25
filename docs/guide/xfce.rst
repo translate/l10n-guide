@@ -4,7 +4,7 @@
 XFCE Translation
 ****************
 
-XFCE is a lightweight desktop environment and is therfore much faster then the
+XFCE is a lightweight desktop environment and is therefore much faster then the
 more feature rich :doc:`KDE <kde_desktop>` and :doc:`Gnome <gnome_desktop>`
 desktops.
 
@@ -29,5 +29,5 @@ issue with XFCE itself.  However, XFCE makes use of GTK therefore to appear
 fully translated you will have to translate some of those packages and a
 narrowed focus in that area would be useful.
 
-FIXME: create a targetted list based on standard XFCE with no external
+FIXME: create a targeted list based on standard XFCE with no external
 applications.

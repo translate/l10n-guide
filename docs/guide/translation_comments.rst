@@ -101,7 +101,7 @@ One advantage is that they can double as context strings.  In Gettext PO files
 you can only have one translation of the source English word.  So if your
 language translates an English word differently depending if it is a noun or a
 verb then you will have a problem.  Context information in a KDE style comment
-essentially means that the stings are different and thus allows you to
+essentially means that the strings are different and thus allows you to
 distinguish between verb and nouns spelled the same way in English.
 
 .. _../pages/guide/translation_comments#gettext_comments:

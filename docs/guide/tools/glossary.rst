@@ -85,10 +85,10 @@ ExtPhr32 by Tim Craven
 
 Tim Craven's ExtPhr32 for MS Windows is not GPL but it is freeware for all
 purposes.  It is very fast.  Unfortunately it converts all terms to uppercase.
-You can also use a stoplist.  You can choose how many occurances of a term must
-be the minimum, and you can choose the minimum number of words in a term.  The
-output can be exported to two column plaintext (the second column contains a
-count).
+You can also use a stoplist.  You can choose how many occurrences of a term
+must be the minimum, and you can choose the minimum number of words in a term.
+The output can be exported to two column plaintext (the second column contains
+a count).
 
 .. _../pages/guide/tools/glossary#plustools_from_wordfast:
 
@@ -98,7 +98,7 @@ PlusTools from Wordfast
 PlusTools is a macro that runs within MS Word on MS Windows.  It is not GPL but
 it is freeware for all purposes.  It is slow but potentially useful for smaller
 texts because it can exclude words that occur in MS Word's spellchecker and/or
-thesaurus, or words that have less than X synonymns in the thesaurus.  You can
+thesaurus, or words that have less than X synonyms in the thesaurus.  You can
 also exclude certain words (similar to a stoplist, but you can add any words to
 it), words beginning with a certain set of characters, and words that are
 smaller than X number of characters.

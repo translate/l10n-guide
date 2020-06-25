@@ -42,7 +42,7 @@ instructions):
 #. Close the blank document
 
 MS Word doesn't seem to remember this setting, so you have to check that it is
-enabled everytime you open a l10n file.
+enabled every time you open a l10n file.
 
 Normally there are many ways to open a document in MS Word, eg drag-and-drop,
 :kbd:`Ctrl+O`, :menuselection:`File --> Open`, and double-clicking.  For MS
@@ -177,7 +177,7 @@ If you know how to install external macros (i.e. if you know where you should
 copy a file in MS Windows' hidden folder structure), you can install `AndoTools
 <http://atools.dotsrc.org/>`_ into MS Word, which has a function to insert all
 tw4win styles into any document easily.  Once you've installed AndoTools, in MS
-Word go :menuselection:`Ando --> Documenet Operations --> Fonts and Language`.
+Word go :menuselection:`Undo --> Document Operations --> Fonts and Language`.
 Click "Add tw4win styles" to add them to the current document.
 
 .. _../pages/guide/preparing_files_for_wordfast#how_to_prepare_a_l10n_file_for_wordfast:
@@ -348,8 +348,8 @@ To add the above macro, do the following:
 - Press :kbd:`Ctrl+S` to save, and exit the macro writer
 
 The macro is now added to normal.dot, and can be used for any document that is
-opened in MS Word.  Incidently, the above macro does exactly what we did in the
-advanced find/replace operation above.
+opened in MS Word.  Incidentally, the above macro does exactly what we did in
+the advanced find/replace operation above.
 
 .. _../pages/guide/preparing_files_for_wordfast#adding_a_macro_from_an_existing_document:
 

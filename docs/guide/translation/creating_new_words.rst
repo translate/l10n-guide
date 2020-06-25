@@ -33,7 +33,7 @@ Choosing a new word
   word that conveys the same meaning in your language.
 - Nope nothing.  OK you're stuck with an English word which you can't or don't
   want to translate.  **Try transliteration.**  That is take the word and
-  change its spelling and pronounciation to better match your language.  This
+  change its spelling and pronunciation to better match your language.  This
   way at least people familiar with the language will be able to read and
   pronounce the word.  English language speakers have been doing this for a
   very long time.
@@ -45,7 +45,7 @@ Choosing a new word
 Acronyms
 ========
 
-Acronyms are words formed from the intial letters of phrases.  
+Acronyms are words formed from the initial letters of phrases.  
 
 * HTTP -- HyperText Transfer Protocol
 

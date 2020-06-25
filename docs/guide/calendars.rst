@@ -1,10 +1,10 @@
 
-.. _../pages/guide/calenders#localising_calenders:
+.. _../pages/guide/calendars#localising_calendars:
 
-Localising Calenders
+Localising Calendars
 ********************
 
-.. _../pages/guide/calenders#korganizer:
+.. _../pages/guide/calendars#korganizer:
 
 KOrganizer
 ==========

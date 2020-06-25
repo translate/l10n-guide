@@ -15,7 +15,7 @@ Translation of specific phrases in Afrikaans
 | Error occurred (v)ing (n) = Kon nie (n) (v) nie
 | Error = Fout
 | Error occurred = 'n Fout het voorgekom
-| An error occured while = Kon nie ... volledig ... nie
+| An error occurred while = Kon nie ... volledig ... nie
 | There were errors (v)ing (n) = (n) kon nie volledig (v) nie
 | There were errors (v)ing (n) = Kon nie (n) volledig (v) nie
 | (n) error = (n)fout

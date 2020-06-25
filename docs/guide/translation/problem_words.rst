@@ -26,7 +26,7 @@ The following are in order of severity
 ============  =======================================================================================================
  Word          Meaning                                                                                                 
 ============  =======================================================================================================
- Off           Swith an option off (like switching off a light switch)                                                 
+ Off           Switch an option off (like switching off a light switch)                                                 
  Close	        Usually closing the Window of an application but not closing the application itself (close a window)    
  Quit/Exit     Close the application (exit from the stage)                                                             
  Logout        Close all the applications and return to the login screen (go outside)                                  

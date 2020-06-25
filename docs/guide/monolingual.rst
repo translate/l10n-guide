@@ -101,7 +101,7 @@ operation to perform repeatedly (even automatically).
 
 Metadata
 --------
-Monolingual file formats translators encounter are seldomly intended for
+Monolingual file formats translators encounter are seldom intended for
 translation, and therefore lacks support for a lot of meta-data that
 translators find useful. Examples:
 

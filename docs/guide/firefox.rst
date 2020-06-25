@@ -42,7 +42,7 @@ things and put people in CC. Ask at Mozilla for the newest rules.
 
    * entry: ``MOZ_LANG_TITLE``
    * use: Used in the language .xpi in file ``install.rdf``.  Its added to *%s
-     Langauge Pack*
+     Language Pack*
    * action: Set to the English name for your language
 
 #. file: ``browser/defines.inc.po``
