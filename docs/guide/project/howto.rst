@@ -82,7 +82,7 @@ available:
 * Translate Documentation, including this doc
 * The web-based .po editor `Pootle <http://pootle.translatehouse.org/>`_: excellent
   for sharing the load
-* `po4a <http://po4a.alioth.debian.org/>`_, a Debian effort which includes many conversion tools
+* `po4a <http://po4a.org/>`_, a Debian effort which includes many conversion tools
 
 The first three are available from `Translate
 <http://translatehouse.org/products.html>`_ at Github.

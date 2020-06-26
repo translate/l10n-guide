@@ -24,9 +24,9 @@ will be translated, just like applications, then distributed with the original
 package, just like applications.
 
 The manpage format, **(g)roff** or similar, is not easy to translate. However,
-the `po4a <http://po4a.alioth.debian.org/>`_ conversion filters remove this
-problem completely, by giving us the capacity to convert manpages to our
-familiar PO format. (See more information on conversion filters you can use in
+the `po4a <http://po4a.org/>`_ conversion filters remove this problem
+completely, by giving us the capacity to convert manpages to our familiar
+PO format. (See more information on conversion filters you can use in
 :doc:`Non-PO formats </guide/nonpo>`.)
 
 `Pootle <http://pootle.translatehouse.org>`_ has integrated po4a and the
