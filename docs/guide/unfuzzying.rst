@@ -79,10 +79,10 @@ typos are fixed, `msgattrib
 <http://www.gnu.org/software/gettext/manual/html_node/msgattrib-Invocation.html#msgattrib-Invocation>`_
 (gettext) is very fast and very safe.
 
-The `po4a <http://po4a.alioth.debian.org/>`_ package has a tool, msguntypot,
-which tries to deal with the generic case, but the process to use it (8 steps)
-is quite complicated and thus error-prone.  msguntypot is not yet well-tested
-either, and all files should be backed-up before using it.
+The `po4a <http://po4a.org/>`_ package has a tool, msguntypot, which tries to
+deal with the generic case, but the process to use it (8 steps) is quite
+complicated and thus error-prone.  msguntypot is not yet well-tested either,
+and all files should be backed-up before using it.
 
 Unless you need to use msguntypot, I would recommend unfuzzying only complete
 translations and using msgattrib.
