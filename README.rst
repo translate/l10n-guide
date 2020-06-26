@@ -11,7 +11,7 @@ practises in localization.
 History
 -------
 This guide was previously hosted on `Translate's old wiki
-<http://translate.sourceforge.net/wiki/index>`_.
+<http://translate.sourceforge.net/wiki/>`_.
 
 Copyright
 ---------
