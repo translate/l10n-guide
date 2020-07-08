@@ -112,4 +112,4 @@ features and the tag.
 Gettext
 -------
 
-FIXME unsure how this is used
+Uses different functions for each language. See the option '--keyword[=keywordspec]' from https://www.gnu.org/software/gettext/manual/html_node/xgettext-Invocation.html . Consider using the apropriate '--language=name' option too.
