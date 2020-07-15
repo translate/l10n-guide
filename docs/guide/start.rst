@@ -80,7 +80,6 @@ Managing a translation effort
    direction/profiling
    short_strings_first
    bootup
-   existing_glossaries
    creating_glossaries
    custom_web_searches
    translator_skill_requirements
@@ -106,7 +105,6 @@ Managing a translation effort
 
 * Glossaries
 
-  * :doc:`Existing Glossaries <existing_glossaries>`
   * :doc:`creating_glossaries`
   * :doc:`custom_web_searches`
 
