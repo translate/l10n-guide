@@ -61,11 +61,11 @@ Pootle should provide during editing, see
      - Some prefer Arabic-Indic digits
    * - bn
      - Bengali
-     - FreeSans, Muktinarrow, Vrinda
-     - 110%, line-heigt:120%
+     - NikoshLightBan, Noto Sans Bengali, Kalpurush, Siyam Rupali, SolaimanLipi, Sagar, Akaash
+     - 110%, line-height:120%
      - ?
      - No
-     - ...
+     - Use the Bengali number block from U+09E6 to U+09EF. Use Indian numbering system: https://en.wikipedia.org/wiki/Indian_numbering_system. Lakh is "লাখ" but crore is coti "কোটি".
    * - fa
      - Persian
      - Terafik, Traffic, Roya, Nazli, Nazanin, sans
