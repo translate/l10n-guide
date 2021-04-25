@@ -116,6 +116,8 @@ on the English name.
      - Xitsonga
    * - Tswana
      - Setswana
+   * - Turkish
+     - Türkçe
    * - Ukrainian
      - Українська
    * - Uyghur
