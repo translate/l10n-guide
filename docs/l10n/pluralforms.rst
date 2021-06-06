@@ -114,6 +114,7 @@ a correct plural form
    jv,    Javanese,              nplurals=2; plural=(n != 0);
    **K**
    ka,    Georgian,              nplurals=1; plural=0;
+   kab,   Kabyle,              nplurals=2; plural=(n > 1);
    kk,    Kazakh,                nplurals=2; plural=(n != 1);
    kl,    Greenlandic,           nplurals=2; plural=(n != 1);
    km,    Khmer,                 nplurals=1; plural=0;
