@@ -20,6 +20,8 @@ on the English name.
      - العربية
    * - Basque
      - Euskara
+   * - Bengali
+     - বাংলা
    * - Brazilian Portuguese
      - Português do Brasil
    * - Breton
