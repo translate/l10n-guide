@@ -13,22 +13,14 @@ which platform you are running:
 
 * I use Windows
 
-  * Install `Virtaal <http://virtaal.translatehouse.org>`_, :doc:`Poedit
-    </guide/poedit>`, or `IniTranslator
-    <http://initranslator.sourceforge.net/wiki/index.php/Main_Page>`_
+  * Install `Lokalize <http://kde.org/applications/development/lokalize>`_,
+  :doc:`Poedit </guide/poedit>` or
+  `Virtaal <http://virtaal.translatehouse.org>`_
 
 * I use Linux
 
-  * I use KDE
-
-    * Install or use `Lokalize
-      <http://kde.org/applications/development/lokalize>`_ or `Virtaal
-      <http://virtaal.translatehouse.org>`_
-
-  * I use Gnome
-
-    * Install or use `Virtaal <http://virtaal.translatehouse.org>`_ or
-      `GTranslator <http://projects.gnome.org/gtranslator>`_
+  * Install `Lokalize <http://kde.org/applications/development/lokalize>`_ or
+  `Virtaal <http://virtaal.translatehouse.org>`_
 
 * I am not allowed to install software on my computer
 
