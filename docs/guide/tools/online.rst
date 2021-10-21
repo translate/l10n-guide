@@ -23,6 +23,8 @@ kept for historical reference.
 An important issue for these is the extent to which they allow offline
 translation, access control and quality assurance.
 
+* `Free PO editor <https://pofile.net/free-po-editor>`_ -- Free online editor
+  for translating PO files.
 * `Pootle <http://pootle.translatehouse.org>`_ -- A multi-format system for
   translation and translation project management with many :ref:`features
   <pootle:features>`.  Actively being developed and used by Translate.org.za
