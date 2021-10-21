@@ -35,7 +35,8 @@ which platform you are running:
   * If possible use a :doc:`web-based <online>` translation tool.  Not all
     translation projects have a web interface for translation. Possible options
     are `Pootle <http://pootle.translatehouse.org>`_, Rosetta and Kartouche.
-    `POEditor <https://poeditor.com>`_ is available with a graphic interface.
+    `Free PO file editor <https://pofile.net/free-po-editor>`_ and 
+    `POEditor <https://poeditor.com>`_ are available with a graphic interface.
 
 * I am not allowed to use the web
 
