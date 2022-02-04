@@ -170,7 +170,7 @@ a correct plural form
    rw,    Kinyarwanda,           nplurals=2; plural=(n != 1);
    **S**
    sah,   Yakut,                 nplurals=1; plural=0;
-   sat,   Santali,               nplurals=2; plural=(n != 1);
+   sat,   Santali,               nplurals=3; plural=(n==1) ? 0 : (n==2) ? 1 : 2;
    sco,   Scots,                 nplurals=2; plural=(n != 1);
    sd,    Sindhi,                nplurals=2; plural=(n != 1);
    se,    Northern Sami,         nplurals=2; plural=(n != 1);
