@@ -34,18 +34,20 @@ repository.  They are useful for building and testing glibc locales:
 
 .. list-table::
    
-   * - `missing <http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/missing?view=markup>`_       
-     - determines if a locale file has a certain locale field or not.  
-   * - `error <http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/errors?view=markup>`_         
-     - displays any compilation errors detected                        
-   * - `install <http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/install?view=markup>`_       
+   * - `missing <https://sourceforge.net/p/zaf/code/HEAD/tree/trunk/locale/missing>`_
+     - determines if a locale file has a certain locale field or not.
+   * - `errors <https://sourceforge.net/p/zaf/code/HEAD/tree/trunk/locale/errors>`_
+     - displays any compilation errors detected
+   * - `install <https://sourceforge.net/p/zaf/code/HEAD/tree/trunk/locale/install>`_
      - performs a test install (use -r for a real install -- must be root)
-   * - `definition <http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/definition?view=markup>`_    
-     - prints the value of a locale field (installed locales only)     
-   * - `locale-escape <http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/locale-escape?view=markup>`_ 
-     - converts your locale into <UNNNN> format                            
-   * - `check-dates <http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/check-dates?view=markup>`_   
-     - prints a list of the LC_TIME defined date formats for the locale    
+   * - `definition <https://sourceforge.net/p/zaf/code/HEAD/tree/trunk/locale/definition>`_
+     - prints the value of a locale field (installed locales only)
+   * - `locale-escape <https://sourceforge.net/p/zaf/code/HEAD/tree/trunk/locale/locale-escape>`_
+     - converts your locale into <UNNNN> format
+   * - `check-dates <https://sourceforge.net/p/zaf/code/HEAD/tree/trunk/locale/check-dates>`_
+     - prints a list of the LC_TIME defined date formats for the locale
+   * - `check-numbers <https://sourceforge.net/p/zaf/code/HEAD/tree/trunk/locale/check-numbers>`_
+     - prints a list of the LC_NUMBERIC defined number formats for the locale
 
 .. _../pages/guide/locales/glibc#editing:
 
@@ -61,7 +63,7 @@ follow `these instructions
 <http://www.vim.org/scripts/script.php?script_id=917>`_
 
 It is preferable to edit your locale in UTF-8 and then use `locale-escape
-<http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/locale-escape?view=markup>`_
+<https://sourceforge.net/p/zaf/code/HEAD/tree/trunk/locale/locale-escape>`_
 to encode your work in the <UNNNN> format used in glibc locale files.  Use
 locale-escape as follows::
 
@@ -149,9 +151,9 @@ Producing you locale file:
 * A `guide <http://www.kizito.uklinux.net/download/LocaleGuide.tar>`_ developed
   by the Lugandan locale creator
 * The latest `Afrikaans
-  <http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/localedata/af_ZA?view=markup>`_
+  <https://sourceforge.net/p/zaf/code/HEAD/tree/trunk/locale/localedata/af_ZA>`_
   and `Zulu
-  <http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/locale/localedata/zu_ZA?view=markup>`_
+  <https://sourceforge.net/p/zaf/code/HEAD/tree/trunk/locale/localedata/zu_ZA>`_
   locales both heavily commented with references for certain locale data
 
 Resource specific to the ISO standard for locales files:
