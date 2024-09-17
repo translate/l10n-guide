@@ -29,6 +29,9 @@ which platform you are running:
 
     * Install or use `Virtaal <http://virtaal.translatehouse.org>`_ or
       `GTranslator <http://projects.gnome.org/gtranslator>`_
+  * I use Cinnamon
+  
+    * Install or use `Poedit <https://poedit.net/>`_
 
 * I am not allowed to install software on my computer
 
