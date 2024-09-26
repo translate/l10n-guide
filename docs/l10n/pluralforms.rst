@@ -195,7 +195,7 @@ a correct plural form
    tt,    Tatar,                 nplurals=1; plural=0;
    **U**
    ug,    Uyghur,                nplurals=1; plural=0;
-   uk,    Ukrainian,             nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);
+   uk,    Ukrainian,             nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;
    ur,    Urdu,                  nplurals=2; plural=(n != 1);
    uz,    Uzbek,                 nplurals=2; plural=(n > 1);
    **V**
