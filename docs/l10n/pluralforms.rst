@@ -171,6 +171,7 @@ a correct plural form
    **S**
    sah,   Yakut,                 nplurals=1; plural=0;
    sat,   Santali,               nplurals=2; plural=(n != 1);
+   sc,    Sardinian,             nplurals=2; plural=(n != 1);
    sco,   Scots,                 nplurals=2; plural=(n != 1);
    sd,    Sindhi,                nplurals=2; plural=(n != 1);
    se,    Northern Sami,         nplurals=2; plural=(n != 1);
