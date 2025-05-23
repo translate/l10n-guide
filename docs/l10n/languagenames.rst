@@ -102,6 +102,8 @@ on the English name.
      - සිංහල
    * - Slovak
      - Slovenský
+   * - Slovenian
+     - Slovenščina
    * - Sotho, Southern
      - Sesotho
    * - Spanish
